@@ -1078,6 +1078,17 @@ function updateElProp(id,key,val){
   _skipPanelRender=false;
   autoSave();
 }
+function toggleElStyle(id,key,v1,v2){
+  const el=getEl(id);if(!el)return;
+  updateElProp(id,key,el[key]===v1?v2:v1);
+  renderRightPanel();
+}
+function updateElText(id,txt){
+  const el=getEl(id);if(!el)return;
+  el.text=txt;
+  _skipPanelRender=true;renderSlide();_skipPanelRender=false;
+  autoSave();
+}
 function updateTextContent(id,html){const el=getEl(id);if(!el)return;el.text=html;autoSave();}
 function updateTableCell(id,ri,ci,val){const el=getEl(id);if(!el||!el.rows)return;if(el.rows[ri])el.rows[ri][ci]=val;autoSave();}
 
@@ -1839,6 +1850,7 @@ function renderRightPanel() {
   /* TEXT */
   if(el.type==='text' || el.type==='wordart') {
     h+=`<div class="rp-sec" style="margin-top:6px">YAZI</div>`;
+    h+=`<div class="rp-row"><span class="rp-lbl" style="align-self:flex-start;padding-top:3px">Metin</span><textarea class="rp-inp" rows="2" style="flex:1;resize:vertical;font-size:10px" oninput="updateElText('${el.id}',this.value)">${(el.text||'').replace(/<[^>]*>/g,'')}</textarea></div>`;
 
     /* FIX: Font family select now shows current selection */
     const fonts = [["'Syne',sans-serif",'Syne'],["'DM Sans',sans-serif",'DM Sans'],["'JetBrains Mono',monospace",'Mono'],['serif','Serif'],['sans-serif','Sans']];
@@ -1855,8 +1867,8 @@ function renderRightPanel() {
     </select></div>`;
 
     h+=`<div class="rp-row"><span class="rp-lbl">Renk</span><input type="color" class="rp-color" value="${el.color||'#D8E4F0'}" onchange="updateElProp('${el.id}','color',this.value)">`;
-    h+=`<button class="rib-btn${el.fontStyle==='italic'?' active':''}" onclick="updateElProp('${el.id}','fontStyle',el.fontStyle==='italic'?'normal':'italic')">I</button>`;
-    h+=`<button class="rib-btn${el.textDecoration==='underline'?' active':''}" onclick="updateElProp('${el.id}','textDecoration',el.textDecoration==='underline'?'none':'underline')">U</button></div>`;
+    h+=`<button class="rib-btn${el.fontStyle==='italic'?' active':''}" onclick="toggleElStyle('${el.id}','fontStyle','italic','normal')">I</button>`;
+    h+=`<button class="rib-btn${el.textDecoration==='underline'?' active':''}" onclick="toggleElStyle('${el.id}','textDecoration','underline','none')">U</button></div>`;
 
     const aligns=[['left','Sol'],['center','Orta'],['right','Sağ'],['justify','Jst']];
     h+=`<div class="rp-row"><span class="rp-lbl">Hiza</span>${aligns.map(([val,lbl])=>`<button class="rib-btn${el.align===val?' active':''}" onclick="updateElProp('${el.id}','align','${val}')">${lbl}</button>`).join('')}</div>`;
