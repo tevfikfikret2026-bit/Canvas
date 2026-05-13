@@ -454,5 +454,105 @@ const quotes = [
     {
         "text": "Uzayda korkuya yer yoktur. Korku, hazırlıksız olmaktan doğar. Eğer her türlü tehlikeye karşı hazırlıklıysanız, korku yerini büyük bir hayranlığa bırakır.",
         "author": "Chris Hadfield"
+    },
+    {
+        "text": "Merak olgunlaşmış bir zekanın en kesin belirtisidir"
+        "author": "Isidore Ducasse"
+    },
+    {
+        "text": "Hayal gücü, bilgiden daha önemlidir. Bilgi sınırlıdır, ancak hayal gücü tüm dünyayı kucaklar"
+        "author": "Albert Einstein"
+    },
+    {
+        "text": "Yıldızlara ulaşmak için karanlığı kabullenmek gerekir"
+        "author": "Carl Sagan"
+    },
+    {
+        "text": "Zorlukların göbeğinde fırsatlar yatar"
+        "author": "Albert Einstein"
+    },
+    {
+        "text": "Hepimiz bataklıktayız ama bazılarımız yıldızlara bakıyor"
+        "author": "Oscar Wilde"
+    },
+    {
+        "text": "Gerçeği arayanları sevin, ama bulduğunu iddia edenlerden korkun"
+        "author": "Voltaire"
+    },
+    {
+        "text": "Yeryüzü, çok geniş bir kozmik arenada yer alan çok küçük bir sahnedir"
+        "author": "Carl Sagan"
+    },
+    {
+        "text": "Öğrenmek, akıntıya karşı kürek çekmek gibidir; ilerleyemediğinizde gerilesiniz"
+        "author": "Lao Tzu"
+    },
+    {
+        "text": "Dünün acısı, bugünün gücüdür"
+        "author": "Paulo Coelho"
+    },
+    {
+        "text": "Evren, onu anlamaya çalışanlar için bir bulmaca değil, bir yuvadır"
+        "author": "Stephen Hawking"
+    },
+    {
+        "text": "Kaybetmekten korktuğun her şeyi serbest bıraktığında özgürleşirsin"
+        "author": "Gautama Buddha"
+    },
+    {
+        "text": "Hiç kimse başarı merdivenlerini elleri cebinde tırmanmamıştır"
+        "author": "Konfüçyüs"
+    },
+    {
+        "text": "Sınırlar sadece zihnimizde mevcuttur. Hayal gücümüzü kullandığımızda olasılıklar sınırsızlaşır"
+        "author": "Jamie Paolinetti"
+    },
+    {
+        "text": "Gideceğiniz yeri bilmiyorsanız, vardığınız yer의 bir önemi yoktur"
+        "author": "Lewis Carroll"
+    },
+    {
+        "text": "Geleceği tahmin etmenin en iyi yolu, onu yaratmaktır"
+        "author": "Peter Drucker"
+    },
+    {
+        "text": "Adalet mülkün temelidir"
+        "author": "Mustafa Kemal Atatürk"
+    },
+    {
+        "text": "Köpekler havlıyor diye bulutlar yok olmaz"
+        "author": "İbn Rüşd"
+    },
+    {
+        "text": "Sessizlik, ruhun kendi kendine konuşma şeklidir"
+        "author": "Platon"
+    },
+    {
+        "text": "Ruhun ilacı kitaptır"
+        "author": "Japon Atasözü"
+    },
+    {
+        "text": "Doğa bize iki kulak ve bir ağız verdi, böylece söylediklerimizin iki katını dinleyebilelim"
+        "author": "Epiktetos"
+    },
+    {
+        "text": "Bir mum, diğer bir mumu yakmakla ışığından bir şey kaybetmez"
+        "author": "Mevlana"
+    },
+    {
+        "text": "Zamanın değerini, yapacak çok işi olanlar bilir"
+        "author": "Bernard Shaw"
+    },
+    {
+        "text": "Uzaklıklar, sadece göremeyenler içindir"
+        "author": "Antoine de Saint-Exupéry"
+    },
+    {
+        "text": "Uçmayı öğrenmeden önce, ayakta durmayı ve yürümeyi öğrenmelisiniz; doğrudan uçulmaz"
+        "author": "Friedrich Nietzsche"
+    },
+    {
+        "text": "İnsan, düşünen bir kamıştır"
+        "author": "Blaise Pascal"
     }
 ];
