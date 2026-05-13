@@ -176,7 +176,7 @@ const quotes = [
         "author": "Mevlana"
     },
     {
-        "text": "Bir insanın karakterini anlamak istiyorsanız, ona güç verin.",
+        "text": "Bir insan için karakterini anlamak istiyorsanız, ona güç verin.",
         "author": "Abraham Lincoln"
     },
     {
@@ -456,103 +456,103 @@ const quotes = [
         "author": "Chris Hadfield"
     },
     {
-        "text": "Merak olgunlaşmış bir zekanın en kesin belirtisidir"
+        "text": "Merak olgunlaşmış bir zekanın en kesin belirtisidir",
         "author": "Isidore Ducasse"
     },
     {
-        "text": "Hayal gücü, bilgiden daha önemlidir. Bilgi sınırlıdır, ancak hayal gücü tüm dünyayı kucaklar"
+        "text": "Hayal gücü, bilgiden daha önemlidir. Bilgi sınırlıdır, ancak hayal gücü tüm dünyayı kucaklar",
         "author": "Albert Einstein"
     },
     {
-        "text": "Yıldızlara ulaşmak için karanlığı kabullenmek gerekir"
+        "text": "Yıldızlara ulaşmak için karanlığı kabullenmek gerekir",
         "author": "Carl Sagan"
     },
     {
-        "text": "Zorlukların göbeğinde fırsatlar yatar"
+        "text": "Zorlukların göbeğinde fırsatlar yatar",
         "author": "Albert Einstein"
     },
     {
-        "text": "Hepimiz bataklıktayız ama bazılarımız yıldızlara bakıyor"
+        "text": "Hepimiz bataklıktayız ama bazılarımız yıldızlara bakıyor",
         "author": "Oscar Wilde"
     },
     {
-        "text": "Gerçeği arayanları sevin, ama bulduğunu iddia edenlerden korkun"
+        "text": "Gerçeği arayanları sevin, ama bulduğunu iddia edenlerden korkun",
         "author": "Voltaire"
     },
     {
-        "text": "Yeryüzü, çok geniş bir kozmik arenada yer alan çok küçük bir sahnedir"
+        "text": "Yeryüzü, çok geniş bir kozmik arenada yer alan çok küçük bir sahnedir",
         "author": "Carl Sagan"
     },
     {
-        "text": "Öğrenmek, akıntıya karşı kürek çekmek gibidir; ilerleyemediğinizde gerilesiniz"
+        "text": "Öğrenmek, akıntıya karşı kürek çekmek gibidir; ilerleyemediğinizde gerilesiniz",
         "author": "Lao Tzu"
     },
     {
-        "text": "Dünün acısı, bugünün gücüdür"
+        "text": "Dünün acısı, bugünün gücüdür",
         "author": "Paulo Coelho"
     },
     {
-        "text": "Evren, onu anlamaya çalışanlar için bir bulmaca değil, bir yuvadır"
+        "text": "Evren, onu anlamaya çalışanlar için bir bulmaca değil, bir yuvadır",
         "author": "Stephen Hawking"
     },
     {
-        "text": "Kaybetmekten korktuğun her şeyi serbest bıraktığında özgürleşirsin"
+        "text": "Kaybetmekten korktuğun her şeyi serbest bıraktığında özgürleşirsin",
         "author": "Gautama Buddha"
     },
     {
-        "text": "Hiç kimse başarı merdivenlerini elleri cebinde tırmanmamıştır"
+        "text": "Hiç kimse başarı merdivenlerini elleri cebinde tırmanmamıştır",
         "author": "Konfüçyüs"
     },
     {
-        "text": "Sınırlar sadece zihnimizde mevcuttur. Hayal gücümüzü kullandığımızda olasılıklar sınırsızlaşır"
+        "text": "Sınırlar sadece zihnimizde mevcuttur. Hayal gücümüzü kullandığımızda olasılıklar sınırsızlaşır",
         "author": "Jamie Paolinetti"
     },
     {
-        "text": "Gideceğiniz yeri bilmiyorsanız, vardığınız yer의 bir önemi yoktur"
+        "text": "Gideceğiniz yeri bilmiyorsanız, vardığınız yer의 bir önemi yoktur",
         "author": "Lewis Carroll"
     },
     {
-        "text": "Geleceği tahmin etmenin en iyi yolu, onu yaratmaktır"
+        "text": "Geleceği tahmin etmenin en iyi yolu, onu yaratmaktır",
         "author": "Peter Drucker"
     },
     {
-        "text": "Adalet mülkün temelidir"
+        "text": "Adalet mülkün temelidir",
         "author": "Mustafa Kemal Atatürk"
     },
     {
-        "text": "Köpekler havlıyor diye bulutlar yok olmaz"
+        "text": "Köpekler havlıyor diye bulutlar yok olmaz",
         "author": "İbn Rüşd"
     },
     {
-        "text": "Sessizlik, ruhun kendi kendine konuşma şeklidir"
+        "text": "Sessizlik, ruhun kendi kendine konuşma şeklidir",
         "author": "Platon"
     },
     {
-        "text": "Ruhun ilacı kitaptır"
+        "text": "Ruhun ilacı kitaptır",
         "author": "Japon Atasözü"
     },
     {
-        "text": "Doğa bize iki kulak ve bir ağız verdi, böylece söylediklerimizin iki katını dinleyebilelim"
+        "text": "Doğa bize iki kulak ve bir ağız verdi, böylece söylediklerimizin iki katını dinleyebilelim",
         "author": "Epiktetos"
     },
     {
-        "text": "Bir mum, diğer bir mumu yakmakla ışığından bir şey kaybetmez"
+        "text": "Bir mum, diğer bir mumu yakmakla ışığından bir şey kaybetmez",
         "author": "Mevlana"
     },
     {
-        "text": "Zamanın değerini, yapacak çok işi olanlar bilir"
+        "text": "Zamanın değerini, yapacak çok işi olanlar bilir",
         "author": "Bernard Shaw"
     },
     {
-        "text": "Uzaklıklar, sadece göremeyenler içindir"
+        "text": "Uzaklıklar, sadece göremeyenler içindir",
         "author": "Antoine de Saint-Exupéry"
     },
     {
-        "text": "Uçmayı öğrenmeden önce, ayakta durmayı ve yürümeyi öğrenmelisiniz; doğrudan uçulmaz"
+        "text": "Uçmayı öğrenmeden önce, ayakta durmayı ve yürümeyi öğrenmelisiniz; doğrudan uçulmaz",
         "author": "Friedrich Nietzsche"
     },
     {
-        "text": "İnsan, düşünen bir kamıştır"
+        "text": "İnsan, düşünen bir kamıştır",
         "author": "Blaise Pascal"
     }
 ];
