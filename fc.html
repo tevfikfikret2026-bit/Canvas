@@ -32,12 +32,12 @@
             font-size: 28px;
             font-weight: 400;
             line-height: 1.4;
-            color: #000000; /* Tam siyah */
+            color: #000000;
         }
         .quote-author {
             font-size: 15px;
             font-weight: 600;
-            color: #666666; /* Koyu gri yazar ismi */
+            color: #666666;
             margin-top: 15px;
             text-transform: uppercase;
             letter-spacing: 2px;
@@ -50,37 +50,32 @@
             transform: scale(1.1);
         }
 
-        /* Kartların Arka Planı */
         .flip-clock-wrapper ul {
-            background: #111111 !important; /* Derin siyah kartlar */
+            background: #111111 !important;
             border-radius: 8px !important;
             box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15) !important;
         }
 
-        /* Sayıların Rengi */
         .flip-clock-wrapper ul li a div div.inn {
-            color: #ffffff !important; /* Siyah kart üzerinde beyaz sayılar */
+            color: #ffffff !important;
             background-color: #111111 !important;
             border-radius: 8px !important;
             font-weight: 500 !important;
         }
 
-        /* Kart Ortasındaki Yatay Çizgi */
         .flip-clock-wrapper ul li a div.down {
             border-bottom-left-radius: 8px !important;
             border-bottom-right-radius: 8px !important;
         }
         .flip-clock-wrapper ul li a div.up:after {
-            background-color: rgba(255, 255, 255, 0.1) !important; /* İnce beyazımsı çizgi */
+            background-color: rgba(255, 255, 255, 0.1) !important;
             height: 1px !important;
         }
 
-        /* Üstteki "Hours", "Minutes" yazılarını gizle */
         .flip-clock-divider .flip-clock-label {
             display: none; 
         }
 
-        /* İki Noktalar (Siyah yapıldı) */
         .flip-clock-dot {
             background: #111111 !important;
             width: 8px !important;
@@ -100,25 +95,45 @@
     <div class="clock"></div>
 
     <script>
-        // 1. FLIPCLOCK
+        // 1. SÖZLER BURADA (İstediğin kadar ekleyip çıkarabilirsin)
+        const quotes = [
+            {
+                "text": "Hayatta en hakiki mürşit ilimdir.",
+                "author": "Atatürk"
+            },
+            {
+                "text": "Düşünüyorum, öyleyse varım.",
+                "author": "Descartes"
+            },
+            {
+                "text": "Zamanın kıymetini bil.",
+                "author": "Anonim"
+            },
+            {
+                "text": "Başlamak, bitirmenin yarısıdır.",
+                "author": "Aristoteles"
+            }
+        ];
+
+        // 2. RASTGELE SÖZ SEÇME FONKSİYONU
+        function rastgeleSozSec() {
+            const rastgeleIndeks = Math.floor(Math.random() * quotes.length);
+            const secilen = quotes[rastgeleIndeks];
+            
+            document.getElementById('text').innerText = `“${secilen.text}”`;
+            document.getElementById('author').innerText = secilen.author;
+        }
+
+        // 3. SAYFA AÇILDIĞINDA ÇALIŞTIR
         $(document).ready(function() {
+            // Saati başlat
             $('.clock').FlipClock({
                 clockFace: 'TwentyFourHourClock'
             });
+            
+            // Sözü seç
+            rastgeleSozSec();
         });
-
-        // 2. SÖZÜ JSON'DAN ÇEKME
-        fetch('quotes.json')
-            .then(response => response.json())
-            .then(data => {
-                const secilen = data[Math.floor(Math.random() * data.length)];
-                document.getElementById('text').innerText = `“${secilen.text}”`;
-                document.getElementById('author').innerText = secilen.author;
-            })
-            .catch(error => {
-                console.log('Hata:', error);
-                document.getElementById('text').innerText = "Zaman akıp gidiyor...";
-            });
     </script>
 
 </body>
