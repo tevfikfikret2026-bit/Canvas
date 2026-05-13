@@ -398,8 +398,8 @@ const quotes = [
     {
         "text": "Ve her şey bittiğinde hatırlayacağımız şey düşmanlarımızın sözleri değil, dostlarımızın sessizliği olacaktır.",
         "author": "Martin Luther King Jr."
-    }
-    {,
+    },
+    {
         "text": "Bir insan için küçük insanlık için devasa bir adım.",
         "author": "Neil Armstrong"
     },
@@ -455,4 +455,4 @@ const quotes = [
         "text": "Uzayda korkuya yer yoktur. Korku, hazırlıksız olmaktan doğar. Eğer her türlü tehlikeye karşı hazırlıklıysanız, korku yerini büyük bir hayranlığa bırakır.",
         "author": "Chris Hadfield"
     }
-]
+];
