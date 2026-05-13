@@ -396,11 +396,11 @@ const quotes = [
         "author": "Hz. Ali"
     },
     {
-        "text": "Ve her şey bittiğinde, hatırlayacağımız şey düşmanlarımızın sözleri değil, dostlarımızın sessizliği olacaktır.",
+        "text": "Ve her şey bittiğinde hatırlayacağımız şey düşmanlarımızın sözleri değil, dostlarımızın sessizliği olacaktır.",
         "author": "Martin Luther King Jr."
     }
     {,
-        "text": "Bir insan için küçük, insanlık için devasa bir adım.",
+        "text": "Bir insan için küçük insanlık için devasa bir adım.",
         "author": "Neil Armstrong"
     },
     {
