@@ -44,6 +44,10 @@ const quotes = [
         "author": "J. Robert Oppenheimer"
     },
     {
+        "text": "Dünya, sadece bizim konforlu alanlarımızdan ibaret değil. Arkamızı döndüğümüz, görmezden geldiğimiz yerlerde de bambaşka hayatlar ve gerçekler var.",
+        "author": "Ruhi Çenet"
+    },
+    {
         "text": "Ortak bir insanlık anlayışına sahip olmadığımız sürece, bilim yalnızca bir yıkım aracı olacaktır.",
         "author": "J. Robert Oppenheimer"
     },
@@ -116,6 +120,10 @@ const quotes = [
         "author": "Albert Schweitzer"
     },
     {
+        "text": "Herkes her şeyi bilemez, bu normaldir. Ama bilmediği konuda hüküm vermek, işte bu cehalettir.",
+        "author": "İlber Ortaylı"
+    },
+    {
         "text": "Hayat, bisiklete binmek gibidir. Dengenizi korumak için hareket etmeye devam etmelisiniz.",
         "author": "Albert Einstein"
     },
@@ -146,6 +154,10 @@ const quotes = [
     {
         "text": "Güzel günler göreceğiz çocuklar, güneşli günler göreceğiz.",
         "author": "Nazım Hikmet"
+    },
+    {
+        "text": "Cahiller.",
+        "author": "İlber Ortaylı"
     },
     {
         "text": "Sevmek, sıradışı bir eylemdir; sıradan insanlar bunu anlayamaz.",
