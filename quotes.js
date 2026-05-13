@@ -1,4 +1,4 @@
-[
+const quotes = [
     {
         "text": "Hayatta en hakiki mürşit ilimdir.",
         "author": "Mustafa Kemal Atatürk"
