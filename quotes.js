@@ -428,6 +428,14 @@ const quotes = [
         "author": "Solon"
     },
     {
+        "text": "Bizler, şartlar ne kadar acı olursa olsun, son ana kadar dövüşmekle yükümlüyüz.",
+        "author": "Enver Paşa"
+    },
+    {
+        "text": "Bizim lugatımızda (sözlüğümüzde) 'teslim olmak' kelimesi yoktur.",
+        "author": "Enver Paşa"
+    },
+    {
         "text": "Newton'ın üçüncü yasası: İnsanların bir yere varabilmek için buldukları tek yol, arkalarında bir şey bırakmaktır.",
         "author": "T.A.R.S"
     },
@@ -646,5 +654,9 @@ const quotes = [
     {
         "text": "İnsan, düşünen bir kamıştır",
         "author": "Blaise Pascal"
+    },
+    {
+        "text": "Hak bellediğin bir yola yalnız gideceksin.",
+        "author": "Tevfik Fikret"
     }
 ];
