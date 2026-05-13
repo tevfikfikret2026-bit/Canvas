@@ -2,13 +2,15 @@
 <html lang="tr">
 <head>
     <meta charset="UTF-8">
-    <title>Minimalist Saat ve Sözler</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saat ve Rastgele Sözler</title>
+    
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flipclock/0.7.8/flipclock.css">
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/flipclock/0.7.8/flipclock.min.js"></script>
     
     <style>
-        /* Saf Beyaz Arka Plan */
+        /* Minimalist Beyaz Tasarım */
         body {
             background-color: #ffffff;
             display: flex;
@@ -21,11 +23,11 @@
             overflow: hidden;
         }
 
-        /* Kapkara ve Net Söz Alanı */
+        /* Siyah ve Net Söz Alanı */
         #quote-container {
             text-align: center;
             margin-bottom: 60px;
-            max-width: 650px;
+            max-width: 700px;
             padding: 0 20px;
         }
         .quote-text {
@@ -43,26 +45,23 @@
             letter-spacing: 2px;
         }
 
-        /* --- SİYAH / MİNİMALİST FLIPCLOCK --- */
+        /* Yakışıklı Siyah FlipClock Tasarımı */
         .clock {
             width: auto;
             display: inline-block;
             transform: scale(1.1);
         }
-
         .flip-clock-wrapper ul {
             background: #111111 !important;
             border-radius: 8px !important;
             box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15) !important;
         }
-
         .flip-clock-wrapper ul li a div div.inn {
             color: #ffffff !important;
             background-color: #111111 !important;
             border-radius: 8px !important;
             font-weight: 500 !important;
         }
-
         .flip-clock-wrapper ul li a div.down {
             border-bottom-left-radius: 8px !important;
             border-bottom-right-radius: 8px !important;
@@ -71,11 +70,9 @@
             background-color: rgba(255, 255, 255, 0.1) !important;
             height: 1px !important;
         }
-
         .flip-clock-divider .flip-clock-label {
             display: none; 
         }
-
         .flip-clock-dot {
             background: #111111 !important;
             width: 8px !important;
@@ -94,44 +91,54 @@
 
     <div class="clock"></div>
 
-    <script>
-        // 1. SÖZLER BURADA (İstediğin kadar ekleyip çıkarabilirsin)
-        const quotes = [
-            {
-                "text": "Hayatta en hakiki mürşit ilimdir.",
-                "author": "Atatürk"
-            },
-            {
-                "text": "Düşünüyorum, öyleyse varım.",
-                "author": "Descartes"
-            },
-            {
-                "text": "Zamanın kıymetini bil.",
-                "author": "Anonim"
-            },
-            {
-                "text": "Başlamak, bitirmenin yarısıdır.",
-                "author": "Aristoteles"
-            }
-        ];
+    <script src="quotes.js"></script>
 
-        // 2. RASTGELE SÖZ SEÇME FONKSİYONU
+    <script>
+        // Attığın quotes.js dosyasındaki verileri tekrarsız ve rastgele seçen akıllı algoritma
         function rastgeleSozSec() {
-            const rastgeleIndeks = Math.floor(Math.random() * quotes.length);
-            const secilen = quotes[rastgeleIndeks];
-            
-            document.getElementById('text').innerText = `“${secilen.text}”`;
-            document.getElementById('author').innerText = secilen.author;
+            if (typeof quotes === 'undefined' || quotes.length === 0) {
+                document.getElementById('text').innerText = "Söz listesi (quotes.js) bulunamadı veya boş.";
+                return;
+            }
+
+            // Tarayıcı hafızasından daha önce gösterilen sözlerin index (sıra) numaralarını alır
+            let gosterilenIndexler = JSON.parse(localStorage.getItem('gosterilenIndexler')) || [];
+
+            // Henüz gösterilmemiş olan sözlerin index numaralarını filtreler
+            let kalanIndexler = [];
+            for (let i = 0; i < quotes.length; i++) {
+                if (!gosterilenIndexler.includes(i)) {
+                    kalanIndexler.push(i);
+                }
+            }
+
+            // Eğer listedeki tüm sözler gösterildiyse hafızayı sıfırlar ve baştan başlar
+            if (kalanIndexler.length === 0) {
+                gosterilenIndexler = [];
+                for (let i = 0; i < quotes.length; i++) {
+                    kalanIndexler.push(i);
+                }
+            }
+
+            // Kalan indexler arasından rastgele bir tane seçer
+            const rastgeleSecilenIndex = kalanIndexler[Math.floor(Math.random() * kalanIndexler.length)];
+            const secilenSoz = quotes[rastgeleSecilenIndex];
+
+            // Seçilen sözün indexini hafızaya kaydeder
+            gosterilenIndexler.push(rastgeleSecilenIndex);
+            localStorage.setItem('gosterilenIndexler', JSON.stringify(gosterilenIndexler));
+
+            // HTML içerisine verileri yerleştirir
+            document.getElementById('text').innerText = `“${secilenSoz.text}”`;
+            document.getElementById('author').innerText = secilenSoz.author;
         }
 
-        // 3. SAYFA AÇILDIĞINDA ÇALIŞTIR
+        // Sayfa hazır olduğunda saat kütüphanesini başlat ve sözü getir
         $(document).ready(function() {
-            // Saati başlat
             $('.clock').FlipClock({
                 clockFace: 'TwentyFourHourClock'
             });
             
-            // Sözü seç
             rastgeleSozSec();
         });
     </script>
