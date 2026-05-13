@@ -61,7 +61,7 @@ const quotes = [
     },
     {
         "text": "İnsanın öğrenmesi gereken ilk dil, tatlı dildir.",
-        "author": "Barış Mançı"
+        "author": "Barış Manço"
     },
     {
         "text": "İyimser, bu dünyaların en iyisinde yaşadığımızı düşünür; kötümser ise bunun doğru olmasından korkar.",
