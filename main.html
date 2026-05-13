@@ -42,7 +42,8 @@
             text-transform: uppercase;
             letter-spacing: 2px;
         }
-        /* Şık Siyah FlipClock */
+        
+        /* Şık Siyah FlipClock Tasarımı */
         .clock {
             width: auto;
             display: inline-block;
@@ -78,47 +79,45 @@
             box-shadow: none !important;
         }
 
-        /* Sol Taraftaki Tam Ekran Butonu */
+        /* SOL TARAFTA HER ZAMAN GÖRÜNEN BELİRGİN TAM EKRAN BUTONU */
         #fullscreen-btn {
-            position: absolute;
-            left: 20px;
-            top: 50%;
-            transform: translateY(-50%);
-            background: none;
-            border: 2px solid #111111;
-            color: #111111;
-            padding: 12px;
-            border-radius: 50%;
+            position: fixed;
+            left: 0;
+            top: 0;
+            bottom: 0;
+            width: 50px; /* Sol tarafta ince dikey bir şerit */
+            background-color: #111111;
+            color: #ffffff;
+            border: none;
             cursor: pointer;
-            opacity: 0.3;
-            transition: all 0.3s ease;
             display: flex;
             align-items: center;
             justify-content: center;
-            width: 44px;
-            height: 44px;
-            z-index: 999;
+            z-index: 9999;
+            transition: background-color 0.3s ease, width 0.3s ease;
         }
+        
+        /* Butonun içindeki yazıyı dikey döndürmek için */
+        #fullscreen-btn span {
+            writing-mode: vertical-rl;
+            transform: rotate(180deg);
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            font-size: 11px;
+            font-weight: bold;
+            white-space: nowrap;
+        }
+
         #fullscreen-btn:hover {
-            opacity: 1;
-            background-color: #111111;
-            color: #ffffff;
-            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-        }
-        /* Butonun içindeki ikon tasarımı */
-        #fullscreen-btn svg {
-            width: 20px;
-            height: 20px;
-            fill: currentColor;
+            background-color: #333333;
+            width: 60px; /* Üzerine gelince hafifçe genişler */
         }
     </style>
 </head>
 <body>
 
-    <button id="fullscreen-btn" title="Tam Ekran">
-        <svg viewBox="0 0 24 24">
-            <path d="M7 14H5v5h5v-2H7v-3zm-2-4h2V7h3V5H5v5zm12 7h-3v2h5v-5h-2v3zM14 5v2h3v3h2V5h-5z"/>
-        </svg>
+    <button id="fullscreen-btn" title="Tam Ekran Modunu Aç/Kapat">
+        <span>TAM EKRAN</span>
     </button>
 
     <div id="quote-container">
@@ -162,11 +161,11 @@
             document.getElementById('author').innerText = secilenSoz.author;
         }
 
-        // Tam Ekran Açma/Kapatma Fonksiyonu
+        // Güvenli Tam Ekran Değiştirici
         function toggleFullscreen() {
             if (!document.fullscreenElement) {
                 document.documentElement.requestFullscreen().catch(err => {
-                    console.log(`Tam ekran modu açılırken hata oluştu: ${err.message}`);
+                    alert(`Tam ekran modu açılırken bir tarayıcı engeli oluştu: ${err.message}`);
                 });
             } else {
                 document.exitFullscreen();
@@ -180,7 +179,7 @@
             
             akilliSozSec();
 
-            // Butona tıklandığında tam ekranı tetikle
+            // Butona tıklandığında tam ekrana geçirir
             $('#fullscreen-btn').on('click', function() {
                 toggleFullscreen();
             });
