@@ -88,6 +88,10 @@ const quotes = [
         "author": "Konfüçyüs"
     },
     {
+        "text": "Beni yargılama Cooper. Sen hiç benim test edildiğim gibi test edilmedin. Çok az insan edildi.",
+        "author": "Dr. Mann"
+    },
+    {
         "text": "Zor zamanlar güçlü insanlar yaratır, güçlü insanlar iyi zamanlar yaratır. İyi zamanlar zayıf insanlar yaratır, zayıf insanlar zor zamanlar yaratır.",
         "author": "G. Michael Hopf"
     },
@@ -158,6 +162,10 @@ const quotes = [
     {
         "text": "Umut, uyanık insanların rüyasıdır.",
         "author": "Aristoteles"
+    },
+    {
+        "text": "Bir makine iyi doğaçlama yapamaz çünkü ona ölüm korkusu programlayamazsınız. Bizim hayatta kalma içgüdümüz, en büyük ilham kaynağımızdır.",
+        "author": "Dr. Mann"
     },
     {
         "text": "Gözleriniz, ruhunuzun dünyaya açılan pencereleridir.",
@@ -368,6 +376,10 @@ const quotes = [
         "author": "Solon"
     },
     {
+        "text": "Newton'ın üçüncü yasası: İnsanların bir yere varabilmek için buldukları tek yol, arkalarında bir şey bırakmaktır.",
+        "author": "T.A.R.S"
+    },
+    {
         "text": "Bir gün geriye dönüp baktığınızda, mücadele yıllarınızın en güzel yıllarınız olduğunu göreceksiniz.",
         "author": "Sigmund Freud"
     },
@@ -496,12 +508,20 @@ const quotes = [
         "author": "Stephen Hawking"
     },
     {
+        "text": "Eskiden gökyüzüne bakar, yıldızlar arasındaki yerimizi merak ederdik. Şimdi ise sadece yere bakıp çamurdaki yerimiz için endişeleniyoruz.",
+        "author": "Dr. Cooper"
+    },
+    {
         "text": "En büyük güven, Kimseye güvenmemektir.",
         "author": "Napolyon Bonapart"
     },
     {
         "text": "Ayrıca iki tane Microsoft Outlook'um olduğunu görüyorum ve ikisi de çalışmıyor.",
         "author": "Reid Wisean"
+    },
+    {
+        "text": "İnsanlık Dünya'da doğdu. Ama burada ölmesi gerekmiyordu.",
+        "author": "Dr. Cooper"
     },
     {
         "text": "Kaybetmekten korktuğun her şeyi serbest bıraktığında özgürleşirsin",
