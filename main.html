@@ -2,13 +2,14 @@
 <html lang="tr">
 <head>
     <meta charset="UTF-8">
-    <title>Minimalist Saat ve Sözler</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minimalist Saat ve Rastgele Sözler</title>
+    
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flipclock/0.7.8/flipclock.css">
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/flipclock/0.7.8/flipclock.min.js"></script>
     
     <style>
-        /* Beyaz Arka Plan ve Genel Düzen */
         body {
             background-color: #ffffff;
             display: flex;
@@ -20,8 +21,6 @@
             font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
             overflow: hidden;
         }
-
-        /* Siyah ve Net Söz Alanı */
         #quote-container {
             text-align: center;
             margin-bottom: 60px;
@@ -42,8 +41,7 @@
             text-transform: uppercase;
             letter-spacing: 2px;
         }
-
-        /* Yakışıklı Siyah FlipClock Tasarımı */
+        /* Şık Siyah FlipClock */
         .clock {
             width: auto;
             display: inline-block;
@@ -90,6 +88,56 @@
     <div class="clock"></div>
 
     <script src="quotes.js"></script>
+
+    <script>
+        function akilliSozSec() {
+            // Eğer quotes dizisi yüklenmediyse uyarı ver
+            if (typeof quotes === 'undefined' || quotes.length === 0) {
+                document.getElementById('text').innerText = "Hata: quotes.js dosyası veya içeriği yüklenemedi!";
+                return;
+            }
+
+            // Hafızadan daha önce gösterilenlerin index numaralarını al
+            let gosterilenIndexler = JSON.parse(localStorage.getItem('gosterilenIndexler')) || [];
+
+            // Gösterilmemiş olanların index listesini çıkar
+            let kalanIndexler = [];
+            for (let i = 0; i < quotes.length; i++) {
+                if (!gosterilenIndexler.includes(i)) {
+                    kalanIndexler.push(i);
+                }
+            }
+
+            // Bütün sözler tükendiyse listeyi sıfırla ve baştan başla
+            if (kalanIndexler.length === 0) {
+                gosterilenIndexler = [];
+                for (let i = 0; i < quotes.length; i++) {
+                    kalanIndexler.push(i);
+                }
+            }
+
+            // Kalan indexler arasından rastgele bir adet seç
+            const rastgeleSecilenIndex = kalanIndexler[Math.floor(Math.random() * kalanIndexler.length)];
+            const secilenSoz = quotes[rastgeleSecilenIndex];
+
+            // Seçilen indexi hafızaya ekle
+            gosterilenIndexler.push(rastgeleSecilenIndex);
+            localStorage.setItem('gosterilenIndexler', JSON.stringify(gosterilenIndexler));
+
+            // Ekrana yazdır
+            document.getElementById('text').innerText = `“${secilenSoz.text}”`;
+            document.getElementById('author').innerText = secilenSoz.author;
+        }
+
+        $(document).ready(function() {
+            $('.clock').FlipClock({
+                clockFace: 'TwentyFourHourClock'
+            });
+            
+            // Sözü seç
+            akilliSozSec();
+        });
+    </script>
 
 </body>
 </html>
