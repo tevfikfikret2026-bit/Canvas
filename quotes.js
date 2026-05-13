@@ -456,4 +456,3 @@ const quotes = [
         "author": "Chris Hadfield"
     }
 ]
-]
