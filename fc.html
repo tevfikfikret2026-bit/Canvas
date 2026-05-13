@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <title>Minimalist Saat ve Sözler</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flipclock/0.7.8/flipclock.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flipclock/0.7.8/flipclock.min.js"></script>
+    
+    <style>
+        /* Saf Beyaz Arka Plan */
+        body {
+            background-color: #ffffff;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+            font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+            overflow: hidden;
+        }
+
+        /* Kapkara ve Net Söz Alanı */
+        #quote-container {
+            text-align: center;
+            margin-bottom: 60px;
+            max-width: 650px;
+            padding: 0 20px;
+        }
+        .quote-text {
+            font-size: 28px;
+            font-weight: 400;
+            line-height: 1.4;
+            color: #000000; /* Tam siyah */
+        }
+        .quote-author {
+            font-size: 15px;
+            font-weight: 600;
+            color: #666666; /* Koyu gri yazar ismi */
+            margin-top: 15px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+
+        /* --- SİYAH / MİNİMALİST FLIPCLOCK --- */
+        .clock {
+            width: auto;
+            display: inline-block;
+            transform: scale(1.1);
+        }
+
+        /* Kartların Arka Planı */
+        .flip-clock-wrapper ul {
+            background: #111111 !important; /* Derin siyah kartlar */
+            border-radius: 8px !important;
+            box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15) !important;
+        }
+
+        /* Sayıların Rengi */
+        .flip-clock-wrapper ul li a div div.inn {
+            color: #ffffff !important; /* Siyah kart üzerinde beyaz sayılar */
+            background-color: #111111 !important;
+            border-radius: 8px !important;
+            font-weight: 500 !important;
+        }
+
+        /* Kart Ortasındaki Yatay Çizgi */
+        .flip-clock-wrapper ul li a div.down {
+            border-bottom-left-radius: 8px !important;
+            border-bottom-right-radius: 8px !important;
+        }
+        .flip-clock-wrapper ul li a div.up:after {
+            background-color: rgba(255, 255, 255, 0.1) !important; /* İnce beyazımsı çizgi */
+            height: 1px !important;
+        }
+
+        /* Üstteki "Hours", "Minutes" yazılarını gizle */
+        .flip-clock-divider .flip-clock-label {
+            display: none; 
+        }
+
+        /* İki Noktalar (Siyah yapıldı) */
+        .flip-clock-dot {
+            background: #111111 !important;
+            width: 8px !important;
+            height: 8px !important;
+            left: 11px !important;
+            box-shadow: none !important;
+        }
+    </style>
+</head>
+<body>
+
+    <div id="quote-container">
+        <div id="text" class="quote-text">Yükleniyor...</div>
+        <div id="author" class="quote-author"></div>
+    </div>
+
+    <div class="clock"></div>
+
+    <script>
+        // 1. FLIPCLOCK
+        $(document).ready(function() {
+            $('.clock').FlipClock({
+                clockFace: 'TwentyFourHourClock'
+            });
+        });
+
+        // 2. SÖZÜ JSON'DAN ÇEKME
+        fetch('quotes.json')
+            .then(response => response.json())
+            .then(data => {
+                const secilen = data[Math.floor(Math.random() * data.length)];
+                document.getElementById('text').innerText = `“${secilen.text}”`;
+                document.getElementById('author').innerText = secilen.author;
+            })
+            .catch(error => {
+                console.log('Hata:', error);
+                document.getElementById('text').innerText = "Zaman akıp gidiyor...";
+            });
+    </script>
+
+</body>
+</html>
