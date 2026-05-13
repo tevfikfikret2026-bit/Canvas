@@ -3,145 +3,231 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Saat ve Rastgele Sözler</title>
+    <title>Minimalist Saat & Sözler</title>
     
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flipclock/0.7.8/flipclock.css">
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/flipclock/0.7.8/flipclock.min.js"></script>
     
     <style>
-        /* Minimalist Beyaz Tasarım */
+        /* Genel Düzen */
         body {
             background-color: #ffffff;
+            margin: 0;
             display: flex;
             flex-direction: column;
             align-items: center;
             justify-content: center;
             height: 100vh;
-            margin: 0;
-            font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             overflow: hidden;
         }
 
-        /* Siyah ve Net Söz Alanı */
-        #quote-container {
-            text-align: center;
-            margin-bottom: 60px;
-            max-width: 700px;
-            padding: 0 20px;
-        }
-        .quote-text {
-            font-size: 28px;
-            font-weight: 400;
-            line-height: 1.4;
-            color: #000000;
-        }
-        .quote-author {
-            font-size: 15px;
-            font-weight: 600;
-            color: #666666;
-            margin-top: 15px;
-            text-transform: uppercase;
-            letter-spacing: 2px;
+        /* SOL KENAR BUTONLARI */
+        #sidebar {
+            position: fixed;
+            left: 20px;
+            top: 50%;
+            transform: translateY(-50%);
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            z-index: 9999;
         }
 
-        /* Yakışıklı Siyah FlipClock Tasarımı */
+        .action-btn {
+            width: 45px;
+            height: 45px;
+            background-color: #000000;
+            color: #ffffff;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+        }
+
+        .action-btn:hover {
+            transform: scale(1.1);
+            background-color: #333333;
+        }
+
+        .action-btn svg {
+            width: 20px;
+            height: 20px;
+            fill: white;
+        }
+
+        /* SÖZ ALANI */
+        #quote-display {
+            text-align: center;
+            margin-bottom: 50px;
+            max-width: 800px;
+            padding: 0 40px;
+        }
+
+        #text {
+            font-size: 32px;
+            font-weight: 300;
+            color: #000000;
+            line-height: 1.3;
+        }
+
+        #author {
+            font-size: 14px;
+            font-weight: 700;
+            color: #888888;
+            margin-top: 20px;
+            text-transform: uppercase;
+            letter-spacing: 3px;
+        }
+
+        /* SAAT */
         .clock {
             width: auto;
             display: inline-block;
-            transform: scale(1.1);
+            transform: scale(1.2);
         }
-        .flip-clock-wrapper ul {
-            background: #111111 !important;
-            border-radius: 8px !important;
-            box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15) !important;
+
+        /* MODAL (LİSTE EKRANI) */
+        #list-modal {
+            display: none;
+            position: fixed;
+            top: 0; left: 0; width: 100%; height: 100%;
+            background: #ffffff;
+            z-index: 10000;
+            overflow-y: auto;
+            padding: 50px;
+            box-sizing: border-box;
         }
-        .flip-clock-wrapper ul li a div div.inn {
-            color: #ffffff !important;
-            background-color: #111111 !important;
-            border-radius: 8px !important;
-            font-weight: 500 !important;
+
+        .modal-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 2px solid #000;
+            padding-bottom: 20px;
+            margin-bottom: 20px;
         }
-        .flip-clock-wrapper ul li a div.down {
-            border-bottom-left-radius: 8px !important;
-            border-bottom-right-radius: 8px !important;
+
+        .close-btn {
+            padding: 10px 20px;
+            background: #000;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+            font-weight: bold;
         }
-        .flip-clock-wrapper ul li a div.up:after {
-            background-color: rgba(255, 255, 255, 0.1) !important;
-            height: 1px !important;
+
+        .list-item {
+            padding: 15px 0;
+            border-bottom: 1px solid #eee;
         }
-        .flip-clock-divider .flip-clock-label {
-            display: none; 
-        }
-        .flip-clock-dot {
-            background: #111111 !important;
-            width: 8px !important;
-            height: 8px !important;
-            left: 11px !important;
-            box-shadow: none !important;
-        }
+
+        /* FlipClock Siyah Tema Ayarı */
+        .flip-clock-wrapper ul li a div div.inn { background-color: #000 !important; color: #fff !important; }
+        .flip-clock-dot { background: #000 !important; }
+        .flip-clock-divider .flip-clock-label { display: none; }
     </style>
 </head>
 <body>
 
-    <div id="quote-container">
-        <div id="text" class="quote-text">Yükleniyor...</div>
-        <div id="author" class="quote-author"></div>
+    <div id="sidebar">
+        <button class="action-btn" id="btn-fullscreen" title="Tam Ekran">
+            <svg viewBox="0 0 24 24"><path d="M7 14H5v5h5v-2H7v-3zm-2-4h2V7h3V5H5v5zm12 7h-3v2h5v-5h-2v3zM14 5v2h3v3h2V5h-5z"/></svg>
+        </button>
+        <button class="action-btn" id="btn-list" title="Tüm Sözler">
+            <svg viewBox="0 0 24 24"><path d="M3 13h2v-2H3v2zm0 4h2v-2H3v2zm0-8h2V7H3v2zm4 4h14v-2H7v2zm0 4h14v-2H7v2zM7 7v2h14V7H7z"/></svg>
+        </button>
+        <button class="action-btn" id="btn-next" title="Sıradaki Söz">
+            <svg viewBox="0 0 24 24"><path d="M12 4V1L8 5l4 4V6c3.31 0 6 2.69 6 6 0 1.01-.25 1.97-.7 2.8l1.46 1.46C19.54 15.03 20 13.57 20 12c0-4.42-3.58-8-8-8zm0 14c-3.31 0-6-2.69-6-6 0-1.01.25-1.97.7-2.8L5.24 7.74C4.46 8.97 4 10.43 4 12c0 4.42 3.58 8 8 8v3l4-4-4-4v3z"/></svg>
+        </button>
+    </div>
+
+    <div id="quote-display">
+        <div id="text">Lütfen quotes.js dosyasını kontrol edin...</div>
+        <div id="author"></div>
     </div>
 
     <div class="clock"></div>
 
-    <script src="quotes.js"></script>
+    <div id="list-modal">
+        <div class="modal-header">
+            <h1>TÜM SÖZLER (DOĞRULUK)</h1>
+            <button class="close-btn" onclick="$('#list-modal').fadeOut()">KAPAT</button>
+        </div>
+        <div id="full-list"></div>
+    </div>
 
-    <script>
-        // Attığın quotes.js dosyasındaki verileri tekrarsız ve rastgele seçen akıllı algoritma
-        function rastgeleSozSec() {
-            if (typeof quotes === 'undefined' || quotes.length === 0) {
-                document.getElementById('text').innerText = "Söz listesi (quotes.js) bulunamadı veya boş.";
-                return;
-            }
-
-            // Tarayıcı hafızasından daha önce gösterilen sözlerin index (sıra) numaralarını alır
-            let gosterilenIndexler = JSON.parse(localStorage.getItem('gosterilenIndexler')) || [];
-
-            // Henüz gösterilmemiş olan sözlerin index numaralarını filtreler
-            let kalanIndexler = [];
-            for (let i = 0; i < quotes.length; i++) {
-                if (!gosterilenIndexler.includes(i)) {
-                    kalanIndexler.push(i);
-                }
-            }
-
-            // Eğer listedeki tüm sözler gösterildiyse hafızayı sıfırlar ve baştan başlar
-            if (kalanIndexler.length === 0) {
-                gosterilenIndexler = [];
-                for (let i = 0; i < quotes.length; i++) {
-                    kalanIndexler.push(i);
-                }
-            }
-
-            // Kalan indexler arasından rastgele bir tane seçer
-            const rastgeleSecilenIndex = kalanIndexler[Math.floor(Math.random() * kalanIndexler.length)];
-            const secilenSoz = quotes[rastgeleSecilenIndex];
-
-            // Seçilen sözün indexini hafızaya kaydeder
-            gosterilenIndexler.push(rastgeleSecilenIndex);
-            localStorage.setItem('gosterilenIndexler', JSON.stringify(gosterilenIndexler));
-
-            // HTML içerisine verileri yerleştirir
-            document.getElementById('text').innerText = `“${secilenSoz.text}”`;
-            document.getElementById('author').innerText = secilenSoz.author;
-        }
-
-        // Sayfa hazır olduğunda saat kütüphanesini başlat ve sözü getir
+    <script src="quotes.js"></script> <script>
         $(document).ready(function() {
-            $('.clock').FlipClock({
+            // 1. Saati Başlat
+            var clock = $('.clock').FlipClock({
                 clockFace: 'TwentyFourHourClock'
             });
-            
-            rastgeleSozSec();
+
+            // 2. Söz Seçme Fonksiyonu (Tekrarsız)
+            function sozGetir() {
+                if (typeof quotes === 'undefined') {
+                    $('#text').text("Hata: quotes.js yüklenemedi. Dosyanın başına 'const quotes = ' eklediğinizden emin olun.");
+                    return;
+                }
+
+                let gosterilenler = JSON.parse(localStorage.getItem('gosterilenler')) || [];
+                let kalanlar = [];
+
+                quotes.forEach((s, index) => {
+                    if (!gosterilenler.includes(index)) kalanlar.push(index);
+                });
+
+                if (kalanlar.length === 0) {
+                    gosterilenler = [];
+                    kalanlar = quotes.map((_, i) => i);
+                }
+
+                let rastgeleIndex = kalanlar[Math.floor(Math.random() * kalanlar.length)];
+                gosterilenler.push(rastgeleIndex);
+                localStorage.setItem('gosterilenler', JSON.stringify(gosterilenler));
+
+                let secilen = quotes[rastgeleIndex];
+                $('#text').text("“" + secilen.text + "”");
+                $('#author').text(secilen.author);
+            }
+
+            // 3. Tam Liste Oluşturma (Doğruluk butonu için)
+            function listeyiHazirla() {
+                if (typeof quotes === 'undefined') return;
+                let html = "";
+                quotes.forEach((s, i) => {
+                    html += `<div class="list-item"><strong>${i+1}.</strong> ${s.text} <br> <small>— ${s.author}</small></div>`;
+                });
+                $('#full-list').html(html);
+            }
+
+            // 4. Buton Olayları
+            $('#btn-next').click(function() {
+                sozGetir();
+            });
+
+            $('#btn-list').click(function() {
+                listeyiHazirla();
+                $('#list-modal').fadeIn();
+            });
+
+            $('#btn-fullscreen').click(function() {
+                if (!document.fullscreenElement) {
+                    document.documentElement.requestFullscreen();
+                } else {
+                    document.exitFullscreen();
+                }
+            });
+
+            // İlk açılışta bir söz getir
+            sozGetir();
         });
     </script>
-
 </body>
 </html>
