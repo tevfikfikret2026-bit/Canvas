@@ -56,6 +56,14 @@ const quotes = [
         "author": "J. Robert Oppenheimer"
     },
     {
+        "text": "Bindik bir alamete, gedeyoz kıyamete...",
+        "author": "Cem Karaca"
+    },
+    {
+        "text": "İnsanın öğrenmesi gereken ilk dil, tatlı dildir.",
+        "author": "Barış Mançı"
+    },
+    {
         "text": "İyimser, bu dünyaların en iyisinde yaşadığımızı düşünür; kötümser ise bunun doğru olmasından korkar.",
         "author": "J. Robert Oppenheimer"
     },
@@ -118,6 +126,14 @@ const quotes = [
     {
         "text": "Mutluluk, paylaşıldığında çoğalan tek şeydir.",
         "author": "Albert Schweitzer"
+    },
+    {
+        "text": "Cesaret insanı zafere, kararsızlık tehlikeye, korkaklık ise ölüme götürür.",
+        "author": "Yavuz Sultan Selim"
+    },
+    {
+        "text": "Ya ben İstanbul'u alırım, ya İstanbul beni!",
+        "author": "Fatih Sultan Mehmet"
     },
     {
         "text": "Herkes her şeyi bilemez, bu normaldir. Ama bilmediği konuda hüküm vermek, işte bu cehalettir.",
@@ -236,6 +252,10 @@ const quotes = [
         "author": "Richard Feynman"
     },
     {
+        "text": "Biz bitti demeden bitmez.",
+        "author": "Fatih Terim"
+    },
+    {
         "text": "Hata yapmak, keşfin kapısıdır.",
         "author": "James Joyce"
     },
@@ -310,6 +330,18 @@ const quotes = [
     {
         "text": "Hayat, biz başka planlar yapmakla meşgulken başımızdan geçenlerdir.",
         "author": "John Lennon"
+    },
+    {
+        "text": "Aç kal, budala kal.",
+        "author": "Steve Jobs"
+    },
+    {
+        "text": "Hızlı hareket et ve bir şeyleri yık. Eğer bir şeyleri yıkmıyorsan, yeterince hızlı hareket etmiyorsun demektir.",
+        "author": "Mark Zuckerberg"
+    },
+    {
+        "text": "Koş, yürüme! Ya yiyecek bulmak için koşuyorsundur ya da bir başkasına yiyecek olmamak için.",
+        "author": "Jensen Huang"
     },
     {
         "text": "Sadece iki şekilde yaşayabilirsin: Biri, hiçbir şeyin mucize olmadığını düşünerek; diğeri ise her şeyin bir mucize olduğunu düşünerek.",
@@ -532,6 +564,10 @@ const quotes = [
         "author": "Stephen Hawking"
     },
     {
+        "text": "Ekinler baş vermeden, kör buzağa topallamaz!",
+        "author": "Recep İvedik"
+    },
+    {
         "text": "Eskiden gökyüzüne bakar, yıldızlar arasındaki yerimizi merak ederdik. Şimdi ise sadece yere bakıp çamurdaki yerimiz için endişeleniyoruz.",
         "author": "Dr. Cooper"
     },
@@ -598,6 +634,10 @@ const quotes = [
     {
         "text": "Uzaklıklar, sadece göremeyenler içindir",
         "author": "Antoine de Saint-Exupéry"
+    },
+    {
+        "text": "Şu fani dünyada kimseye eğmedim başımı, kimsenin önünde diz çökmedim. Yalnızca şarkılarımı söylerken eğilir başım, o da dinleyenlerime saygımdandır.",
+        "author": "Ahmet Kaya"
     },
     {
         "text": "Uçmayı öğrenmeden önce, ayakta durmayı ve yürümeyi öğrenmelisiniz; doğrudan uçulmaz",
