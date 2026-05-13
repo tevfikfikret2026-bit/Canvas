@@ -88,6 +88,10 @@ const quotes = [
         "author": "Thales"
     },
     {
+        "text": "Eğer kim olduğumu bilmiyorsan, belki de en doğrusu ayağını denk almandır.",
+        "author": "Bay Beyaz"
+    },
+    {
         "text": "Hayat geriye doğru anlaşılır, ancak ileriye doğru yaşanır.",
         "author": "Søren Kierkegaard"
     },
