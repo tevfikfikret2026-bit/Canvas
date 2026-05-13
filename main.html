@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Minimalist Saat ve Rastgele Sözler</title>
+    <title>Minimalist Saat ve Sözler</title>
     
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flipclock/0.7.8/flipclock.css">
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
@@ -22,6 +22,7 @@
             overflow: hidden;
             position: relative;
         }
+
         #quote-container {
             text-align: center;
             margin-bottom: 60px;
@@ -42,8 +43,8 @@
             text-transform: uppercase;
             letter-spacing: 2px;
         }
-        
-        /* Şık Siyah FlipClock Tasarımı */
+
+        /* Şık Siyah FlipClock */
         .clock {
             width: auto;
             display: inline-block;
@@ -68,9 +69,7 @@
             background-color: rgba(255, 255, 255, 0.1) !important;
             height: 1px !important;
         }
-        .flip-clock-divider .flip-clock-label {
-            display: none; 
-        }
+        .flip-clock-divider .flip-clock-label { display: none; }
         .flip-clock-dot {
             background: #111111 !important;
             width: 8px !important;
@@ -79,93 +78,181 @@
             box-shadow: none !important;
         }
 
-        /* SOL TARAFTA HER ZAMAN GÖRÜNEN BELİRGİN TAM EKRAN BUTONU */
-        #fullscreen-btn {
+        /* SOL KENAR KONTROL PANELİ */
+        .sidebar-controls {
             position: fixed;
-            left: 0;
-            top: 0;
-            bottom: 0;
-            width: 50px; /* Sol tarafta ince dikey bir şerit */
+            left: 15px;
+            top: 50%;
+            transform: translateY(-50%);
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+            z-index: 9999;
+        }
+
+        .side-btn {
             background-color: #111111;
             color: #ffffff;
             border: none;
+            width: 42px;
+            height: 42px;
+            border-radius: 8px;
             cursor: pointer;
             display: flex;
             align-items: center;
             justify-content: center;
-            z-index: 9999;
-            transition: background-color 0.3s ease, width 0.3s ease;
+            transition: all 0.2s ease;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
         }
-        
-        /* Butonun içindeki yazıyı dikey döndürmek için */
-        #fullscreen-btn span {
-            writing-mode: vertical-rl;
-            transform: rotate(180deg);
-            text-transform: uppercase;
-            letter-spacing: 2px;
-            font-size: 11px;
-            font-weight: bold;
-            white-space: nowrap;
+        .side-btn:hover {
+            background-color: #333333;
+            transform: scale(1.05);
+        }
+        .side-btn svg {
+            width: 20px;
+            height: 20px;
+            fill: currentcolor;
         }
 
-        #fullscreen-btn:hover {
-            background-color: #333333;
-            width: 60px; /* Üzerine gelince hafifçe genişler */
+        /* TÜM SÖZLER MODAL ALANI (Açılır Pencere) */
+        .modal {
+            display: none;
+            position: fixed;
+            top: 0; left: 0; width: 100%; height: 100%;
+            background-color: rgba(255, 255, 255, 0.98);
+            z-index: 10000;
+            overflow-y: auto;
+            padding: 40px 20px;
+            box-sizing: border-box;
+        }
+        .modal-content {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        .modal-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 2px solid #111111;
+            padding-bottom: 15px;
+            margin-bottom: 30px;
+        }
+        .modal-header h2 {
+            margin: 0;
+            font-size: 24px;
+            letter-spacing: 1px;
+        }
+        .close-btn {
+            background: #111111;
+            color: #ffffff;
+            border: none;
+            padding: 8px 16px;
+            border-radius: 6px;
+            cursor: pointer;
+            font-weight: bold;
+        }
+        .quote-item {
+            padding: 15px 0;
+            border-bottom: 1px solid #eeeeee;
+        }
+        .quote-item-text {
+            font-size: 18px;
+            color: #111111;
+            margin-bottom: 5px;
+        }
+        .quote-item-author {
+            font-size: 13px;
+            color: #777777;
+            font-weight: 600;
         }
     </style>
 </head>
 <body>
 
-    <button id="fullscreen-btn" title="Tam Ekran Modunu Aç/Kapat">
-        <span>TAM EKRAN</span>
-    </button>
+    <div class="sidebar-controls">
+        <button class="side-btn" id="fullscreen-btn" title="Tam Ekran">
+            <svg viewBox="0 0 24 24"><path d="M7 14H5v5h5v-2H7v-3zm-2-4h2V7h3V5H5v5zm12 7h-3v2h5v-5h-2v3zM14 5v2h3v3h2V5h-5z"/></svg>
+        </button>
+        <button class="side-btn" id="list-btn" title="Tüm Sözleri Göster">
+            <svg viewBox="0 0 24 24"><path d="M4 14h6v-4H4v4zm0 5h6v-4H4v4zM4 9h6V5H4v4zm8 5h8v-4h-8v4zm0 5h8v-4h-8v4zm0-14v4h8V5h-8z"/></svg>
+        </button>
+    </div>
 
     <div id="quote-container">
-        <div id="text" class="quote-text">Yükleniyor...</div>
+        <div id="text" class="quote-text">Sözler yükleniyor...</div>
         <div id="author" class="quote-author"></div>
     </div>
 
     <div class="clock"></div>
 
-    <script src="quotes.js"></script>
+    <div id="quote-modal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2>TÜM SÖZLER LİSTESİ</h2>
+                <button class="close-btn" id="close-modal">KAPAT</button>
+            </div>
+            <div id="modal-list-container"></div>
+        </div>
+    </div>
 
     <script>
-        function akilliSozSec() {
-            if (typeof quotes === 'undefined' || quotes.length === 0) {
-                document.getElementById('text').innerText = "Hata: quotes.js dosyası veya içeriği yüklenemedi!";
-                return;
-            }
+        let globalQuotes = [];
 
-            let gosterilenIndexler = JSON.parse(localStorage.getItem('gosterilenIndexler')) || [];
-            let kalanIndexler = [];
-            for (let i = 0; i < quotes.length; i++) {
-                if (!gosterilenIndexler.includes(i)) {
-                    kalanIndexler.push(i);
+        // Ham quotes.js dosyasını güvenlik engellerini aşarak okuyan ana fonksiyon
+        async function quotesYukleVeCalistir() {
+            try {
+                const response = await fetch('quotes.js');
+                if(!response.ok) throw new Error("Dosya okunamadı");
+                
+                const textData = await response.text();
+                
+                // Ham array yapısını JSON olarak ayrıştırıyoruz
+                globalQuotes = JSON.parse(textData);
+
+                // Rastgele söz seçme mekanizması (Tekrarsız)
+                let gosterilenIndexler = JSON.parse(localStorage.getItem('gosterilenIndexler')) || [];
+                let kalanIndexler = [];
+                
+                for (let i = 0; i < globalQuotes.length; i++) {
+                    if (!gosterilenIndexler.includes(i)) kalanIndexler.push(i);
                 }
-            }
 
-            if (kalanIndexler.length === 0) {
-                gosterilenIndexler = [];
-                for (let i = 0; i < quotes.length; i++) {
-                    kalanIndexler.push(i);
+                if (kalanIndexler.length === 0) {
+                    gosterilenIndexler = [];
+                    for (let i = 0; i < globalQuotes.length; i++) kalanIndexler.push(i);
                 }
+
+                const rastgeleSecilenIndex = kalanIndexler[Math.floor(Math.random() * kalanIndexler.length)];
+                const secilenSoz = globalQuotes[rastgeleSecilenIndex];
+
+                gosterilenIndexler.push(rastgeleSecilenIndex);
+                localStorage.setItem('gosterilenIndexler', JSON.stringify(gosterilenIndexler));
+
+                document.getElementById('text').innerText = `“${secilenSoz.text}”`;
+                document.getElementById('author').innerText = secilenSoz.author;
+
+                // Tüm sözleri arka planda modal listesine doldurma
+                let listHtml = "";
+                globalQuotes.forEach((q, index) => {
+                    listHtml += `
+                        <div class="quote-item">
+                            <div class="quote-item-text">${index + 1}. “${q.text}”</div>
+                            <div class="quote-item-author">— ${q.author}</div>
+                        </div>`;
+                });
+                document.getElementById('modal-list-container').innerHTML = listHtml;
+
+            } catch (error) {
+                console.error(error);
+                document.getElementById('text').innerText = "Hata: quotes.js dosyası yerel güvenlik (CORS) nedeniyle doğrudan çift tıklamayla okunamadı. Lütfen sayfayı bir Live Server (yerel sunucu) üzerinden açın.";
             }
-
-            const rastgeleSecilenIndex = kalanIndexler[Math.floor(Math.random() * kalanIndexler.length)];
-            const secilenSoz = quotes[rastgeleSecilenIndex];
-
-            gosterilenIndexler.push(rastgeleSecilenIndex);
-            localStorage.setItem('gosterilenIndexler', JSON.stringify(gosterilenIndexler));
-
-            document.getElementById('text').innerText = `“${secilenSoz.text}”`;
-            document.getElementById('author').innerText = secilenSoz.author;
         }
 
-        // Güvenli Tam Ekran Değiştirici
+        // Tam Ekran Kontrolü
         function toggleFullscreen() {
             if (!document.fullscreenElement) {
                 document.documentElement.requestFullscreen().catch(err => {
-                    alert(`Tam ekran modu açılırken bir tarayıcı engeli oluştu: ${err.message}`);
+                    alert("Tarayıcınız yerel dosyalarda tam ekrana izin vermiyor. Lütfen Live Server kullanın.");
                 });
             } else {
                 document.exitFullscreen();
@@ -173,18 +260,25 @@
         }
 
         $(document).ready(function() {
+            // Saati çalıştırıyoruz
             $('.clock').FlipClock({
                 clockFace: 'TwentyFourHourClock'
             });
             
-            akilliSozSec();
+            // Dosyayı çekip sözü yüklüyoruz
+            quotesYukleVeCalistir();
 
-            // Butona tıklandığında tam ekrana geçirir
-            $('#fullscreen-btn').on('click', function() {
-                toggleFullscreen();
+            // Buton Dinleyicileri
+            $('#fullscreen-btn').on('click', toggleFullscreen);
+            
+            $('#list-btn').on('click', function() {
+                $('#quote-modal').fadeIn(200);
+            });
+            
+            $('#close-modal').on('click', function() {
+                $('#quote-modal').fadeOut(200);
             });
         });
     </script>
-
 </body>
 </html>
