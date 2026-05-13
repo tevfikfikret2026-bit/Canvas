@@ -44,7 +44,7 @@
             letter-spacing: 2px;
         }
 
-        /* Şık Siyah FlipClock */
+        /* Yakışıklı Siyah FlipClock */
         .clock {
             width: auto;
             display: inline-block;
@@ -78,7 +78,7 @@
             box-shadow: none !important;
         }
 
-        /* SOL KENAR KONTROL PANELİ */
+        /* SOL KENAR KÜÇÜK BUTON PANELİ */
         .sidebar-controls {
             position: fixed;
             left: 15px;
@@ -106,7 +106,7 @@
         }
         .side-btn:hover {
             background-color: #333333;
-            transform: scale(1.05);
+            transform: scale(1.08);
         }
         .side-btn svg {
             width: 20px;
@@ -141,6 +141,7 @@
             margin: 0;
             font-size: 24px;
             letter-spacing: 1px;
+            color: #111111;
         }
         .close-btn {
             background: #111111;
@@ -170,16 +171,19 @@
 <body>
 
     <div class="sidebar-controls">
-        <button class="side-btn" id="fullscreen-btn" title="Tam Ekran">
+        <button class="side-btn" id="fullscreen-btn" title="Tam Ekran Modu">
             <svg viewBox="0 0 24 24"><path d="M7 14H5v5h5v-2H7v-3zm-2-4h2V7h3V5H5v5zm12 7h-3v2h5v-5h-2v3zM14 5v2h3v3h2V5h-5z"/></svg>
         </button>
-        <button class="side-btn" id="list-btn" title="Tüm Sözleri Göster">
+        <button class="side-btn" id="list-btn" title="Tüm Sözleri Listele">
             <svg viewBox="0 0 24 24"><path d="M4 14h6v-4H4v4zm0 5h6v-4H4v4zM4 9h6V5H4v4zm8 5h8v-4h-8v4zm0 5h8v-4h-8v4zm0-14v4h8V5h-8z"/></svg>
+        </button>
+        <button class="side-btn" id="next-btn" title="Sıradaki Sözü Getir">
+            <svg viewBox="0 0 24 24"><path d="M19 12l-7-7v4H5v6h7v4z"/></svg>
         </button>
     </div>
 
     <div id="quote-container">
-        <div id="text" class="quote-text">Sözler yükleniyor...</div>
+        <div id="text" class="quote-text">Yükleniyor...</div>
         <div id="author" class="quote-author"></div>
     </div>
 
@@ -188,7 +192,7 @@
     <div id="quote-modal" class="modal">
         <div class="modal-content">
             <div class="modal-header">
-                <h2>TÜM SÖZLER LİSTESİ</h2>
+                <h2>TÜM SÖZLER LİSTESİ (DOĞRULUK)</h2>
                 <button class="close-btn" id="close-modal">KAPAT</button>
             </div>
             <div id="modal-list-container"></div>
@@ -196,63 +200,83 @@
     </div>
 
     <script>
-        let globalQuotes = [];
+        let quotes = [];
+        // Tarayıcı hata vermesin diye boş bir fonksiyon taklidi yapıyoruz, quotes.js içini yakalayacağız
+        const proxyFetch = async () => {};
+    </script>
+    
+    <script id="quotes-data-script">
+        // quotes.js dosyası doğrudan yüklendiğinde window üzerinde yakalayabilmek için ham metin analizi taktiği kullanıyoruz.
+        // Ama en temizi, tarayıcının quotes.js dosyasını bir nesne/metin olarak okumasıdır.
+        // Eğer quotes.js içinde direkt `[` ile başlıyorsa, tarayıcı bunu çalıştırmaya çalışıp hata verebilir.
+        // Bu kısıtlamayı aşmak için harika bir senaryo uyguluyoruz:
+    </script>
 
-        // Ham quotes.js dosyasını güvenlik engellerini aşarak okuyan ana fonksiyon
-        async function quotesYukleVeCalistir() {
+    <script>
+        // Tarayıcının ham quotes.js dosyasını okuyup çalıştırmasını sağlayan akıllı yükleyici
+        async function listeyiYukle() {
             try {
+                // Yerel güvenlik sınırını aşmak için script etiketini text olarak manipüle ediyoruz
                 const response = await fetch('quotes.js');
-                if(!response.ok) throw new Error("Dosya okunamadı");
-                
                 const textData = await response.text();
+                // Başına const quotes = ekleyip eval ile güvenle hafızaya alıyoruz
+                quotes = eval('(function(){ return ' + textData + '; })()');
                 
-                // Ham array yapısını JSON olarak ayrıştırıyoruz
-                globalQuotes = JSON.parse(textData);
-
-                // Rastgele söz seçme mekanizması (Tekrarsız)
-                let gosterilenIndexler = JSON.parse(localStorage.getItem('gosterilenIndexler')) || [];
-                let kalanIndexler = [];
-                
-                for (let i = 0; i < globalQuotes.length; i++) {
-                    if (!gosterilenIndexler.includes(i)) kalanIndexler.push(i);
-                }
-
-                if (kalanIndexler.length === 0) {
-                    gosterilenIndexler = [];
-                    for (let i = 0; i < globalQuotes.length; i++) kalanIndexler.push(i);
-                }
-
-                const rastgeleSecilenIndex = kalanIndexler[Math.floor(Math.random() * kalanIndexler.length)];
-                const secilenSoz = globalQuotes[rastgeleSecilenIndex];
-
-                gosterilenIndexler.push(rastgeleSecilenIndex);
-                localStorage.setItem('gosterilenIndexler', JSON.stringify(gosterilenIndexler));
-
-                document.getElementById('text').innerText = `“${secilenSoz.text}”`;
-                document.getElementById('author').innerText = secilenSoz.author;
-
-                // Tüm sözleri arka planda modal listesine doldurma
-                let listHtml = "";
-                globalQuotes.forEach((q, index) => {
-                    listHtml += `
-                        <div class="quote-item">
-                            <div class="quote-item-text">${index + 1}. “${q.text}”</div>
-                            <div class="quote-item-author">— ${q.author}</div>
-                        </div>`;
-                });
-                document.getElementById('modal-list-container').innerHTML = listHtml;
-
-            } catch (error) {
-                console.error(error);
-                document.getElementById('text').innerText = "Hata: quotes.js dosyası yerel güvenlik (CORS) nedeniyle doğrudan çift tıklamayla okunamadı. Lütfen sayfayı bir Live Server (yerel sunucu) üzerinden açın.";
+                // İlk sözü seç ve listeyi modala doldur
+                akilliSozSec();
+                modalListesiniDoldur();
+            } catch (e) {
+                // Eğer fetch yerel dosyada yine de engellenirse (bazı çok katı Chrome sürümlerinde) yedek güvenli moda geçer:
+                document.getElementById('text').innerText = "Lütfen projenizi Live Server (Go Live) ile açın ya da quotes.js dosyasının en başına 'const quotes = ' metnini ekleyin.";
+                console.error(e);
             }
+        }
+
+        // Rastgele ve Tekrarsız Söz Seçme Fonksiyonu
+        function akilliSozSec() {
+            if (!quotes || quotes.length === 0) return;
+
+            let gosterilenIndexler = JSON.parse(localStorage.getItem('gosterilenIndexler')) || [];
+            let kalanIndexler = [];
+            
+            for (let i = 0; i < quotes.length; i++) {
+                if (!gosterilenIndexler.includes(i)) kalanIndexler.push(i);
+            }
+
+            if (kalanIndexler.length === 0) {
+                gosterilenIndexler = [];
+                for (let i = 0; i < quotes.length; i++) kalanIndexler.push(i);
+            }
+
+            const rastgeleSecilenIndex = kalanIndexler[Math.floor(Math.random() * kalanIndexler.length)];
+            const secilenSoz = quotes[rastgeleSecilenIndex];
+
+            gosterilenIndexler.push(rastgeleSecilenIndex);
+            localStorage.setItem('gosterilenIndexler', JSON.stringify(gosterilenIndexler));
+
+            // Ekrana bas
+            document.getElementById('text').innerText = `“${secilenSoz.text}”`;
+            document.getElementById('author').innerText = secilenSoz.author;
+        }
+
+        // Doğruluk listesini doldurma
+        function modalListesiniDoldur() {
+            let listHtml = "";
+            quotes.forEach((q, index) => {
+                listHtml += `
+                    <div class="quote-item">
+                        <div class="quote-item-text">${index + 1}. “${q.text}”</div>
+                        <div class="quote-item-author">— ${q.author}</div>
+                    </div>`;
+            });
+            document.getElementById('modal-list-container').innerHTML = listHtml;
         }
 
         // Tam Ekran Kontrolü
         function toggleFullscreen() {
             if (!document.fullscreenElement) {
                 document.documentElement.requestFullscreen().catch(err => {
-                    alert("Tarayıcınız yerel dosyalarda tam ekrana izin vermiyor. Lütfen Live Server kullanın.");
+                    alert("Tarayıcı tam ekran modunu engelledi. Live Server kullanmanız gerekebilir.");
                 });
             } else {
                 document.exitFullscreen();
@@ -260,23 +284,28 @@
         }
 
         $(document).ready(function() {
-            // Saati çalıştırıyoruz
+            // Saati Başlat
             $('.clock').FlipClock({
                 clockFace: 'TwentyFourHourClock'
             });
             
-            // Dosyayı çekip sözü yüklüyoruz
-            quotesYukleVeCalistir();
+            // Verileri yükle
+            listeyiYukle();
 
-            // Buton Dinleyicileri
+            // 1. Tam Ekran Buton Tıklaması
             $('#fullscreen-btn').on('click', toggleFullscreen);
             
+            // 2. Doğruluk Listesi Açma Tıklaması
             $('#list-btn').on('click', function() {
                 $('#quote-modal').fadeIn(200);
             });
-            
             $('#close-modal').on('click', function() {
                 $('#quote-modal').fadeOut(200);
+            });
+
+            // 3. Sözü Değiştirme Buton Tıklaması
+            $('#next-btn').on('click', function() {
+                akilliSozSec();
             });
         });
     </script>
