@@ -236,6 +236,10 @@ const quotes = [
         "author": "Wayne Gretzky"
     },
     {
+        "text": "Bizler, evrenin kendisini anlayabilmesi için evren tarafından yaratılmış geçici aynalarız.",
+        "author": "Çağrı Mert Bakırcı"
+    },
+    {
         "text": "Karanlıktan korkan bir çocuğu kolayca affedebiliriz; hayattaki gerçek trajedi, yetişkinlerin ışıktan korkmasıdır.",
         "author": "Platon"
     },
@@ -348,6 +352,10 @@ const quotes = [
         "author": "Francis Bacon"
     },
     {
+        "text": "Bir şeye inanmak kolaydır, asıl zor olan onu anlamaya çalışmaktır.",
+        "author": "Çağrı Mert Bakırcı"
+    },
+    {
         "text": "Yolculuk, varılacak yerden daha önemlidir.",
         "author": "T.S. Eliot"
     },
@@ -458,6 +466,10 @@ const quotes = [
     {
         "text": "Ay'ı keşfetmek için bunca yolu kat ettik ama en önemlisi, Dünya'yı keşfettik.",
         "author": "William Anders"
+    },
+    {
+        "text": "Evrim bir inanç meselesi değildir. Evrim, yerçekimi gibi, dünya üzerindeki yaşamın nasıl çeşitlendiğini açıklayan somut ve gözlemlenebilir bir doğa yasasıdır.",
+        "author": "Çağrı Mert Bakırcı"
     },
     {
         "text": "Uzaydayken sadece bir yere ait olduğunuzu hissetmiyorsunuz, tüm güneş sisteminin bir parçası olduğunuzu anlıyorsunuz.",
