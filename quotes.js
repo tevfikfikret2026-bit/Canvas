@@ -399,4 +399,61 @@ const quotes = [
         "text": "Ve her şey bittiğinde, hatırlayacağımız şey düşmanlarımızın sözleri değil, dostlarımızın sessizliği olacaktır.",
         "author": "Martin Luther King Jr."
     }
+    {,
+        "text": "Bir insan için küçük, insanlık için devasa bir adım.",
+        "author": "Neil Armstrong"
+    },
+    {
+        "text": "Dünya mavi... Ne kadar muhteşem. İnanılmaz. Dünyayı uzaydan gören tüm insanlar, onun güzelliğini korumalı ve artırmalıyız, onu yok etmemeliyiz!",
+        "author": "Yuri Gagarin"
+    },
+    {
+        "text": "Houston bir sorunumuz var.",
+        "author": "Jim Lovell"
+    },
+    {
+        "text": "O noktaya tekrar bakın. İşte orası evimiz. O biziz. Sevdiğiniz herkes, tanıdığınız herkes, adını duyduğunuz herkes, gelmiş geçmiş tüm insanlık hayatını orada yaşadı.",
+        "author": "Carl Sagan"
+    },
+    {
+        "text": "Ay'a gitmeden önce tam bir çizgisel düşünce yapısına sahiptim: Kendi bilgisayarıma, kendi uçağıma, kendi dünyama odaklanmıştım. Ama oradan geriye baktığımda, 'sınır' dediğimiz şeylerin aslında sadece siyasi haritalarda olduğunu, Dünya'nın ise hepimize ait tek bir bütün olduğunu anladım.",
+        "author": "Al Worden"
+    },
+    {
+        "text": "Ben yalnızım. Tamamen yalnızım ve tüm dünyadaki yaşamdan tamamen soyutlanmış durumdayım. Bu his korkutucu değil, aksine bir tür huzur ve güven veriyor.",
+        "author": "Michael Collins"
+    },
+    {
+        "text": "Güzel bir manzaraydı ama dürüst olmak gerekirse, o an tek düşündüğüm eve sağ salim dönmekti.",
+        "author": "Al Shepard"
+    },
+    {
+        "text": "Muhteşem bir ıssızlık.",
+        "author": "Buzz Aldrin"
+    },
+    {
+        "text": "Sıfır yerçekimindeyim ve dışarıdaki manzara kelimelerle tarif edilemez derecede güzel. Gökyüzü kapkara, yıldızlar ise Dünya'da hiç görmediğim kadar parlak.",
+        "author": "John Glenn"
+    },
+    {
+        "text": "İçeri giriyorum... Ve bu hayatımın en üzücü anı.",
+        "author": "Ed White"
+    },
+    {
+        "text": "Gidiyoruz ama geldiğimiz gibi gidiyoruz ve Tanrı'nın izniyle, tüm insanlık için barış ve umutla geri döneceğiz.",
+        "author": "Gene Cernan"
+    },
+    {
+        "text": "Ay'ı keşfetmek için bunca yolu kat ettik ama en önemlisi, Dünya'yı keşfettik.",
+        "author": "William Anders"
+    },
+    {
+        "text": "Uzaydayken sadece bir yere ait olduğunuzu hissetmiyorsunuz, tüm güneş sisteminin bir parçası olduğunuzu anlıyorsunuz.",
+        "author": "Kalpana Chawla"
+    },
+    {
+        "text": "Uzayda korkuya yer yoktur. Korku, hazırlıksız olmaktan doğar. Eğer her türlü tehlikeye karşı hazırlıklıysanız, korku yerini büyük bir hayranlığa bırakır.",
+        "author": "Chris Hadfield"
+    }
+]
 ]
