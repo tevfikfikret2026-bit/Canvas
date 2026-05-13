@@ -496,6 +496,14 @@ const quotes = [
         "author": "Stephen Hawking"
     },
     {
+        "text": "En büyük güven, Kimseye güvenmemektir.",
+        "author": "Napolyon Bonapart"
+    },
+    {
+        "text": "Ayrıca iki tane Microsoft Outlook'um olduğunu görüyorum ve ikisi de çalışmıyor.",
+        "author": "Reid Wisean"
+    },
+    {
         "text": "Kaybetmekten korktuğun her şeyi serbest bıraktığında özgürleşirsin",
         "author": "Gautama Buddha"
     },
