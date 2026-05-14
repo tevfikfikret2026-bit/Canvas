@@ -23,7 +23,7 @@
             overflow: hidden;
         }
 
-        /* SOL KENAR BUTONLARI */
+        /* SOL KENAR BUTONLARI (Boyutları Sabit Tutuldu) */
         #sidebar {
             position: fixed;
             left: 20px;
@@ -61,39 +61,40 @@
             fill: white;
         }
 
-        /* SÖZ ALANI */
+        /* SÖZ ALANI (Büyütüldü) */
         #quote-display {
             text-align: center;
-            margin-bottom: 40px;
-            max-width: 700px;
+            margin-bottom: 60px;
+            max-width: 1000px;
             padding: 0 40px;
-            min-height: 120px;
+            min-height: 180px;
         }
 
         #text {
-            font-size: 24px; /* Söz boyutu küçültüldü */
+            font-size: 42px; /* Font Büyütüldü */
             font-weight: 300;
             color: #000000;
-            line-height: 1.4;
+            line-height: 1.3;
         }
 
         #author {
-            font-size: 12px; /* Yazar boyutu küçültüldü */
+            font-size: 20px; /* Font Büyütüldü */
             font-weight: 700;
             color: #aaaaaa;
-            margin-top: 15px;
+            margin-top: 25px;
             text-transform: uppercase;
-            letter-spacing: 2px;
+            letter-spacing: 4px;
         }
 
-        /* SAAT */
+        /* SAAT (Büyütüldü) */
         .clock {
             width: auto;
             display: inline-block;
-            transform: scale(0.9); /* Saat boyutu küçültüldü */
+            transform: scale(1.8); /* Ölçek 0.9'dan 1.8'e çıkarıldı */
+            margin-top: 40px;
         }
 
-        /* MODAL (LİSTE EKRANI) */
+        /* MODAL (LİSTE EKRANI - Büyütüldü) */
         #list-modal {
             display: none;
             position: fixed;
@@ -101,7 +102,7 @@
             background: #ffffff;
             z-index: 10000;
             overflow-y: auto;
-            padding: 50px;
+            padding: 60px;
             box-sizing: border-box;
         }
 
@@ -109,27 +110,34 @@
             display: flex;
             justify-content: space-between;
             align-items: center;
-            border-bottom: 2px solid #000;
+            border-bottom: 3px solid #000;
             padding-bottom: 20px;
-            margin-bottom: 20px;
+            margin-bottom: 30px;
+        }
+
+        .modal-header h1 {
+            font-size: 36px;
+            margin: 0;
         }
 
         .close-btn {
-            padding: 10px 20px;
+            padding: 15px 30px;
             background: #000;
             color: #fff;
             border: none;
             cursor: pointer;
             font-weight: bold;
+            font-size: 18px;
         }
 
         .list-item {
-            padding: 15px 0;
+            padding: 25px 0;
             border-bottom: 1px solid #eee;
-            font-size: 14px;
+            font-size: 20px; /* Liste metni büyütüldü */
+            line-height: 1.5;
         }
 
-        /* FlipClock Siyah Tema Ayarı */
+        /* FlipClock Siyah Tema Ayarları */
         .flip-clock-wrapper ul li a div div.inn { background-color: #000 !important; color: #fff !important; }
         .flip-clock-dot { background: #000 !important; }
         .flip-clock-divider .flip-clock-label { display: none; }
@@ -164,16 +172,19 @@
         <div id="full-list"></div>
     </div>
 
+    <!-- quotes.js dosyasının varlığından emin olun veya aşağıya bir script tagı ile quotes dizisini ekleyin -->
     <script src="quotes.js"></script> 
     <script>
         $(document).ready(function() {
+            // Saat Kurulumu
             var clock = $('.clock').FlipClock({
                 clockFace: 'TwentyFourHourClock'
             });
 
+            // Söz Getirme Fonksiyonu
             function sozGetir() {
                 if (typeof quotes === 'undefined' || quotes.length === 0) {
-                    $('#text').text("Veri yüklenemedi.");
+                    $('#text').text("quotes.js bulunamadı veya içi boş.");
                     return;
                 }
 
@@ -203,6 +214,7 @@
                 localStorage.setItem('gosterilenler', JSON.stringify(gosterilenler));
             }
 
+            // Liste Hazırlama
             function listeyiHazirla() {
                 if (typeof quotes === 'undefined') return;
                 let html = "";
@@ -214,16 +226,25 @@
                 $('#full-list').html(html);
             }
 
+            // Buton Dinleyicileri
             $('#btn-next').click(sozGetir);
+            
             $('#btn-list').click(function() {
                 listeyiHazirla();
                 $('#list-modal').fadeIn();
             });
+
             $('#btn-fullscreen').click(function() {
-                if (!document.fullscreenElement) document.documentElement.requestFullscreen();
-                else document.exitFullscreen();
+                if (!document.fullscreenElement) {
+                    document.documentElement.requestFullscreen();
+                } else {
+                    if (document.exitFullscreen) {
+                        document.exitFullscreen();
+                    }
+                }
             });
 
+            // İlk açılışta söz getir
             sozGetir();
         });
     </script>
