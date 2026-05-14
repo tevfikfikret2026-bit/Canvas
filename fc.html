@@ -36,18 +36,18 @@
         }
 
         .action-btn {
-            width: 45px;
-            height: 45px;
+            width: 40px;
+            height: 40px;
             background-color: #000000;
             color: #ffffff;
             border: none;
-            border-radius: 10px;
+            border-radius: 8px;
             cursor: pointer;
             display: flex;
             align-items: center;
             justify-content: center;
             transition: all 0.3s ease;
-            box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
         }
 
         .action-btn:hover {
@@ -56,41 +56,41 @@
         }
 
         .action-btn svg {
-            width: 20px;
-            height: 20px;
+            width: 18px;
+            height: 18px;
             fill: white;
         }
 
         /* SÖZ ALANI */
         #quote-display {
             text-align: center;
-            margin-bottom: 50px;
-            max-width: 800px;
+            margin-bottom: 40px;
+            max-width: 700px;
             padding: 0 40px;
-            min-height: 150px; /* Değişim sırasında zıplamayı önler */
+            min-height: 120px;
         }
 
         #text {
-            font-size: 32px;
+            font-size: 24px; /* Söz boyutu küçültüldü */
             font-weight: 300;
             color: #000000;
-            line-height: 1.3;
+            line-height: 1.4;
         }
 
         #author {
-            font-size: 14px;
+            font-size: 12px; /* Yazar boyutu küçültüldü */
             font-weight: 700;
-            color: #888888;
-            margin-top: 20px;
+            color: #aaaaaa;
+            margin-top: 15px;
             text-transform: uppercase;
-            letter-spacing: 3px;
+            letter-spacing: 2px;
         }
 
         /* SAAT */
         .clock {
             width: auto;
             display: inline-block;
-            transform: scale(1.2);
+            transform: scale(0.9); /* Saat boyutu küçültüldü */
         }
 
         /* MODAL (LİSTE EKRANI) */
@@ -126,6 +126,7 @@
         .list-item {
             padding: 15px 0;
             border-bottom: 1px solid #eee;
+            font-size: 14px;
         }
 
         /* FlipClock Siyah Tema Ayarı */
@@ -149,7 +150,7 @@
     </div>
 
     <div id="quote-display">
-        <div id="text">Yükleniyor...</div>
+        <div id="text">...</div>
         <div id="author"></div>
     </div>
 
@@ -164,46 +165,33 @@
     </div>
 
     <script src="quotes.js"></script> 
-
     <script>
         $(document).ready(function() {
-            // 1. Saati Başlat
             var clock = $('.clock').FlipClock({
                 clockFace: 'TwentyFourHourClock'
             });
 
-            // 2. Söz Seçme Fonksiyonu
             function sozGetir() {
                 if (typeof quotes === 'undefined' || quotes.length === 0) {
-                    $('#text').text("Hata: quotes.js yüklenemedi veya boş.");
+                    $('#text').text("Veri yüklenemedi.");
                     return;
                 }
 
                 let gosterilenler = JSON.parse(localStorage.getItem('gosterilenler')) || [];
-                
-                // Gösterilmemiş indexleri bul
-                let kalanlar = [];
-                for (let i = 0; i < quotes.length; i++) {
-                    if (!gosterilenler.includes(i)) kalanlar.push(i);
-                }
+                let kalanlar = quotes.map((_, i) => i).filter(i => !gosterilenler.includes(i));
 
-                // Eğer hepsi gösterildiyse listeyi sıfırla
                 if (kalanlar.length === 0) {
                     gosterilenler = [];
                     kalanlar = quotes.map((_, i) => i);
                 }
 
-                // Kalanlar arasından rastgele birini seç
-                let randomDiziIndex = Math.floor(Math.random() * kalanlar.length);
-                let secilenGercekIndex = kalanlar[randomDiziIndex];
+                let randomIdx = Math.floor(Math.random() * kalanlar.length);
+                let secilenIndex = kalanlar[randomIdx];
+                let secilen = quotes[secilenIndex];
 
-                let secilen = quotes[secilenGercekIndex];
-
-                // Veri yapısı kontrolü (text veya quote anahtarını destekler)
-                let metin = secilen.text || secilen.quote || "Metin bulunamadı.";
+                let metin = secilen.text || secilen.quote || "Metin yok.";
                 let yazar = secilen.author || "Bilinmiyor";
 
-                // Görsel Güncelleme (Efektli)
                 $('#text').fadeOut(200, function() {
                     $(this).text("“" + metin + "”").fadeIn(200);
                 });
@@ -211,12 +199,10 @@
                     $(this).text(yazar).fadeIn(200);
                 });
 
-                // Durumu Kaydet
-                gosterilenler.push(secilenGercekIndex);
+                gosterilenler.push(secilenIndex);
                 localStorage.setItem('gosterilenler', JSON.stringify(gosterilenler));
             }
 
-            // 3. Tam Liste Hazırlama
             function listeyiHazirla() {
                 if (typeof quotes === 'undefined') return;
                 let html = "";
@@ -228,25 +214,16 @@
                 $('#full-list').html(html);
             }
 
-            // 4. Olay Dinleyicileri
-            $('#btn-next').click(function() {
-                sozGetir();
-            });
-
+            $('#btn-next').click(sozGetir);
             $('#btn-list').click(function() {
                 listeyiHazirla();
                 $('#list-modal').fadeIn();
             });
-
             $('#btn-fullscreen').click(function() {
-                if (!document.fullscreenElement) {
-                    document.documentElement.requestFullscreen();
-                } else {
-                    document.exitFullscreen();
-                }
+                if (!document.fullscreenElement) document.documentElement.requestFullscreen();
+                else document.exitFullscreen();
             });
 
-            // İlk açılışta bir söz getir
             sozGetir();
         });
     </script>
