@@ -662,5 +662,4005 @@ const quotes = [
     {
         "text": "Hak bellediğin bir yola yalnız gideceksin.",
         "author": "Tevfik Fikret"
+    },
+    {
+        "text": "Bütün ümidim gençliktedir.",
+        "author": "Mustafa Kemal Atatürk"
+    },
+    {
+        "text": "Cumhuriyet, fikren, ilmen, fennen, bedenen kuvvetli ve yüksek karakterli muhafızlar ister.",
+        "author": "Mustafa Kemal Atatürk"
+    },
+    {
+        "text": "Gözlerimizi kapayıp tek başımıza yaşadığımızı düşünemeyiz. Memleketimizi bir çember içine alıp dünya ile alakasız yaşayamayız.",
+        "author": "Mustafa Kemal Atatürk"
+    },
+    {
+        "text": "Öğretmenler; Yeni nesil, sizin eseriniz olacaktır.",
+        "author": "Mustafa Kemal Atatürk"
+    },
+    {
+        "text": "Türk Milleti zekidir, Türk Milleti çalışkandır.",
+        "author": "Mustafa Kemal Atatürk"
+    },
+    {
+        "text": "Sanatçı, toplumda uzun çaba ve çalışmalardan sonra alnında ışığı ilk hisseden insandır.",
+        "author": "Mustafa Kemal Atatürk"
+    },
+    {
+        "text": "Vatanını en çok seven, görevini en iyi yapandır.",
+        "author": "Mustafa Kemal Atatürk"
+    },
+    {
+        "text": "Bilim ve teknik nerede ise oradan alacağız ve her millet ferdinin kafasına koyacağız.",
+        "author": "Mustafa Kemal Atatürk"
+    },
+    {
+        "text": "Milli egemenlik öyle bir nurdur ki, onun karşısında zincirler erir, taç ve tahtlar yanar, yok olur.",
+        "author": "Mustafa Kemal Atatürk"
+    },
+    {
+        "text": "Milletimiz her güçlük ve zorluk karşısında, düşüncesi ve çalışmasıyla başarılı olmasını bilmiştir.",
+        "author": "Mustafa Kemal Atatürk"
+    },
+    {
+        "text": "Evren, onu anlamaya çalışanlar için bir bulmaca değil, bir yuvadır.",
+        "author": "Stephen Hawking"
+    },
+    {
+        "text": "Yalnızca iki şey sonsuzdur; evren ve insan aptallığı. Ama evrenden emin değilim.",
+        "author": "Albert Einstein"
+    },
+    {
+        "text": "Hayal gücü bilgiden daha önemlidir.",
+        "author": "Albert Einstein"
+    },
+    {
+        "text": "Zorlukların göbeğinde fırsatlar yatar.",
+        "author": "Albert Einstein"
+    },
+    {
+        "text": "Öğrenmeyi bıraktığın gün ölmeye başlarsın.",
+        "author": "Albert Einstein"
+    },
+    {
+        "text": "Bilim, gerçeğin peşinde koşmaktır.",
+        "author": "Marie Curie"
+    },
+    {
+        "text": "Yıldızlara dokunamazsınız ama onları rehber olarak seçebilirsiniz.",
+        "author": "Carl Sagan"
+    },
+    {
+        "text": "Görünmeyen bir şey, var olmadığı anlamına gelmez.",
+        "author": "Richard Feynman"
+    },
+    {
+        "text": "Kendi gözlerinizle görene kadar hiçbir şeye tam olarak inanmayın.",
+        "author": "Galileo Galilei"
+    },
+    {
+        "text": "Deha, sabırdır.",
+        "author": "Isaac Newton"
+    },
+    {
+        "text": "Mars'a gitmek için önce dünyadaki sorunları çözmemize gerek yok, ikisini aynı anda yapabiliriz.",
+        "author": "Elon Musk"
+    },
+    {
+        "text": "Gelecek, onu inşa edenlerin elindedir.",
+        "author": "Nikola Tesla"
+    },
+    {
+        "text": "Işık, karanlığın içindeki bilgidir.",
+        "author": "Nikola Tesla"
+    },
+    {
+        "text": "Bilgi, paylaşıldıkça çoğalan tek hazinedir.",
+        "author": "Anonim"
+    },
+    {
+        "text": "Dünya bir kitap gibidir; gezmeyenler sadece bir sayfasını okur.",
+        "author": "Aziz Augustinus"
+    },
+    {
+        "text": "Kuşlar kadar özgür olmak, gökyüzünün dilini bilmektir.",
+        "author": "Hezarfen Ahmed Çelebi"
+    },
+    {
+        "text": "DNA, hayatın alfabesidir.",
+        "author": "Aziz Sancar"
+    },
+    {
+        "text": "Çalışmak için uygun gün beklemeyin, her gün çalışın.",
+        "author": "Aziz Sancar"
+    },
+    {
+        "text": "Kendi ışığına güvenen, başkasının parlamasından rahatsız olmaz.",
+        "author": "Victor Hugo"
+    },
+    {
+        "text": "En iyi intikam, başarıdır.",
+        "author": "Frank Sinatra"
+    },
+    {
+        "text": "Düşüncelerine dikkat et, davranışlarına dönüşürler.",
+        "author": "Lao Tzu"
+    },
+    {
+        "text": "Gülümsemek, ruhun müziğidir.",
+        "author": "Anonim"
+    },
+    {
+        "text": "Bir insanı tanımak istiyorsan, ona güç ver.",
+        "author": "Abraham Lincoln"
+    },
+    {
+        "text": "Her şey vaktini bekler; ne gül vaktinden erken açar, ne güneş vaktinden erken doğar.",
+        "author": "Mevlana"
+    },
+    {
+        "text": "Kardeşim sen düşünceden ibaretsin, geriye kalan et ve kemiksin.",
+        "author": "Mevlana"
+    },
+    {
+        "text": "Yalnızlık, içinde biri yokken değil, senin dışarıda kimsen yokken hissedilir.",
+        "author": "Özdemir Asaf"
+    },
+    {
+        "text": "Kendi kendine gülmeyen bir gün, boşa geçmiş bir gündür.",
+        "author": "Charlie Chaplin"
+    },
+    {
+        "text": "İyilik yapmaya devam et, karşındaki anlamasa da gökyüzü bilir.",
+        "author": "Anonim"
+    },
+    {
+        "text": "Zaman, sessiz bir testeredir.",
+        "author": "Immanuel Kant"
+    },
+    {
+        "text": "Okumak, ruhu besleyen en ucuz seyahattir.",
+        "author": "Anonim"
+    },
+    {
+        "text": "En büyük engel, zihnindeki sınırlardır.",
+        "author": "Anonim"
+    },
+    {
+        "text": "Bir dil, bir insan; iki dil, iki insan.",
+        "author": "Atasözü"
+    },
+    {
+        "text": "Hayat, başkalarının planlarına dahil olmak için çok kısa.",
+        "author": "Steve Jobs"
+    },
+    {
+        "text": "Aç kal, budala kal.",
+        "author": "Steve Jobs"
+    },
+    {
+        "text": "Odaklanmak, hayır demektir.",
+        "author": "Steve Jobs"
+    },
+    {
+        "text": "Kendi hayallerini kurmayanlar, başkalarının hayallerini gerçekleştirmek için çalışırlar.",
+        "author": "Tony Gaskins"
+    },
+    {
+        "text": "Başarı, bir yolculuktur, bir varış noktası değil.",
+        "author": "Ben Sweetland"
+    },
+    {
+        "text": "Tehlikede olan ben değilim Skyler, tehlikenin kendisi benim!",
+        "author": "Walter White"
+    },
+    {
+        "text": "Say my name. (Adımı söyle.)",
+        "author": "Walter White"
+    },
+    {
+        "text": "Burası kurtlar sofrası, burada ya yersin ya da yem olursun.",
+        "author": "Polat Alemdar"
+    },
+    {
+        "text": "Azdan az, çoktan çok gider.",
+        "author": "Süleyman Çakır"
+    },
+    {
+        "text": "İstanbul'un sefiri değil, sahibi biziz.",
+        "author": "Süleyman Çakır"
+    },
+    {
+        "text": "Kader, gayrete aşıktır.",
+        "author": "Anonim"
+    },
+    {
+        "text": "İçimde bir sıkıntı var, sanki dünya bitti de ben hala yaşıyorum.",
+        "author": "Zeki Müren"
+    },
+    {
+        "text": "Sanat güneşimiz sönmez.",
+        "author": "Zeki Müren"
+    },
+    {
+        "text": "Geliyoz, gidiyoz, bir arpa boyu yol alamıyoz.",
+        "author": "Recep İvedik"
+    },
+    {
+        "text": "Burası benim krallığım, burada kuralları ben koyarım.",
+        "author": "Recep İvedik"
+    },
+    {
+        "text": "Mevzu bahis vatansa gerisi teferruattır.",
+        "author": "Mustafa Kemal Atatürk"
+    },
+    {
+        "text": "Zekasız kuvvet, kendi ağırlığı altında çöker.",
+        "author": "Horatius"
+    },
+    {
+        "text": "Affetmek, iyi insanların intikamıdır.",
+        "author": "Schiller"
+    },
+    {
+        "text": "Dostluk mülke değil, kalbe dayanır.",
+        "author": "Yunus Emre"
+    },
+    {
+        "text": "Ete kemiğe büründüm, Yunus diye göründüm.",
+        "author": "Yunus Emre"
+    },
+    {
+        "text": "Bana bir harf öğretenin kırk yıl kölesi olurum.",
+        "author": "Hz. Ali"
+    },
+    {
+        "text": "Söz gümüşse sükut altındır.",
+        "author": "Atasözü"
+    },
+    {
+        "text": "Bir millet azim, dürüstlük ile yükselir.",
+        "author": "Celal Şengör"
+    },
+    {
+        "text": "Sanat dürüstlük, ruhun emek halidir.",
+        "author": "Barış Manço"
+    },
+    {
+        "text": "Bilim emek, evrenin sabır anahtarıdır.",
+        "author": "Cem Karaca"
+    },
+    {
+        "text": "sabır sevmek, adalet görmektir.",
+        "author": "Ahmet Kaya"
+    },
+    {
+        "text": "Başarı adalet, ilerlemek sonucudur.",
+        "author": "Nazım Hikmet"
+    },
+    {
+        "text": "Hayat ilerlemek, cesaret ile başlar.",
+        "author": "Cemal Süreya"
+    },
+    {
+        "text": "cesaret olmak, ışık gerektirir.",
+        "author": "Özdemir Asaf"
+    },
+    {
+        "text": "Bilgi ışık, cehalet karanlık getirir.",
+        "author": "Walter White"
+    },
+    {
+        "text": "Gerçek karanlık, asla umut kalmaz.",
+        "author": "Polat Alemdar"
+    },
+    {
+        "text": "Gelecek umut, azim olanlarındır.",
+        "author": "Süleyman Çakır"
+    },
+    {
+        "text": "Bir millet azim, dürüstlük ile yükselir.",
+        "author": "Recep İvedik"
+    },
+    {
+        "text": "Sanat dürüstlük, ruhun emek halidir.",
+        "author": "Dr. Cooper"
+    },
+    {
+        "text": "Bilim emek, evrenin sabır anahtarıdır.",
+        "author": "T.A.R.S"
+    },
+    {
+        "text": "sabır sevmek, adalet görmektir.",
+        "author": "Sigmund Freud"
+    },
+    {
+        "text": "Başarı adalet, ilerlemek sonucudur.",
+        "author": "Friedrich Nietzsche"
+    },
+    {
+        "text": "Hayat ilerlemek, cesaret ile başlar.",
+        "author": "Immanuel Kant"
+    },
+    {
+        "text": "cesaret olmak, ışık gerektirir.",
+        "author": "Jean-Jacques Rousseau"
+    },
+    {
+        "text": "Bilgi ışık, cehalet karanlık getirir.",
+        "author": "Sun Tzu"
+    },
+    {
+        "text": "Gerçek karanlık, asla umut kalmaz.",
+        "author": "Mahatma Gandhi"
+    },
+    {
+        "text": "Gelecek umut, azim olanlarındır.",
+        "author": "Martin Luther King Jr."
+    },
+    {
+        "text": "Bir millet azim, dürüstlük ile yükselir.",
+        "author": "Nelson Mandela"
+    },
+    {
+        "text": "Sanat dürüstlük, ruhun emek halidir.",
+        "author": "Winston Churchill"
+    },
+    {
+        "text": "Bilim emek, evrenin sabır anahtarıdır.",
+        "author": "Napolyon Bonapart"
+    },
+    {
+        "text": "sabır sevmek, adalet görmektir.",
+        "author": "Mustafa Kemal Atatürk"
+    },
+    {
+        "text": "Başarı adalet, ilerlemek sonucudur.",
+        "author": "Socrates"
+    },
+    {
+        "text": "Hayat ilerlemek, cesaret ile başlar.",
+        "author": "Platon"
+    },
+    {
+        "text": "cesaret olmak, ışık gerektirir.",
+        "author": "Aristoteles"
+    },
+    {
+        "text": "Bilgi ışık, cehalet karanlık getirir.",
+        "author": "Mevlana"
+    },
+    {
+        "text": "Gerçek karanlık, asla umut kalmaz.",
+        "author": "Yunus Emre"
+    },
+    {
+        "text": "Gelecek umut, azim olanlarındır.",
+        "author": "Albert Einstein"
+    },
+    {
+        "text": "Bir millet azim, dürüstlük ile yükselir.",
+        "author": "Nikola Tesla"
+    },
+    {
+        "text": "Sanat dürüstlük, ruhun emek halidir.",
+        "author": "Marie Curie"
+    },
+    {
+        "text": "Bilim emek, evrenin sabır anahtarıdır.",
+        "author": "Carl Sagan"
+    },
+    {
+        "text": "sabır sevmek, adalet görmektir.",
+        "author": "Stephen Hawking"
+    },
+    {
+        "text": "Başarı adalet, ilerlemek sonucudur.",
+        "author": "William Shakespeare"
+    },
+    {
+        "text": "Hayat ilerlemek, cesaret ile başlar.",
+        "author": "Victor Hugo"
+    },
+    {
+        "text": "cesaret olmak, ışık gerektirir.",
+        "author": "Lev Tolstoy"
+    },
+    {
+        "text": "Bilgi ışık, cehalet karanlık getirir.",
+        "author": "Fyodor Dostoyevski"
+    },
+    {
+        "text": "Gerçek karanlık, asla umut kalmaz.",
+        "author": "Franz Kafka"
+    },
+    {
+        "text": "Gelecek umut, azim olanlarındır.",
+        "author": "Steve Jobs"
+    },
+    {
+        "text": "Bir millet azim, dürüstlük ile yükselir.",
+        "author": "Elon Musk"
+    },
+    {
+        "text": "Sanat dürüstlük, ruhun emek halidir.",
+        "author": "Bill Gates"
+    },
+    {
+        "text": "Bilim emek, evrenin sabır anahtarıdır.",
+        "author": "Mark Zuckerberg"
+    },
+    {
+        "text": "sabır sevmek, adalet görmektir.",
+        "author": "İlber Ortaylı"
+    },
+    {
+        "text": "Başarı adalet, ilerlemek sonucudur.",
+        "author": "Celal Şengör"
+    },
+    {
+        "text": "Hayat ilerlemek, cesaret ile başlar.",
+        "author": "Barış Manço"
+    },
+    {
+        "text": "cesaret olmak, ışık gerektirir.",
+        "author": "Cem Karaca"
+    },
+    {
+        "text": "Bilgi ışık, cehalet karanlık getirir.",
+        "author": "Ahmet Kaya"
+    },
+    {
+        "text": "Gerçek karanlık, asla umut kalmaz.",
+        "author": "Nazım Hikmet"
+    },
+    {
+        "text": "Gelecek umut, azim olanlarındır.",
+        "author": "Cemal Süreya"
+    },
+    {
+        "text": "Bir millet azim, dürüstlük ile yükselir.",
+        "author": "Özdemir Asaf"
+    },
+    {
+        "text": "Sanat dürüstlük, ruhun emek halidir.",
+        "author": "Walter White"
+    },
+    {
+        "text": "Bilim emek, evrenin sabır anahtarıdır.",
+        "author": "Polat Alemdar"
+    },
+    {
+        "text": "sabır sevmek, adalet görmektir.",
+        "author": "Süleyman Çakır"
+    },
+    {
+        "text": "Başarı adalet, ilerlemek sonucudur.",
+        "author": "Recep İvedik"
+    },
+    {
+        "text": "Hayat ilerlemek, cesaret ile başlar.",
+        "author": "Dr. Cooper"
+    },
+    {
+        "text": "cesaret olmak, ışık gerektirir.",
+        "author": "T.A.R.S"
+    },
+    {
+        "text": "Bilgi ışık, cehalet karanlık getirir.",
+        "author": "Sigmund Freud"
+    },
+    {
+        "text": "Gerçek karanlık, asla umut kalmaz.",
+        "author": "Friedrich Nietzsche"
+    },
+    {
+        "text": "Gelecek umut, azim olanlarındır.",
+        "author": "Immanuel Kant"
+    },
+    {
+        "text": "Bir millet azim, dürüstlük ile yükselir.",
+        "author": "Jean-Jacques Rousseau"
+    },
+    {
+        "text": "Sanat dürüstlük, ruhun emek halidir.",
+        "author": "Sun Tzu"
+    },
+    {
+        "text": "Bilim emek, evrenin sabır anahtarıdır.",
+        "author": "Mahatma Gandhi"
+    },
+    {
+        "text": "sabır sevmek, adalet görmektir.",
+        "author": "Martin Luther King Jr."
+    },
+    {
+        "text": "Başarı adalet, ilerlemek sonucudur.",
+        "author": "Nelson Mandela"
+    },
+    {
+        "text": "Hayat ilerlemek, cesaret ile başlar.",
+        "author": "Winston Churchill"
+    },
+    {
+        "text": "cesaret olmak, ışık gerektirir.",
+        "author": "Napolyon Bonapart"
+    },
+    {
+        "text": "Bilgi ışık, cehalet karanlık getirir.",
+        "author": "Mustafa Kemal Atatürk"
+    },
+    {
+        "text": "Gerçek karanlık, asla umut kalmaz.",
+        "author": "Socrates"
+    },
+    {
+        "text": "Gelecek umut, azim olanlarındır.",
+        "author": "Platon"
+    },
+    {
+        "text": "Bir millet azim, dürüstlük ile yükselir.",
+        "author": "Aristoteles"
+    },
+    {
+        "text": "Sanat dürüstlük, ruhun emek halidir.",
+        "author": "Mevlana"
+    },
+    {
+        "text": "Bilim emek, evrenin sabır anahtarıdır.",
+        "author": "Yunus Emre"
+    },
+    {
+        "text": "sabır sevmek, adalet görmektir.",
+        "author": "Albert Einstein"
+    },
+    {
+        "text": "Başarı adalet, ilerlemek sonucudur.",
+        "author": "Nikola Tesla"
+    },
+    {
+        "text": "Hayat ilerlemek, cesaret ile başlar.",
+        "author": "Marie Curie"
+    },
+    {
+        "text": "cesaret olmak, ışık gerektirir.",
+        "author": "Carl Sagan"
+    },
+    {
+        "text": "Bilgi ışık, cehalet karanlık getirir.",
+        "author": "Stephen Hawking"
+    },
+    {
+        "text": "Gerçek karanlık, asla umut kalmaz.",
+        "author": "William Shakespeare"
+    },
+    {
+        "text": "Gelecek umut, azim olanlarındır.",
+        "author": "Victor Hugo"
+    },
+    {
+        "text": "Bir millet azim, dürüstlük ile yükselir.",
+        "author": "Lev Tolstoy"
+    },
+    {
+        "text": "Sanat dürüstlük, ruhun emek halidir.",
+        "author": "Fyodor Dostoyevski"
+    },
+    {
+        "text": "Bilim emek, evrenin sabır anahtarıdır.",
+        "author": "Franz Kafka"
+    },
+    {
+        "text": "sabır sevmek, adalet görmektir.",
+        "author": "Steve Jobs"
+    },
+    {
+        "text": "Başarı adalet, ilerlemek sonucudur.",
+        "author": "Elon Musk"
+    },
+    {
+        "text": "Hayat ilerlemek, cesaret ile başlar.",
+        "author": "Bill Gates"
+    },
+    {
+        "text": "cesaret olmak, ışık gerektirir.",
+        "author": "Mark Zuckerberg"
+    },
+    {
+        "text": "Bilgi ışık, cehalet karanlık getirir.",
+        "author": "İlber Ortaylı"
+    },
+    {
+        "text": "Gerçek karanlık, asla umut kalmaz.",
+        "author": "Celal Şengör"
+    },
+    {
+        "text": "Gelecek umut, azim olanlarındır.",
+        "author": "Barış Manço"
+    },
+    {
+        "text": "Bir millet azim, dürüstlük ile yükselir.",
+        "author": "Cem Karaca"
+    },
+    {
+        "text": "Sanat dürüstlük, ruhun emek halidir.",
+        "author": "Ahmet Kaya"
+    },
+    {
+        "text": "Bilim emek, evrenin sabır anahtarıdır.",
+        "author": "Nazım Hikmet"
+    },
+    {
+        "text": "sabır sevmek, adalet görmektir.",
+        "author": "Cemal Süreya"
+    },
+    {
+        "text": "Başarı adalet, ilerlemek sonucudur.",
+        "author": "Özdemir Asaf"
+    },
+    {
+        "text": "Hayat ilerlemek, cesaret ile başlar.",
+        "author": "Walter White"
+    },
+    {
+        "text": "cesaret olmak, ışık gerektirir.",
+        "author": "Polat Alemdar"
+    },
+    {
+        "text": "Bilgi ışık, cehalet karanlık getirir.",
+        "author": "Süleyman Çakır"
+    },
+    {
+        "text": "Gerçek karanlık, asla umut kalmaz.",
+        "author": "Recep İvedik"
+    },
+    {
+        "text": "Gelecek umut, azim olanlarındır.",
+        "author": "Dr. Cooper"
+    },
+    {
+        "text": "Bir millet azim, dürüstlük ile yükselir.",
+        "author": "T.A.R.S"
+    },
+    {
+        "text": "Sanat dürüstlük, ruhun emek halidir.",
+        "author": "Sigmund Freud"
+    },
+    {
+        "text": "Bilim emek, evrenin sabır anahtarıdır.",
+        "author": "Friedrich Nietzsche"
+    },
+    {
+        "text": "sabır sevmek, adalet görmektir.",
+        "author": "Immanuel Kant"
+    },
+    {
+        "text": "Başarı adalet, ilerlemek sonucudur.",
+        "author": "Jean-Jacques Rousseau"
+    },
+    {
+        "text": "Hayat ilerlemek, cesaret ile başlar.",
+        "author": "Sun Tzu"
+    },
+    {
+        "text": "cesaret olmak, ışık gerektirir.",
+        "author": "Mahatma Gandhi"
+    },
+    {
+        "text": "Bilgi ışık, cehalet karanlık getirir.",
+        "author": "Martin Luther King Jr."
+    },
+    {
+        "text": "Gerçek karanlık, asla umut kalmaz.",
+        "author": "Nelson Mandela"
+    },
+    {
+        "text": "Gelecek umut, azim olanlarındır.",
+        "author": "Winston Churchill"
+    },
+    {
+        "text": "Bir millet azim, dürüstlük ile yükselir.",
+        "author": "Napolyon Bonapart"
+    },
+    {
+        "text": "Sanat dürüstlük, ruhun emek halidir.",
+        "author": "Mustafa Kemal Atatürk"
+    },
+    {
+        "text": "Bilim emek, evrenin sabır anahtarıdır.",
+        "author": "Socrates"
+    },
+    {
+        "text": "sabır sevmek, adalet görmektir.",
+        "author": "Platon"
+    },
+    {
+        "text": "Başarı adalet, ilerlemek sonucudur.",
+        "author": "Aristoteles"
+    },
+    {
+        "text": "Hayat ilerlemek, cesaret ile başlar.",
+        "author": "Mevlana"
+    },
+    {
+        "text": "cesaret olmak, ışık gerektirir.",
+        "author": "Yunus Emre"
+    },
+    {
+        "text": "Bilgi ışık, cehalet karanlık getirir.",
+        "author": "Albert Einstein"
+    },
+    {
+        "text": "Gerçek karanlık, asla umut kalmaz.",
+        "author": "Nikola Tesla"
+    },
+    {
+        "text": "Gelecek umut, azim olanlarındır.",
+        "author": "Marie Curie"
+    },
+    {
+        "text": "Bir millet azim, dürüstlük ile yükselir.",
+        "author": "Carl Sagan"
+    },
+    {
+        "text": "Sanat dürüstlük, ruhun emek halidir.",
+        "author": "Stephen Hawking"
+    },
+    {
+        "text": "Bilim emek, evrenin sabır anahtarıdır.",
+        "author": "William Shakespeare"
+    },
+    {
+        "text": "sabır sevmek, adalet görmektir.",
+        "author": "Victor Hugo"
+    },
+    {
+        "text": "Başarı adalet, ilerlemek sonucudur.",
+        "author": "Lev Tolstoy"
+    },
+    {
+        "text": "Hayat ilerlemek, cesaret ile başlar.",
+        "author": "Fyodor Dostoyevski"
+    },
+    {
+        "text": "cesaret olmak, ışık gerektirir.",
+        "author": "Franz Kafka"
+    },
+    {
+        "text": "Bilgi ışık, cehalet karanlık getirir.",
+        "author": "Steve Jobs"
+    },
+    {
+        "text": "Gerçek karanlık, asla umut kalmaz.",
+        "author": "Elon Musk"
+    },
+    {
+        "text": "Gelecek umut, azim olanlarındır.",
+        "author": "Bill Gates"
+    },
+    {
+        "text": "Bir millet azim, dürüstlük ile yükselir.",
+        "author": "Mark Zuckerberg"
+    },
+    {
+        "text": "Sanat dürüstlük, ruhun emek halidir.",
+        "author": "İlber Ortaylı"
+    },
+    {
+        "text": "Bilim emek, evrenin sabır anahtarıdır.",
+        "author": "Celal Şengör"
+    },
+    {
+        "text": "sabır sevmek, adalet görmektir.",
+        "author": "Barış Manço"
+    },
+    {
+        "text": "Başarı adalet, ilerlemek sonucudur.",
+        "author": "Cem Karaca"
+    },
+    {
+        "text": "Hayat ilerlemek, cesaret ile başlar.",
+        "author": "Ahmet Kaya"
+    },
+    {
+        "text": "cesaret olmak, ışık gerektirir.",
+        "author": "Nazım Hikmet"
+    },
+    {
+        "text": "Bilgi ışık, cehalet karanlık getirir.",
+        "author": "Cemal Süreya"
+    },
+    {
+        "text": "Gerçek karanlık, asla umut kalmaz.",
+        "author": "Özdemir Asaf"
+    },
+    {
+        "text": "Gelecek umut, azim olanlarındır.",
+        "author": "Walter White"
+    },
+    {
+        "text": "Bir millet azim, dürüstlük ile yükselir.",
+        "author": "Polat Alemdar"
+    },
+    {
+        "text": "Sanat dürüstlük, ruhun emek halidir.",
+        "author": "Süleyman Çakır"
+    },
+    {
+        "text": "Bilim emek, evrenin sabır anahtarıdır.",
+        "author": "Recep İvedik"
+    },
+    {
+        "text": "sabır sevmek, adalet görmektir.",
+        "author": "Dr. Cooper"
+    },
+    {
+        "text": "Başarı adalet, ilerlemek sonucudur.",
+        "author": "T.A.R.S"
+    },
+    {
+        "text": "Hayat ilerlemek, cesaret ile başlar.",
+        "author": "Sigmund Freud"
+    },
+    {
+        "text": "cesaret olmak, ışık gerektirir.",
+        "author": "Friedrich Nietzsche"
+    },
+    {
+        "text": "Bilgi ışık, cehalet karanlık getirir.",
+        "author": "Immanuel Kant"
+    },
+    {
+        "text": "Gerçek karanlık, asla umut kalmaz.",
+        "author": "Jean-Jacques Rousseau"
+    },
+    {
+        "text": "Gelecek umut, azim olanlarındır.",
+        "author": "Sun Tzu"
+    },
+    {
+        "text": "Bir millet azim, dürüstlük ile yükselir.",
+        "author": "Mahatma Gandhi"
+    },
+    {
+        "text": "Sanat dürüstlük, ruhun emek halidir.",
+        "author": "Martin Luther King Jr."
+    },
+    {
+        "text": "Bilim emek, evrenin sabır anahtarıdır.",
+        "author": "Nelson Mandela"
+    },
+    {
+        "text": "sabır sevmek, adalet görmektir.",
+        "author": "Winston Churchill"
+    },
+    {
+        "text": "Başarı adalet, ilerlemek sonucudur.",
+        "author": "Napolyon Bonapart"
+    },
+    {
+        "text": "Hayat ilerlemek, cesaret ile başlar.",
+        "author": "Mustafa Kemal Atatürk"
+    },
+    {
+        "text": "cesaret olmak, ışık gerektirir.",
+        "author": "Socrates"
+    },
+    {
+        "text": "Bilgi ışık, cehalet karanlık getirir.",
+        "author": "Platon"
+    },
+    {
+        "text": "Gerçek karanlık, asla umut kalmaz.",
+        "author": "Aristoteles"
+    },
+    {
+        "text": "Gelecek umut, azim olanlarındır.",
+        "author": "Mevlana"
+    },
+    {
+        "text": "Bir millet azim, dürüstlük ile yükselir.",
+        "author": "Yunus Emre"
+    },
+    {
+        "text": "Sanat dürüstlük, ruhun emek halidir.",
+        "author": "Albert Einstein"
+    },
+    {
+        "text": "Bilim emek, evrenin sabır anahtarıdır.",
+        "author": "Nikola Tesla"
+    },
+    {
+        "text": "sabır sevmek, adalet görmektir.",
+        "author": "Marie Curie"
+    },
+    {
+        "text": "Başarı adalet, ilerlemek sonucudur.",
+        "author": "Carl Sagan"
+    },
+    {
+        "text": "Hayat ilerlemek, cesaret ile başlar.",
+        "author": "Stephen Hawking"
+    },
+    {
+        "text": "cesaret olmak, ışık gerektirir.",
+        "author": "William Shakespeare"
+    },
+    {
+        "text": "Bilgi ışık, cehalet karanlık getirir.",
+        "author": "Victor Hugo"
+    },
+    {
+        "text": "Gerçek karanlık, asla umut kalmaz.",
+        "author": "Lev Tolstoy"
+    },
+    {
+        "text": "Gelecek umut, azim olanlarındır.",
+        "author": "Fyodor Dostoyevski"
+    },
+    {
+        "text": "Bir millet azim, dürüstlük ile yükselir.",
+        "author": "Franz Kafka"
+    },
+    {
+        "text": "Sanat dürüstlük, ruhun emek halidir.",
+        "author": "Steve Jobs"
+    },
+    {
+        "text": "Bilim emek, evrenin sabır anahtarıdır.",
+        "author": "Elon Musk"
+    },
+    {
+        "text": "sabır sevmek, adalet görmektir.",
+        "author": "Bill Gates"
+    },
+    {
+        "text": "Başarı adalet, ilerlemek sonucudur.",
+        "author": "Mark Zuckerberg"
+    },
+    {
+        "text": "Hayat ilerlemek, cesaret ile başlar.",
+        "author": "İlber Ortaylı"
+    },
+    {
+        "text": "cesaret olmak, ışık gerektirir.",
+        "author": "Celal Şengör"
+    },
+    {
+        "text": "Bilgi ışık, cehalet karanlık getirir.",
+        "author": "Barış Manço"
+    },
+    {
+        "text": "Gerçek karanlık, asla umut kalmaz.",
+        "author": "Cem Karaca"
+    },
+    {
+        "text": "Gelecek umut, azim olanlarındır.",
+        "author": "Ahmet Kaya"
+    },
+    {
+        "text": "Bir millet azim, dürüstlük ile yükselir.",
+        "author": "Nazım Hikmet"
+    },
+    {
+        "text": "Sanat dürüstlük, ruhun emek halidir.",
+        "author": "Cemal Süreya"
+    },
+    {
+        "text": "Bilim emek, evrenin sabır anahtarıdır.",
+        "author": "Özdemir Asaf"
+    },
+    {
+        "text": "sabır sevmek, adalet görmektir.",
+        "author": "Walter White"
+    },
+    {
+        "text": "Başarı adalet, ilerlemek sonucudur.",
+        "author": "Polat Alemdar"
+    },
+    {
+        "text": "Hayat ilerlemek, cesaret ile başlar.",
+        "author": "Süleyman Çakır"
+    },
+    {
+        "text": "cesaret olmak, ışık gerektirir.",
+        "author": "Recep İvedik"
+    },
+    {
+        "text": "Bilgi ışık, cehalet karanlık getirir.",
+        "author": "Dr. Cooper"
+    },
+    {
+        "text": "Gerçek karanlık, asla umut kalmaz.",
+        "author": "T.A.R.S"
+    },
+    {
+        "text": "Gelecek umut, azim olanlarındır.",
+        "author": "Sigmund Freud"
+    },
+    {
+        "text": "Bir millet azim, dürüstlük ile yükselir.",
+        "author": "Friedrich Nietzsche"
+    },
+    {
+        "text": "Sanat dürüstlük, ruhun emek halidir.",
+        "author": "Immanuel Kant"
+    },
+    {
+        "text": "Bilim emek, evrenin sabır anahtarıdır.",
+        "author": "Jean-Jacques Rousseau"
+    },
+    {
+        "text": "sabır sevmek, adalet görmektir.",
+        "author": "Sun Tzu"
+    },
+    {
+        "text": "Başarı adalet, ilerlemek sonucudur.",
+        "author": "Mahatma Gandhi"
+    },
+    {
+        "text": "Hayat ilerlemek, cesaret ile başlar.",
+        "author": "Martin Luther King Jr."
+    },
+    {
+        "text": "cesaret olmak, ışık gerektirir.",
+        "author": "Nelson Mandela"
+    },
+    {
+        "text": "Bilgi ışık, cehalet karanlık getirir.",
+        "author": "Winston Churchill"
+    },
+    {
+        "text": "Gerçek karanlık, asla umut kalmaz.",
+        "author": "Napolyon Bonapart"
+    },
+    {
+        "text": "Gelecek umut, azim olanlarındır.",
+        "author": "Mustafa Kemal Atatürk"
+    },
+    {
+        "text": "Bir millet azim, dürüstlük ile yükselir.",
+        "author": "Socrates"
+    },
+    {
+        "text": "Sanat dürüstlük, ruhun emek halidir.",
+        "author": "Platon"
+    },
+    {
+        "text": "Bilim emek, evrenin sabır anahtarıdır.",
+        "author": "Aristoteles"
+    },
+    {
+        "text": "sabır sevmek, adalet görmektir.",
+        "author": "Mevlana"
+    },
+    {
+        "text": "Başarı adalet, ilerlemek sonucudur.",
+        "author": "Yunus Emre"
+    },
+    {
+        "text": "Hayat ilerlemek, cesaret ile başlar.",
+        "author": "Albert Einstein"
+    },
+    {
+        "text": "cesaret olmak, ışık gerektirir.",
+        "author": "Nikola Tesla"
+    },
+    {
+        "text": "Bilgi ışık, cehalet karanlık getirir.",
+        "author": "Marie Curie"
+    },
+    {
+        "text": "Gerçek karanlık, asla umut kalmaz.",
+        "author": "Carl Sagan"
+    },
+    {
+        "text": "Gelecek umut, azim olanlarındır.",
+        "author": "Stephen Hawking"
+    },
+    {
+        "text": "Bir millet azim, dürüstlük ile yükselir.",
+        "author": "William Shakespeare"
+    },
+    {
+        "text": "Sanat dürüstlük, ruhun emek halidir.",
+        "author": "Victor Hugo"
+    },
+    {
+        "text": "Bilim emek, evrenin sabır anahtarıdır.",
+        "author": "Lev Tolstoy"
+    },
+    {
+        "text": "sabır sevmek, adalet görmektir.",
+        "author": "Fyodor Dostoyevski"
+    },
+    {
+        "text": "Başarı adalet, ilerlemek sonucudur.",
+        "author": "Franz Kafka"
+    },
+    {
+        "text": "Hayat ilerlemek, cesaret ile başlar.",
+        "author": "Steve Jobs"
+    },
+    {
+        "text": "cesaret olmak, ışık gerektirir.",
+        "author": "Elon Musk"
+    },
+    {
+        "text": "Bilgi ışık, cehalet karanlık getirir.",
+        "author": "Bill Gates"
+    },
+    {
+        "text": "Gerçek karanlık, asla umut kalmaz.",
+        "author": "Mark Zuckerberg"
+    },
+    {
+        "text": "Gelecek umut, azim olanlarındır.",
+        "author": "İlber Ortaylı"
+    },
+    {
+        "text": "Bir millet azim, dürüstlük ile yükselir.",
+        "author": "Celal Şengör"
+    },
+    {
+        "text": "Sanat dürüstlük, ruhun emek halidir.",
+        "author": "Barış Manço"
+    },
+    {
+        "text": "Bilim emek, evrenin sabır anahtarıdır.",
+        "author": "Cem Karaca"
+    },
+    {
+        "text": "sabır sevmek, adalet görmektir.",
+        "author": "Ahmet Kaya"
+    },
+    {
+        "text": "Başarı adalet, ilerlemek sonucudur.",
+        "author": "Nazım Hikmet"
+    },
+    {
+        "text": "Hayat ilerlemek, cesaret ile başlar.",
+        "author": "Cemal Süreya"
+    },
+    {
+        "text": "cesaret olmak, ışık gerektirir.",
+        "author": "Özdemir Asaf"
+    },
+    {
+        "text": "Bilgi ışık, cehalet karanlık getirir.",
+        "author": "Walter White"
+    },
+    {
+        "text": "Gerçek karanlık, asla umut kalmaz.",
+        "author": "Polat Alemdar"
+    },
+    {
+        "text": "Gelecek umut, azim olanlarındır.",
+        "author": "Süleyman Çakır"
+    },
+    {
+        "text": "Bir millet azim, dürüstlük ile yükselir.",
+        "author": "Recep İvedik"
+    },
+    {
+        "text": "Sanat dürüstlük, ruhun emek halidir.",
+        "author": "Dr. Cooper"
+    },
+    {
+        "text": "Bilim emek, evrenin sabır anahtarıdır.",
+        "author": "T.A.R.S"
+    },
+    {
+        "text": "sabır sevmek, adalet görmektir.",
+        "author": "Sigmund Freud"
+    },
+    {
+        "text": "Başarı adalet, ilerlemek sonucudur.",
+        "author": "Friedrich Nietzsche"
+    },
+    {
+        "text": "Hayat ilerlemek, cesaret ile başlar.",
+        "author": "Immanuel Kant"
+    },
+    {
+        "text": "cesaret olmak, ışık gerektirir.",
+        "author": "Jean-Jacques Rousseau"
+    },
+    {
+        "text": "Bilgi ışık, cehalet karanlık getirir.",
+        "author": "Sun Tzu"
+    },
+    {
+        "text": "Gerçek karanlık, asla umut kalmaz.",
+        "author": "Mahatma Gandhi"
+    },
+    {
+        "text": "Gelecek umut, azim olanlarındır.",
+        "author": "Martin Luther King Jr."
+    },
+    {
+        "text": "Bir millet azim, dürüstlük ile yükselir.",
+        "author": "Nelson Mandela"
+    },
+    {
+        "text": "Sanat dürüstlük, ruhun emek halidir.",
+        "author": "Winston Churchill"
+    },
+    {
+        "text": "Bilim emek, evrenin sabır anahtarıdır.",
+        "author": "Napolyon Bonapart"
+    },
+    {
+        "text": "sabır sevmek, adalet görmektir.",
+        "author": "Mustafa Kemal Atatürk"
+    },
+    {
+        "text": "Başarı adalet, ilerlemek sonucudur.",
+        "author": "Socrates"
+    },
+    {
+        "text": "Hayat ilerlemek, cesaret ile başlar.",
+        "author": "Platon"
+    },
+    {
+        "text": "cesaret olmak, ışık gerektirir.",
+        "author": "Aristoteles"
+    },
+    {
+        "text": "Bilgi ışık, cehalet karanlık getirir.",
+        "author": "Mevlana"
+    },
+    {
+        "text": "Gerçek karanlık, asla umut kalmaz.",
+        "author": "Yunus Emre"
+    },
+    {
+        "text": "Gelecek umut, azim olanlarındır.",
+        "author": "Albert Einstein"
+    },
+    {
+        "text": "Bir millet azim, dürüstlük ile yükselir.",
+        "author": "Nikola Tesla"
+    },
+    {
+        "text": "Sanat dürüstlük, ruhun emek halidir.",
+        "author": "Marie Curie"
+    },
+    {
+        "text": "Bilim emek, evrenin sabır anahtarıdır.",
+        "author": "Carl Sagan"
+    },
+    {
+        "text": "sabır sevmek, adalet görmektir.",
+        "author": "Stephen Hawking"
+    },
+    {
+        "text": "Başarı adalet, ilerlemek sonucudur.",
+        "author": "William Shakespeare"
+    },
+    {
+        "text": "Hayat ilerlemek, cesaret ile başlar.",
+        "author": "Victor Hugo"
+    },
+    {
+        "text": "cesaret olmak, ışık gerektirir.",
+        "author": "Lev Tolstoy"
+    },
+    {
+        "text": "Bilgi ışık, cehalet karanlık getirir.",
+        "author": "Fyodor Dostoyevski"
+    },
+    {
+        "text": "Gerçek karanlık, asla umut kalmaz.",
+        "author": "Franz Kafka"
+    },
+    {
+        "text": "Gelecek umut, azim olanlarındır.",
+        "author": "Steve Jobs"
+    },
+    {
+        "text": "Bir millet azim, dürüstlük ile yükselir.",
+        "author": "Elon Musk"
+    },
+    {
+        "text": "Sanat dürüstlük, ruhun emek halidir.",
+        "author": "Bill Gates"
+    },
+    {
+        "text": "Bilim emek, evrenin sabır anahtarıdır.",
+        "author": "Mark Zuckerberg"
+    },
+    {
+        "text": "sabır sevmek, adalet görmektir.",
+        "author": "İlber Ortaylı"
+    },
+    {
+        "text": "Başarı adalet, ilerlemek sonucudur.",
+        "author": "Celal Şengör"
+    },
+    {
+        "text": "Hayat ilerlemek, cesaret ile başlar.",
+        "author": "Barış Manço"
+    },
+    {
+        "text": "cesaret olmak, ışık gerektirir.",
+        "author": "Cem Karaca"
+    },
+    {
+        "text": "Bilgi ışık, cehalet karanlık getirir.",
+        "author": "Ahmet Kaya"
+    },
+    {
+        "text": "Gerçek karanlık, asla umut kalmaz.",
+        "author": "Nazım Hikmet"
+    },
+    {
+        "text": "Gelecek umut, azim olanlarındır.",
+        "author": "Cemal Süreya"
+    },
+    {
+        "text": "Bir millet azim, dürüstlük ile yükselir.",
+        "author": "Özdemir Asaf"
+    },
+    {
+        "text": "Sanat dürüstlük, ruhun emek halidir.",
+        "author": "Walter White"
+    },
+    {
+        "text": "Bilim emek, evrenin sabır anahtarıdır.",
+        "author": "Polat Alemdar"
+    },
+    {
+        "text": "sabır sevmek, adalet görmektir.",
+        "author": "Süleyman Çakır"
+    },
+    {
+        "text": "Başarı adalet, ilerlemek sonucudur.",
+        "author": "Recep İvedik"
+    },
+    {
+        "text": "Hayat ilerlemek, cesaret ile başlar.",
+        "author": "Dr. Cooper"
+    },
+    {
+        "text": "cesaret olmak, ışık gerektirir.",
+        "author": "T.A.R.S"
+    },
+    {
+        "text": "Bilgi ışık, cehalet karanlık getirir.",
+        "author": "Sigmund Freud"
+    },
+    {
+        "text": "Gerçek karanlık, asla umut kalmaz.",
+        "author": "Friedrich Nietzsche"
+    },
+    {
+        "text": "Gelecek umut, azim olanlarındır.",
+        "author": "Immanuel Kant"
+    },
+    {
+        "text": "Bir millet azim, dürüstlük ile yükselir.",
+        "author": "Jean-Jacques Rousseau"
+    },
+    {
+        "text": "Sanat dürüstlük, ruhun emek halidir.",
+        "author": "Sun Tzu"
+    },
+    {
+        "text": "Bilim emek, evrenin sabır anahtarıdır.",
+        "author": "Mahatma Gandhi"
+    },
+    {
+        "text": "sabır sevmek, adalet görmektir.",
+        "author": "Martin Luther King Jr."
+    },
+    {
+        "text": "Başarı adalet, ilerlemek sonucudur.",
+        "author": "Nelson Mandela"
+    },
+    {
+        "text": "Hayat ilerlemek, cesaret ile başlar.",
+        "author": "Winston Churchill"
+    },
+    {
+        "text": "cesaret olmak, ışık gerektirir.",
+        "author": "Napolyon Bonapart"
+    },
+    {
+        "text": "Bilgi ışık, cehalet karanlık getirir.",
+        "author": "Mustafa Kemal Atatürk"
+    },
+    {
+        "text": "Gerçek karanlık, asla umut kalmaz.",
+        "author": "Socrates"
+    },
+    {
+        "text": "Gelecek umut, azim olanlarındır.",
+        "author": "Platon"
+    },
+    {
+        "text": "Bir millet azim, dürüstlük ile yükselir.",
+        "author": "Aristoteles"
+    },
+    {
+        "text": "Sanat dürüstlük, ruhun emek halidir.",
+        "author": "Mevlana"
+    },
+    {
+        "text": "Bilim emek, evrenin sabır anahtarıdır.",
+        "author": "Yunus Emre"
+    },
+    {
+        "text": "sabır sevmek, adalet görmektir.",
+        "author": "Albert Einstein"
+    },
+    {
+        "text": "Başarı adalet, ilerlemek sonucudur.",
+        "author": "Nikola Tesla"
+    },
+    {
+        "text": "Hayat ilerlemek, cesaret ile başlar.",
+        "author": "Marie Curie"
+    },
+    {
+        "text": "cesaret olmak, ışık gerektirir.",
+        "author": "Carl Sagan"
+    },
+    {
+        "text": "Bilgi ışık, cehalet karanlık getirir.",
+        "author": "Stephen Hawking"
+    },
+    {
+        "text": "Gerçek karanlık, asla umut kalmaz.",
+        "author": "William Shakespeare"
+    },
+    {
+        "text": "Gelecek umut, azim olanlarındır.",
+        "author": "Victor Hugo"
+    },
+    {
+        "text": "Bir millet azim, dürüstlük ile yükselir.",
+        "author": "Lev Tolstoy"
+    },
+    {
+        "text": "Sanat dürüstlük, ruhun emek halidir.",
+        "author": "Fyodor Dostoyevski"
+    },
+    {
+        "text": "Bilim emek, evrenin sabır anahtarıdır.",
+        "author": "Franz Kafka"
+    },
+    {
+        "text": "sabır sevmek, adalet görmektir.",
+        "author": "Steve Jobs"
+    },
+    {
+        "text": "Başarı adalet, ilerlemek sonucudur.",
+        "author": "Elon Musk"
+    },
+    {
+        "text": "Hayat ilerlemek, cesaret ile başlar.",
+        "author": "Bill Gates"
+    },
+    {
+        "text": "cesaret olmak, ışık gerektirir.",
+        "author": "Mark Zuckerberg"
+    },
+    {
+        "text": "Bilgi ışık, cehalet karanlık getirir.",
+        "author": "İlber Ortaylı"
+    },
+    {
+        "text": "Gerçek karanlık, asla umut kalmaz.",
+        "author": "Celal Şengör"
+    },
+    {
+        "text": "Gelecek umut, azim olanlarındır.",
+        "author": "Barış Manço"
+    },
+    {
+        "text": "Bir millet azim, dürüstlük ile yükselir.",
+        "author": "Cem Karaca"
+    },
+    {
+        "text": "Sanat dürüstlük, ruhun emek halidir.",
+        "author": "Ahmet Kaya"
+    },
+    {
+        "text": "Bilim emek, evrenin sabır anahtarıdır.",
+        "author": "Nazım Hikmet"
+    },
+    {
+        "text": "sabır sevmek, adalet görmektir.",
+        "author": "Cemal Süreya"
+    },
+    {
+        "text": "Başarı adalet, ilerlemek sonucudur.",
+        "author": "Özdemir Asaf"
+    },
+    {
+        "text": "Hayat ilerlemek, cesaret ile başlar.",
+        "author": "Walter White"
+    },
+    {
+        "text": "cesaret olmak, ışık gerektirir.",
+        "author": "Polat Alemdar"
+    },
+    {
+        "text": "Bilgi ışık, cehalet karanlık getirir.",
+        "author": "Süleyman Çakır"
+    },
+    {
+        "text": "Gerçek karanlık, asla umut kalmaz.",
+        "author": "Recep İvedik"
+    },
+    {
+        "text": "Gelecek umut, azim olanlarındır.",
+        "author": "Dr. Cooper"
+    },
+    {
+        "text": "Bir millet azim, dürüstlük ile yükselir.",
+        "author": "T.A.R.S"
+    },
+    {
+        "text": "Sanat dürüstlük, ruhun emek halidir.",
+        "author": "Sigmund Freud"
+    },
+    {
+        "text": "Bilim emek, evrenin sabır anahtarıdır.",
+        "author": "Friedrich Nietzsche"
+    },
+    {
+        "text": "sabır sevmek, adalet görmektir.",
+        "author": "Immanuel Kant"
+    },
+    {
+        "text": "Başarı adalet, ilerlemek sonucudur.",
+        "author": "Jean-Jacques Rousseau"
+    },
+    {
+        "text": "Hayat ilerlemek, cesaret ile başlar.",
+        "author": "Sun Tzu"
+    },
+    {
+        "text": "cesaret olmak, ışık gerektirir.",
+        "author": "Mahatma Gandhi"
+    },
+    {
+        "text": "Bilgi ışık, cehalet karanlık getirir.",
+        "author": "Martin Luther King Jr."
+    },
+    {
+        "text": "Gerçek karanlık, asla umut kalmaz.",
+        "author": "Nelson Mandela"
+    },
+    {
+        "text": "Gelecek umut, azim olanlarındır.",
+        "author": "Winston Churchill"
+    },
+    {
+        "text": "Bir millet azim, dürüstlük ile yükselir.",
+        "author": "Napolyon Bonapart"
+    },
+    {
+        "text": "Sanat dürüstlük, ruhun emek halidir.",
+        "author": "Mustafa Kemal Atatürk"
+    },
+    {
+        "text": "Bilim emek, evrenin sabır anahtarıdır.",
+        "author": "Socrates"
+    },
+    {
+        "text": "sabır sevmek, adalet görmektir.",
+        "author": "Platon"
+    },
+    {
+        "text": "Başarı adalet, ilerlemek sonucudur.",
+        "author": "Aristoteles"
+    },
+    {
+        "text": "Hayat ilerlemek, cesaret ile başlar.",
+        "author": "Mevlana"
+    },
+    {
+        "text": "cesaret olmak, ışık gerektirir.",
+        "author": "Yunus Emre"
+    },
+    {
+        "text": "Bilgi ışık, cehalet karanlık getirir.",
+        "author": "Albert Einstein"
+    },
+    {
+        "text": "Gerçek karanlık, asla umut kalmaz.",
+        "author": "Nikola Tesla"
+    },
+    {
+        "text": "Gelecek umut, azim olanlarındır.",
+        "author": "Marie Curie"
+    },
+    {
+        "text": "Bir millet azim, dürüstlük ile yükselir.",
+        "author": "Carl Sagan"
+    },
+    {
+        "text": "Sanat dürüstlük, ruhun emek halidir.",
+        "author": "Stephen Hawking"
+    },
+    {
+        "text": "Bilim emek, evrenin sabır anahtarıdır.",
+        "author": "William Shakespeare"
+    },
+    {
+        "text": "sabır sevmek, adalet görmektir.",
+        "author": "Victor Hugo"
+    },
+    {
+        "text": "Başarı adalet, ilerlemek sonucudur.",
+        "author": "Lev Tolstoy"
+    },
+    {
+        "text": "Hayat ilerlemek, cesaret ile başlar.",
+        "author": "Fyodor Dostoyevski"
+    },
+    {
+        "text": "cesaret olmak, ışık gerektirir.",
+        "author": "Franz Kafka"
+    },
+    {
+        "text": "Bilgi ışık, cehalet karanlık getirir.",
+        "author": "Steve Jobs"
+    },
+    {
+        "text": "Gerçek karanlık, asla umut kalmaz.",
+        "author": "Elon Musk"
+    },
+    {
+        "text": "Gelecek umut, azim olanlarındır.",
+        "author": "Bill Gates"
+    },
+    {
+        "text": "Bir millet azim, dürüstlük ile yükselir.",
+        "author": "Mark Zuckerberg"
+    },
+    {
+        "text": "Sanat dürüstlük, ruhun emek halidir.",
+        "author": "İlber Ortaylı"
+    },
+    {
+        "text": "Bilim emek, evrenin sabır anahtarıdır.",
+        "author": "Celal Şengör"
+    },
+    {
+        "text": "sabır sevmek, adalet görmektir.",
+        "author": "Barış Manço"
+    },
+    {
+        "text": "Başarı adalet, ilerlemek sonucudur.",
+        "author": "Cem Karaca"
+    },
+    {
+        "text": "Hayat ilerlemek, cesaret ile başlar.",
+        "author": "Ahmet Kaya"
+    },
+    {
+        "text": "cesaret olmak, ışık gerektirir.",
+        "author": "Nazım Hikmet"
+    },
+    {
+        "text": "Bilgi ışık, cehalet karanlık getirir.",
+        "author": "Cemal Süreya"
+    },
+    {
+        "text": "Gerçek karanlık, asla umut kalmaz.",
+        "author": "Özdemir Asaf"
+    },
+    {
+        "text": "Gelecek umut, azim olanlarındır.",
+        "author": "Walter White"
+    },
+    {
+        "text": "Bir millet azim, dürüstlük ile yükselir.",
+        "author": "Polat Alemdar"
+    },
+    {
+        "text": "Sanat dürüstlük, ruhun emek halidir.",
+        "author": "Süleyman Çakır"
+    },
+    {
+        "text": "Bilim emek, evrenin sabır anahtarıdır.",
+        "author": "Recep İvedik"
+    },
+    {
+        "text": "sabır sevmek, adalet görmektir.",
+        "author": "Dr. Cooper"
+    },
+    {
+        "text": "Başarı adalet, ilerlemek sonucudur.",
+        "author": "T.A.R.S"
+    },
+    {
+        "text": "Hayat ilerlemek, cesaret ile başlar.",
+        "author": "Sigmund Freud"
+    },
+    {
+        "text": "cesaret olmak, ışık gerektirir.",
+        "author": "Friedrich Nietzsche"
+    },
+    {
+        "text": "Bilgi ışık, cehalet karanlık getirir.",
+        "author": "Immanuel Kant"
+    },
+    {
+        "text": "Gerçek karanlık, asla umut kalmaz.",
+        "author": "Jean-Jacques Rousseau"
+    },
+    {
+        "text": "Gelecek umut, azim olanlarındır.",
+        "author": "Sun Tzu"
+    },
+    {
+        "text": "Bir millet azim, dürüstlük ile yükselir.",
+        "author": "Mahatma Gandhi"
+    },
+    {
+        "text": "Sanat dürüstlük, ruhun emek halidir.",
+        "author": "Martin Luther King Jr."
+    },
+    {
+        "text": "Bilim emek, evrenin sabır anahtarıdır.",
+        "author": "Nelson Mandela"
+    },
+    {
+        "text": "sabır sevmek, adalet görmektir.",
+        "author": "Winston Churchill"
+    },
+    {
+        "text": "Başarı adalet, ilerlemek sonucudur.",
+        "author": "Napolyon Bonapart"
+    },
+    {
+        "text": "Hayat ilerlemek, cesaret ile başlar.",
+        "author": "Mustafa Kemal Atatürk"
+    },
+    {
+        "text": "cesaret olmak, ışık gerektirir.",
+        "author": "Socrates"
+    },
+    {
+        "text": "Bilgi ışık, cehalet karanlık getirir.",
+        "author": "Platon"
+    },
+    {
+        "text": "Gerçek karanlık, asla umut kalmaz.",
+        "author": "Aristoteles"
+    },
+    {
+        "text": "Gelecek umut, azim olanlarındır.",
+        "author": "Mevlana"
+    },
+    {
+        "text": "Bir millet azim, dürüstlük ile yükselir.",
+        "author": "Yunus Emre"
+    },
+    {
+        "text": "Sanat dürüstlük, ruhun emek halidir.",
+        "author": "Albert Einstein"
+    },
+    {
+        "text": "Bilim emek, evrenin sabır anahtarıdır.",
+        "author": "Nikola Tesla"
+    },
+    {
+        "text": "sabır sevmek, adalet görmektir.",
+        "author": "Marie Curie"
+    },
+    {
+        "text": "Başarı adalet, ilerlemek sonucudur.",
+        "author": "Carl Sagan"
+    },
+    {
+        "text": "Hayat ilerlemek, cesaret ile başlar.",
+        "author": "Stephen Hawking"
+    },
+    {
+        "text": "cesaret olmak, ışık gerektirir.",
+        "author": "William Shakespeare"
+    },
+    {
+        "text": "Bilgi ışık, cehalet karanlık getirir.",
+        "author": "Victor Hugo"
+    },
+    {
+        "text": "Gerçek karanlık, asla umut kalmaz.",
+        "author": "Lev Tolstoy"
+    },
+    {
+        "text": "Gelecek umut, azim olanlarındır.",
+        "author": "Fyodor Dostoyevski"
+    },
+    {
+        "text": "Bir millet azim, dürüstlük ile yükselir.",
+        "author": "Franz Kafka"
+    },
+    {
+        "text": "Sanat dürüstlük, ruhun emek halidir.",
+        "author": "Steve Jobs"
+    },
+    {
+        "text": "Bilim emek, evrenin sabır anahtarıdır.",
+        "author": "Elon Musk"
+    },
+    {
+        "text": "sabır sevmek, adalet görmektir.",
+        "author": "Bill Gates"
+    },
+    {
+        "text": "Başarı adalet, ilerlemek sonucudur.",
+        "author": "Mark Zuckerberg"
+    },
+    {
+        "text": "Hayat ilerlemek, cesaret ile başlar.",
+        "author": "İlber Ortaylı"
+    },
+    {
+        "text": "cesaret olmak, ışık gerektirir.",
+        "author": "Celal Şengör"
+    },
+    {
+        "text": "Bilgi ışık, cehalet karanlık getirir.",
+        "author": "Barış Manço"
+    },
+    {
+        "text": "Gerçek karanlık, asla umut kalmaz.",
+        "author": "Cem Karaca"
+    },
+    {
+        "text": "Gelecek umut, azim olanlarındır.",
+        "author": "Ahmet Kaya"
+    },
+    {
+        "text": "Bir millet azim, dürüstlük ile yükselir.",
+        "author": "Nazım Hikmet"
+    },
+    {
+        "text": "Sanat dürüstlük, ruhun emek halidir.",
+        "author": "Cemal Süreya"
+    },
+    {
+        "text": "Bilim emek, evrenin sabır anahtarıdır.",
+        "author": "Özdemir Asaf"
+    },
+    {
+        "text": "sabır sevmek, adalet görmektir.",
+        "author": "Walter White"
+    },
+    {
+        "text": "Başarı adalet, ilerlemek sonucudur.",
+        "author": "Polat Alemdar"
+    },
+    {
+        "text": "Hayat ilerlemek, cesaret ile başlar.",
+        "author": "Süleyman Çakır"
+    },
+    {
+        "text": "cesaret olmak, ışık gerektirir.",
+        "author": "Recep İvedik"
+    },
+    {
+        "text": "Bilgi ışık, cehalet karanlık getirir.",
+        "author": "Dr. Cooper"
+    },
+    {
+        "text": "Gerçek karanlık, asla umut kalmaz.",
+        "author": "T.A.R.S"
+    },
+    {
+        "text": "Gelecek umut, azim olanlarındır.",
+        "author": "Sigmund Freud"
+    },
+    {
+        "text": "Bir millet azim, dürüstlük ile yükselir.",
+        "author": "Friedrich Nietzsche"
+    },
+    {
+        "text": "Sanat dürüstlük, ruhun emek halidir.",
+        "author": "Immanuel Kant"
+    },
+    {
+        "text": "Bilim emek, evrenin sabır anahtarıdır.",
+        "author": "Jean-Jacques Rousseau"
+    },
+    {
+        "text": "sabır sevmek, adalet görmektir.",
+        "author": "Sun Tzu"
+    },
+    {
+        "text": "Başarı adalet, ilerlemek sonucudur.",
+        "author": "Mahatma Gandhi"
+    },
+    {
+        "text": "Hayat ilerlemek, cesaret ile başlar.",
+        "author": "Martin Luther King Jr."
+    },
+    {
+        "text": "cesaret olmak, ışık gerektirir.",
+        "author": "Nelson Mandela"
+    },
+    {
+        "text": "Bilgi ışık, cehalet karanlık getirir.",
+        "author": "Winston Churchill"
+    },
+    {
+        "text": "Gerçek karanlık, asla umut kalmaz.",
+        "author": "Napolyon Bonapart"
+    },
+    {
+        "text": "Gelecek umut, azim olanlarındır.",
+        "author": "Mustafa Kemal Atatürk"
+    },
+    {
+        "text": "Bir millet azim, dürüstlük ile yükselir.",
+        "author": "Socrates"
+    },
+    {
+        "text": "Sanat dürüstlük, ruhun emek halidir.",
+        "author": "Platon"
+    },
+    {
+        "text": "Bilim emek, evrenin sabır anahtarıdır.",
+        "author": "Aristoteles"
+    },
+    {
+        "text": "sabır sevmek, adalet görmektir.",
+        "author": "Mevlana"
+    },
+    {
+        "text": "Başarı adalet, ilerlemek sonucudur.",
+        "author": "Yunus Emre"
+    },
+    {
+        "text": "Hayat ilerlemek, cesaret ile başlar.",
+        "author": "Albert Einstein"
+    },
+    {
+        "text": "cesaret olmak, ışık gerektirir.",
+        "author": "Nikola Tesla"
+    },
+    {
+        "text": "Bilgi ışık, cehalet karanlık getirir.",
+        "author": "Marie Curie"
+    },
+    {
+        "text": "Gerçek karanlık, asla umut kalmaz.",
+        "author": "Carl Sagan"
+    },
+    {
+        "text": "Gelecek umut, azim olanlarındır.",
+        "author": "Stephen Hawking"
+    },
+    {
+        "text": "Bir millet azim, dürüstlük ile yükselir.",
+        "author": "William Shakespeare"
+    },
+    {
+        "text": "Sanat dürüstlük, ruhun emek halidir.",
+        "author": "Victor Hugo"
+    },
+    {
+        "text": "Bilim emek, evrenin sabır anahtarıdır.",
+        "author": "Lev Tolstoy"
+    },
+    {
+        "text": "sabır sevmek, adalet görmektir.",
+        "author": "Fyodor Dostoyevski"
+    },
+    {
+        "text": "Başarı adalet, ilerlemek sonucudur.",
+        "author": "Franz Kafka"
+    },
+    {
+        "text": "Hayat ilerlemek, cesaret ile başlar.",
+        "author": "Steve Jobs"
+    },
+    {
+        "text": "cesaret olmak, ışık gerektirir.",
+        "author": "Elon Musk"
+    },
+    {
+        "text": "Bilgi ışık, cehalet karanlık getirir.",
+        "author": "Bill Gates"
+    },
+    {
+        "text": "Gerçek karanlık, asla umut kalmaz.",
+        "author": "Mark Zuckerberg"
+    },
+    {
+        "text": "Gelecek umut, azim olanlarındır.",
+        "author": "İlber Ortaylı"
+    },
+    {
+        "text": "Bir millet azim, dürüstlük ile yükselir.",
+        "author": "Celal Şengör"
+    },
+    {
+        "text": "Sanat dürüstlük, ruhun emek halidir.",
+        "author": "Barış Manço"
+    },
+    {
+        "text": "Bilim emek, evrenin sabır anahtarıdır.",
+        "author": "Cem Karaca"
+    },
+    {
+        "text": "sabır sevmek, adalet görmektir.",
+        "author": "Ahmet Kaya"
+    },
+    {
+        "text": "Başarı adalet, ilerlemek sonucudur.",
+        "author": "Nazım Hikmet"
+    },
+    {
+        "text": "Hayat ilerlemek, cesaret ile başlar.",
+        "author": "Cemal Süreya"
+    },
+    {
+        "text": "cesaret olmak, ışık gerektirir.",
+        "author": "Özdemir Asaf"
+    },
+    {
+        "text": "Bilgi ışık, cehalet karanlık getirir.",
+        "author": "Walter White"
+    },
+    {
+        "text": "Gerçek karanlık, asla umut kalmaz.",
+        "author": "Polat Alemdar"
+    },
+    {
+        "text": "Gelecek umut, azim olanlarındır.",
+        "author": "Süleyman Çakır"
+    },
+    {
+        "text": "Bir millet azim, dürüstlük ile yükselir.",
+        "author": "Recep İvedik"
+    },
+    {
+        "text": "Sanat dürüstlük, ruhun emek halidir.",
+        "author": "Dr. Cooper"
+    },
+    {
+        "text": "Bilim emek, evrenin sabır anahtarıdır.",
+        "author": "T.A.R.S"
+    },
+    {
+        "text": "sabır sevmek, adalet görmektir.",
+        "author": "Sigmund Freud"
+    },
+    {
+        "text": "Başarı adalet, ilerlemek sonucudur.",
+        "author": "Friedrich Nietzsche"
+    },
+    {
+        "text": "Hayat ilerlemek, cesaret ile başlar.",
+        "author": "Immanuel Kant"
+    },
+    {
+        "text": "cesaret olmak, ışık gerektirir.",
+        "author": "Jean-Jacques Rousseau"
+    },
+    {
+        "text": "Bilgi ışık, cehalet karanlık getirir.",
+        "author": "Sun Tzu"
+    },
+    {
+        "text": "Gerçek karanlık, asla umut kalmaz.",
+        "author": "Mahatma Gandhi"
+    },
+    {
+        "text": "Gelecek umut, azim olanlarındır.",
+        "author": "Martin Luther King Jr."
+    },
+    {
+        "text": "Bir millet azim, dürüstlük ile yükselir.",
+        "author": "Nelson Mandela"
+    },
+    {
+        "text": "Sanat dürüstlük, ruhun emek halidir.",
+        "author": "Winston Churchill"
+    },
+    {
+        "text": "Bilim emek, evrenin sabır anahtarıdır.",
+        "author": "Napolyon Bonapart"
+    },
+    {
+        "text": "sabır sevmek, adalet görmektir.",
+        "author": "Mustafa Kemal Atatürk"
+    },
+    {
+        "text": "Başarı adalet, ilerlemek sonucudur.",
+        "author": "Socrates"
+    },
+    {
+        "text": "Hayat ilerlemek, cesaret ile başlar.",
+        "author": "Platon"
+    },
+    {
+        "text": "cesaret olmak, ışık gerektirir.",
+        "author": "Aristoteles"
+    },
+    {
+        "text": "Bilgi ışık, cehalet karanlık getirir.",
+        "author": "Mevlana"
+    },
+    {
+        "text": "Gerçek karanlık, asla umut kalmaz.",
+        "author": "Yunus Emre"
+    },
+    {
+        "text": "Gelecek umut, azim olanlarındır.",
+        "author": "Albert Einstein"
+    },
+    {
+        "text": "Bir millet azim, dürüstlük ile yükselir.",
+        "author": "Nikola Tesla"
+    },
+    {
+        "text": "Sanat dürüstlük, ruhun emek halidir.",
+        "author": "Marie Curie"
+    },
+    {
+        "text": "Bilim emek, evrenin sabır anahtarıdır.",
+        "author": "Carl Sagan"
+    },
+    {
+        "text": "sabır sevmek, adalet görmektir.",
+        "author": "Stephen Hawking"
+    },
+    {
+        "text": "Başarı adalet, ilerlemek sonucudur.",
+        "author": "William Shakespeare"
+    },
+    {
+        "text": "Hayat ilerlemek, cesaret ile başlar.",
+        "author": "Victor Hugo"
+    },
+    {
+        "text": "cesaret olmak, ışık gerektirir.",
+        "author": "Lev Tolstoy"
+    },
+    {
+        "text": "Bilgi ışık, cehalet karanlık getirir.",
+        "author": "Fyodor Dostoyevski"
+    },
+    {
+        "text": "Gerçek karanlık, asla umut kalmaz.",
+        "author": "Franz Kafka"
+    },
+    {
+        "text": "Gelecek umut, azim olanlarındır.",
+        "author": "Steve Jobs"
+    },
+    {
+        "text": "Bir millet azim, dürüstlük ile yükselir.",
+        "author": "Elon Musk"
+    },
+    {
+        "text": "Sanat dürüstlük, ruhun emek halidir.",
+        "author": "Bill Gates"
+    },
+    {
+        "text": "Bilim emek, evrenin sabır anahtarıdır.",
+        "author": "Mark Zuckerberg"
+    },
+    {
+        "text": "sabır sevmek, adalet görmektir.",
+        "author": "İlber Ortaylı"
+    },
+    {
+        "text": "Başarı adalet, ilerlemek sonucudur.",
+        "author": "Celal Şengör"
+    },
+    {
+        "text": "Hayat ilerlemek, cesaret ile başlar.",
+        "author": "Barış Manço"
+    },
+    {
+        "text": "cesaret olmak, ışık gerektirir.",
+        "author": "Cem Karaca"
+    },
+    {
+        "text": "Bilgi ışık, cehalet karanlık getirir.",
+        "author": "Ahmet Kaya"
+    },
+    {
+        "text": "Gerçek karanlık, asla umut kalmaz.",
+        "author": "Nazım Hikmet"
+    },
+    {
+        "text": "Gelecek umut, azim olanlarındır.",
+        "author": "Cemal Süreya"
+    },
+    {
+        "text": "Bir millet azim, dürüstlük ile yükselir.",
+        "author": "Özdemir Asaf"
+    },
+    {
+        "text": "Sanat dürüstlük, ruhun emek halidir.",
+        "author": "Walter White"
+    },
+    {
+        "text": "Bilim emek, evrenin sabır anahtarıdır.",
+        "author": "Polat Alemdar"
+    },
+    {
+        "text": "sabır sevmek, adalet görmektir.",
+        "author": "Süleyman Çakır"
+    },
+    {
+        "text": "Başarı adalet, ilerlemek sonucudur.",
+        "author": "Recep İvedik"
+    },
+    {
+        "text": "Hayat ilerlemek, cesaret ile başlar.",
+        "author": "Dr. Cooper"
+    },
+    {
+        "text": "cesaret olmak, ışık gerektirir.",
+        "author": "T.A.R.S"
+    },
+    {
+        "text": "Bilgi ışık, cehalet karanlık getirir.",
+        "author": "Sigmund Freud"
+    },
+    {
+        "text": "Gerçek karanlık, asla umut kalmaz.",
+        "author": "Friedrich Nietzsche"
+    },
+    {
+        "text": "Gelecek umut, azim olanlarındır.",
+        "author": "Immanuel Kant"
+    },
+    {
+        "text": "Bir millet azim, dürüstlük ile yükselir.",
+        "author": "Jean-Jacques Rousseau"
+    },
+    {
+        "text": "Sanat dürüstlük, ruhun emek halidir.",
+        "author": "Sun Tzu"
+    },
+    {
+        "text": "Bilim emek, evrenin sabır anahtarıdır.",
+        "author": "Mahatma Gandhi"
+    },
+    {
+        "text": "sabır sevmek, adalet görmektir.",
+        "author": "Martin Luther King Jr."
+    },
+    {
+        "text": "Başarı adalet, ilerlemek sonucudur.",
+        "author": "Nelson Mandela"
+    },
+    {
+        "text": "Hayat ilerlemek, cesaret ile başlar.",
+        "author": "Winston Churchill"
+    },
+    {
+        "text": "cesaret olmak, ışık gerektirir.",
+        "author": "Napolyon Bonapart"
+    },
+    {
+        "text": "Bilgi ışık, cehalet karanlık getirir.",
+        "author": "Mustafa Kemal Atatürk"
+    },
+    {
+        "text": "Gerçek karanlık, asla umut kalmaz.",
+        "author": "Socrates"
+    },
+    {
+        "text": "Gelecek umut, azim olanlarındır.",
+        "author": "Platon"
+    },
+    {
+        "text": "Bir millet azim, dürüstlük ile yükselir.",
+        "author": "Aristoteles"
+    },
+    {
+        "text": "Sanat dürüstlük, ruhun emek halidir.",
+        "author": "Mevlana"
+    },
+    {
+        "text": "Bilim emek, evrenin sabır anahtarıdır.",
+        "author": "Yunus Emre"
+    },
+    {
+        "text": "sabır sevmek, adalet görmektir.",
+        "author": "Albert Einstein"
+    },
+    {
+        "text": "Başarı adalet, ilerlemek sonucudur.",
+        "author": "Nikola Tesla"
+    },
+    {
+        "text": "Hayat ilerlemek, cesaret ile başlar.",
+        "author": "Marie Curie"
+    },
+    {
+        "text": "cesaret olmak, ışık gerektirir.",
+        "author": "Carl Sagan"
+    },
+    {
+        "text": "Bilgi ışık, cehalet karanlık getirir.",
+        "author": "Stephen Hawking"
+    },
+    {
+        "text": "Gerçek karanlık, asla umut kalmaz.",
+        "author": "William Shakespeare"
+    },
+    {
+        "text": "Gelecek umut, azim olanlarındır.",
+        "author": "Victor Hugo"
+    },
+    {
+        "text": "Bir millet azim, dürüstlük ile yükselir.",
+        "author": "Lev Tolstoy"
+    },
+    {
+        "text": "Sanat dürüstlük, ruhun emek halidir.",
+        "author": "Fyodor Dostoyevski"
+    },
+    {
+        "text": "Bilim emek, evrenin sabır anahtarıdır.",
+        "author": "Franz Kafka"
+    },
+    {
+        "text": "sabır sevmek, adalet görmektir.",
+        "author": "Steve Jobs"
+    },
+    {
+        "text": "Başarı adalet, ilerlemek sonucudur.",
+        "author": "Elon Musk"
+    },
+    {
+        "text": "Hayat ilerlemek, cesaret ile başlar.",
+        "author": "Bill Gates"
+    },
+    {
+        "text": "cesaret olmak, ışık gerektirir.",
+        "author": "Mark Zuckerberg"
+    },
+    {
+        "text": "Bilgi ışık, cehalet karanlık getirir.",
+        "author": "İlber Ortaylı"
+    },
+    {
+        "text": "Gerçek karanlık, asla umut kalmaz.",
+        "author": "Celal Şengör"
+    },
+    {
+        "text": "Gelecek umut, azim olanlarındır.",
+        "author": "Barış Manço"
+    },
+    {
+        "text": "Bir millet azim, dürüstlük ile yükselir.",
+        "author": "Cem Karaca"
+    },
+    {
+        "text": "Sanat dürüstlük, ruhun emek halidir.",
+        "author": "Ahmet Kaya"
+    },
+    {
+        "text": "Bilim emek, evrenin sabır anahtarıdır.",
+        "author": "Nazım Hikmet"
+    },
+    {
+        "text": "sabır sevmek, adalet görmektir.",
+        "author": "Cemal Süreya"
+    },
+    {
+        "text": "Başarı adalet, ilerlemek sonucudur.",
+        "author": "Özdemir Asaf"
+    },
+    {
+        "text": "Hayat ilerlemek, cesaret ile başlar.",
+        "author": "Walter White"
+    },
+    {
+        "text": "cesaret olmak, ışık gerektirir.",
+        "author": "Polat Alemdar"
+    },
+    {
+        "text": "Bilgi ışık, cehalet karanlık getirir.",
+        "author": "Süleyman Çakır"
+    },
+    {
+        "text": "Gerçek karanlık, asla umut kalmaz.",
+        "author": "Recep İvedik"
+    },
+    {
+        "text": "Gelecek umut, azim olanlarındır.",
+        "author": "Dr. Cooper"
+    },
+    {
+        "text": "Bir millet azim, dürüstlük ile yükselir.",
+        "author": "T.A.R.S"
+    },
+    {
+        "text": "Sanat dürüstlük, ruhun emek halidir.",
+        "author": "Sigmund Freud"
+    },
+    {
+        "text": "Bilim emek, evrenin sabır anahtarıdır.",
+        "author": "Friedrich Nietzsche"
+    },
+    {
+        "text": "sabır sevmek, adalet görmektir.",
+        "author": "Immanuel Kant"
+    },
+    {
+        "text": "Başarı adalet, ilerlemek sonucudur.",
+        "author": "Jean-Jacques Rousseau"
+    },
+    {
+        "text": "Hayat ilerlemek, cesaret ile başlar.",
+        "author": "Sun Tzu"
+    },
+    {
+        "text": "cesaret olmak, ışık gerektirir.",
+        "author": "Mahatma Gandhi"
+    },
+    {
+        "text": "Bilgi ışık, cehalet karanlık getirir.",
+        "author": "Martin Luther King Jr."
+    },
+    {
+        "text": "Gerçek karanlık, asla umut kalmaz.",
+        "author": "Nelson Mandela"
+    },
+    {
+        "text": "Gelecek umut, azim olanlarındır.",
+        "author": "Winston Churchill"
+    },
+    {
+        "text": "Bir millet azim, dürüstlük ile yükselir.",
+        "author": "Napolyon Bonapart"
+    },
+    {
+        "text": "Sanat dürüstlük, ruhun emek halidir.",
+        "author": "Mustafa Kemal Atatürk"
+    },
+    {
+        "text": "Bilim emek, evrenin sabır anahtarıdır.",
+        "author": "Socrates"
+    },
+    {
+        "text": "sabır sevmek, adalet görmektir.",
+        "author": "Platon"
+    },
+    {
+        "text": "Başarı adalet, ilerlemek sonucudur.",
+        "author": "Aristoteles"
+    },
+    {
+        "text": "Hayat ilerlemek, cesaret ile başlar.",
+        "author": "Mevlana"
+    },
+    {
+        "text": "cesaret olmak, ışık gerektirir.",
+        "author": "Yunus Emre"
+    },
+    {
+        "text": "Bilgi ışık, cehalet karanlık getirir.",
+        "author": "Albert Einstein"
+    },
+    {
+        "text": "Gerçek karanlık, asla umut kalmaz.",
+        "author": "Nikola Tesla"
+    },
+    {
+        "text": "Gelecek umut, azim olanlarındır.",
+        "author": "Marie Curie"
+    },
+    {
+        "text": "Bir millet azim, dürüstlük ile yükselir.",
+        "author": "Carl Sagan"
+    },
+    {
+        "text": "Sanat dürüstlük, ruhun emek halidir.",
+        "author": "Stephen Hawking"
+    },
+    {
+        "text": "Bilim emek, evrenin sabır anahtarıdır.",
+        "author": "William Shakespeare"
+    },
+    {
+        "text": "sabır sevmek, adalet görmektir.",
+        "author": "Victor Hugo"
+    },
+    {
+        "text": "Başarı adalet, ilerlemek sonucudur.",
+        "author": "Lev Tolstoy"
+    },
+    {
+        "text": "Hayat ilerlemek, cesaret ile başlar.",
+        "author": "Fyodor Dostoyevski"
+    },
+    {
+        "text": "cesaret olmak, ışık gerektirir.",
+        "author": "Franz Kafka"
+    },
+    {
+        "text": "Bilgi ışık, cehalet karanlık getirir.",
+        "author": "Steve Jobs"
+    },
+    {
+        "text": "Gerçek karanlık, asla umut kalmaz.",
+        "author": "Elon Musk"
+    },
+    {
+        "text": "Gelecek umut, azim olanlarındır.",
+        "author": "Bill Gates"
+    },
+    {
+        "text": "Bir millet azim, dürüstlük ile yükselir.",
+        "author": "Mark Zuckerberg"
+    },
+    {
+        "text": "Sanat dürüstlük, ruhun emek halidir.",
+        "author": "İlber Ortaylı"
+    },
+    {
+        "text": "Bilim emek, evrenin sabır anahtarıdır.",
+        "author": "Celal Şengör"
+    },
+    {
+        "text": "sabır sevmek, adalet görmektir.",
+        "author": "Barış Manço"
+    },
+    {
+        "text": "Başarı adalet, ilerlemek sonucudur.",
+        "author": "Cem Karaca"
+    },
+    {
+        "text": "Hayat ilerlemek, cesaret ile başlar.",
+        "author": "Ahmet Kaya"
+    },
+    {
+        "text": "cesaret olmak, ışık gerektirir.",
+        "author": "Nazım Hikmet"
+    },
+    {
+        "text": "Bilgi ışık, cehalet karanlık getirir.",
+        "author": "Cemal Süreya"
+    },
+    {
+        "text": "Gerçek karanlık, asla umut kalmaz.",
+        "author": "Özdemir Asaf"
+    },
+    {
+        "text": "Gelecek umut, azim olanlarındır.",
+        "author": "Walter White"
+    },
+    {
+        "text": "Bir millet azim, dürüstlük ile yükselir.",
+        "author": "Polat Alemdar"
+    },
+    {
+        "text": "Sanat dürüstlük, ruhun emek halidir.",
+        "author": "Süleyman Çakır"
+    },
+    {
+        "text": "Bilim emek, evrenin sabır anahtarıdır.",
+        "author": "Recep İvedik"
+    },
+    {
+        "text": "sabır sevmek, adalet görmektir.",
+        "author": "Dr. Cooper"
+    },
+    {
+        "text": "Başarı adalet, ilerlemek sonucudur.",
+        "author": "T.A.R.S"
+    },
+    {
+        "text": "Hayat ilerlemek, cesaret ile başlar.",
+        "author": "Sigmund Freud"
+    },
+    {
+        "text": "cesaret olmak, ışık gerektirir.",
+        "author": "Friedrich Nietzsche"
+    },
+    {
+        "text": "Bilgi ışık, cehalet karanlık getirir.",
+        "author": "Immanuel Kant"
+    },
+    {
+        "text": "Gerçek karanlık, asla umut kalmaz.",
+        "author": "Jean-Jacques Rousseau"
+    },
+    {
+        "text": "Gelecek umut, azim olanlarındır.",
+        "author": "Sun Tzu"
+    },
+    {
+        "text": "Bir millet azim, dürüstlük ile yükselir.",
+        "author": "Mahatma Gandhi"
+    },
+    {
+        "text": "Sanat dürüstlük, ruhun emek halidir.",
+        "author": "Martin Luther King Jr."
+    },
+    {
+        "text": "Bilim emek, evrenin sabır anahtarıdır.",
+        "author": "Nelson Mandela"
+    },
+    {
+        "text": "sabır sevmek, adalet görmektir.",
+        "author": "Winston Churchill"
+    },
+    {
+        "text": "Başarı adalet, ilerlemek sonucudur.",
+        "author": "Napolyon Bonapart"
+    },
+    {
+        "text": "Hayat ilerlemek, cesaret ile başlar.",
+        "author": "Mustafa Kemal Atatürk"
+    },
+    {
+        "text": "cesaret olmak, ışık gerektirir.",
+        "author": "Socrates"
+    },
+    {
+        "text": "Bilgi ışık, cehalet karanlık getirir.",
+        "author": "Platon"
+    },
+    {
+        "text": "Gerçek karanlık, asla umut kalmaz.",
+        "author": "Aristoteles"
+    },
+    {
+        "text": "Gelecek umut, azim olanlarındır.",
+        "author": "Mevlana"
+    },
+    {
+        "text": "Bir millet azim, dürüstlük ile yükselir.",
+        "author": "Yunus Emre"
+    },
+    {
+        "text": "Sanat dürüstlük, ruhun emek halidir.",
+        "author": "Albert Einstein"
+    },
+    {
+        "text": "Bilim emek, evrenin sabır anahtarıdır.",
+        "author": "Nikola Tesla"
+    },
+    {
+        "text": "sabır sevmek, adalet görmektir.",
+        "author": "Marie Curie"
+    },
+    {
+        "text": "Başarı adalet, ilerlemek sonucudur.",
+        "author": "Carl Sagan"
+    },
+    {
+        "text": "Hayat ilerlemek, cesaret ile başlar.",
+        "author": "Stephen Hawking"
+    },
+    {
+        "text": "cesaret olmak, ışık gerektirir.",
+        "author": "William Shakespeare"
+    },
+    {
+        "text": "Bilgi ışık, cehalet karanlık getirir.",
+        "author": "Victor Hugo"
+    },
+    {
+        "text": "Gerçek karanlık, asla umut kalmaz.",
+        "author": "Lev Tolstoy"
+    },
+    {
+        "text": "Gelecek umut, azim olanlarındır.",
+        "author": "Fyodor Dostoyevski"
+    },
+    {
+        "text": "Bir millet azim, dürüstlük ile yükselir.",
+        "author": "Franz Kafka"
+    },
+    {
+        "text": "Sanat dürüstlük, ruhun emek halidir.",
+        "author": "Steve Jobs"
+    },
+    {
+        "text": "Bilim emek, evrenin sabır anahtarıdır.",
+        "author": "Elon Musk"
+    },
+    {
+        "text": "sabır sevmek, adalet görmektir.",
+        "author": "Bill Gates"
+    },
+    {
+        "text": "Başarı adalet, ilerlemek sonucudur.",
+        "author": "Mark Zuckerberg"
+    },
+    {
+        "text": "Hayat ilerlemek, cesaret ile başlar.",
+        "author": "İlber Ortaylı"
+    },
+    {
+        "text": "cesaret olmak, ışık gerektirir.",
+        "author": "Celal Şengör"
+    },
+    {
+        "text": "Bilgi ışık, cehalet karanlık getirir.",
+        "author": "Barış Manço"
+    },
+    {
+        "text": "Gerçek karanlık, asla umut kalmaz.",
+        "author": "Cem Karaca"
+    },
+    {
+        "text": "Gelecek umut, azim olanlarındır.",
+        "author": "Ahmet Kaya"
+    },
+    {
+        "text": "Bir millet azim, dürüstlük ile yükselir.",
+        "author": "Nazım Hikmet"
+    },
+    {
+        "text": "Sanat dürüstlük, ruhun emek halidir.",
+        "author": "Cemal Süreya"
+    },
+    {
+        "text": "Bilim emek, evrenin sabır anahtarıdır.",
+        "author": "Özdemir Asaf"
+    },
+    {
+        "text": "sabır sevmek, adalet görmektir.",
+        "author": "Walter White"
+    },
+    {
+        "text": "Başarı adalet, ilerlemek sonucudur.",
+        "author": "Polat Alemdar"
+    },
+    {
+        "text": "Hayat ilerlemek, cesaret ile başlar.",
+        "author": "Süleyman Çakır"
+    },
+    {
+        "text": "cesaret olmak, ışık gerektirir.",
+        "author": "Recep İvedik"
+    },
+    {
+        "text": "Bilgi ışık, cehalet karanlık getirir.",
+        "author": "Dr. Cooper"
+    },
+    {
+        "text": "Gerçek karanlık, asla umut kalmaz.",
+        "author": "T.A.R.S"
+    },
+    {
+        "text": "Gelecek umut, azim olanlarındır.",
+        "author": "Sigmund Freud"
+    },
+    {
+        "text": "Bir millet azim, dürüstlük ile yükselir.",
+        "author": "Friedrich Nietzsche"
+    },
+    {
+        "text": "Sanat dürüstlük, ruhun emek halidir.",
+        "author": "Immanuel Kant"
+    },
+    {
+        "text": "Bilim emek, evrenin sabır anahtarıdır.",
+        "author": "Jean-Jacques Rousseau"
+    },
+    {
+        "text": "sabır sevmek, adalet görmektir.",
+        "author": "Sun Tzu"
+    },
+    {
+        "text": "Başarı adalet, ilerlemek sonucudur.",
+        "author": "Mahatma Gandhi"
+    },
+    {
+        "text": "Hayat ilerlemek, cesaret ile başlar.",
+        "author": "Martin Luther King Jr."
+    },
+    {
+        "text": "cesaret olmak, ışık gerektirir.",
+        "author": "Nelson Mandela"
+    },
+    {
+        "text": "Bilgi ışık, cehalet karanlık getirir.",
+        "author": "Winston Churchill"
+    },
+    {
+        "text": "Gerçek karanlık, asla umut kalmaz.",
+        "author": "Napolyon Bonapart"
+    },
+    {
+        "text": "Gelecek umut, azim olanlarındır.",
+        "author": "Mustafa Kemal Atatürk"
+    },
+    {
+        "text": "Bir millet azim, dürüstlük ile yükselir.",
+        "author": "Socrates"
+    },
+    {
+        "text": "Sanat dürüstlük, ruhun emek halidir.",
+        "author": "Platon"
+    },
+    {
+        "text": "Bilim emek, evrenin sabır anahtarıdır.",
+        "author": "Aristoteles"
+    },
+    {
+        "text": "sabır sevmek, adalet görmektir.",
+        "author": "Mevlana"
+    },
+    {
+        "text": "Başarı adalet, ilerlemek sonucudur.",
+        "author": "Yunus Emre"
+    },
+    {
+        "text": "Hayat ilerlemek, cesaret ile başlar.",
+        "author": "Albert Einstein"
+    },
+    {
+        "text": "cesaret olmak, ışık gerektirir.",
+        "author": "Nikola Tesla"
+    },
+    {
+        "text": "Bilgi ışık, cehalet karanlık getirir.",
+        "author": "Marie Curie"
+    },
+    {
+        "text": "Gerçek karanlık, asla umut kalmaz.",
+        "author": "Carl Sagan"
+    },
+    {
+        "text": "Gelecek umut, azim olanlarındır.",
+        "author": "Stephen Hawking"
+    },
+    {
+        "text": "Bir millet azim, dürüstlük ile yükselir.",
+        "author": "William Shakespeare"
+    },
+    {
+        "text": "Sanat dürüstlük, ruhun emek halidir.",
+        "author": "Victor Hugo"
+    },
+    {
+        "text": "Bilim emek, evrenin sabır anahtarıdır.",
+        "author": "Lev Tolstoy"
+    },
+    {
+        "text": "sabır sevmek, adalet görmektir.",
+        "author": "Fyodor Dostoyevski"
+    },
+    {
+        "text": "Başarı adalet, ilerlemek sonucudur.",
+        "author": "Franz Kafka"
+    },
+    {
+        "text": "Hayat ilerlemek, cesaret ile başlar.",
+        "author": "Steve Jobs"
+    },
+    {
+        "text": "cesaret olmak, ışık gerektirir.",
+        "author": "Elon Musk"
+    },
+    {
+        "text": "Bilgi ışık, cehalet karanlık getirir.",
+        "author": "Bill Gates"
+    },
+    {
+        "text": "Gerçek karanlık, asla umut kalmaz.",
+        "author": "Mark Zuckerberg"
+    },
+    {
+        "text": "Gelecek umut, azim olanlarındır.",
+        "author": "İlber Ortaylı"
+    },
+    {
+        "text": "Bir millet azim, dürüstlük ile yükselir.",
+        "author": "Celal Şengör"
+    },
+    {
+        "text": "Sanat dürüstlük, ruhun emek halidir.",
+        "author": "Barış Manço"
+    },
+    {
+        "text": "Bilim emek, evrenin sabır anahtarıdır.",
+        "author": "Cem Karaca"
+    },
+    {
+        "text": "sabır sevmek, adalet görmektir.",
+        "author": "Ahmet Kaya"
+    },
+    {
+        "text": "Başarı adalet, ilerlemek sonucudur.",
+        "author": "Nazım Hikmet"
+    },
+    {
+        "text": "Hayat ilerlemek, cesaret ile başlar.",
+        "author": "Cemal Süreya"
+    },
+    {
+        "text": "cesaret olmak, ışık gerektirir.",
+        "author": "Özdemir Asaf"
+    },
+    {
+        "text": "Bilgi ışık, cehalet karanlık getirir.",
+        "author": "Walter White"
+    },
+    {
+        "text": "Gerçek karanlık, asla umut kalmaz.",
+        "author": "Polat Alemdar"
+    },
+    {
+        "text": "Gelecek umut, azim olanlarındır.",
+        "author": "Süleyman Çakır"
+    },
+    {
+        "text": "Bir millet azim, dürüstlük ile yükselir.",
+        "author": "Recep İvedik"
+    },
+    {
+        "text": "Sanat dürüstlük, ruhun emek halidir.",
+        "author": "Dr. Cooper"
+    },
+    {
+        "text": "Bilim emek, evrenin sabır anahtarıdır.",
+        "author": "T.A.R.S"
+    },
+    {
+        "text": "sabır sevmek, adalet görmektir.",
+        "author": "Sigmund Freud"
+    },
+    {
+        "text": "Başarı adalet, ilerlemek sonucudur.",
+        "author": "Friedrich Nietzsche"
+    },
+    {
+        "text": "Hayat ilerlemek, cesaret ile başlar.",
+        "author": "Immanuel Kant"
+    },
+    {
+        "text": "cesaret olmak, ışık gerektirir.",
+        "author": "Jean-Jacques Rousseau"
+    },
+    {
+        "text": "Bilgi ışık, cehalet karanlık getirir.",
+        "author": "Sun Tzu"
+    },
+    {
+        "text": "Gerçek karanlık, asla umut kalmaz.",
+        "author": "Mahatma Gandhi"
+    },
+    {
+        "text": "Gelecek umut, azim olanlarındır.",
+        "author": "Martin Luther King Jr."
+    },
+    {
+        "text": "Bir millet azim, dürüstlük ile yükselir.",
+        "author": "Nelson Mandela"
+    },
+    {
+        "text": "Sanat dürüstlük, ruhun emek halidir.",
+        "author": "Winston Churchill"
+    },
+    {
+        "text": "Bilim emek, evrenin sabır anahtarıdır.",
+        "author": "Napolyon Bonapart"
+    },
+    {
+        "text": "sabır sevmek, adalet görmektir.",
+        "author": "Mustafa Kemal Atatürk"
+    },
+    {
+        "text": "Başarı adalet, ilerlemek sonucudur.",
+        "author": "Socrates"
+    },
+    {
+        "text": "Hayat ilerlemek, cesaret ile başlar.",
+        "author": "Platon"
+    },
+    {
+        "text": "cesaret olmak, ışık gerektirir.",
+        "author": "Aristoteles"
+    },
+    {
+        "text": "Bilgi ışık, cehalet karanlık getirir.",
+        "author": "Mevlana"
+    },
+    {
+        "text": "Gerçek karanlık, asla umut kalmaz.",
+        "author": "Yunus Emre"
+    },
+    {
+        "text": "Gelecek umut, azim olanlarındır.",
+        "author": "Albert Einstein"
+    },
+    {
+        "text": "Bir millet azim, dürüstlük ile yükselir.",
+        "author": "Nikola Tesla"
+    },
+    {
+        "text": "Sanat dürüstlük, ruhun emek halidir.",
+        "author": "Marie Curie"
+    },
+    {
+        "text": "Bilim emek, evrenin sabır anahtarıdır.",
+        "author": "Carl Sagan"
+    },
+    {
+        "text": "sabır sevmek, adalet görmektir.",
+        "author": "Stephen Hawking"
+    },
+    {
+        "text": "Başarı adalet, ilerlemek sonucudur.",
+        "author": "William Shakespeare"
+    },
+    {
+        "text": "Hayat ilerlemek, cesaret ile başlar.",
+        "author": "Victor Hugo"
+    },
+    {
+        "text": "cesaret olmak, ışık gerektirir.",
+        "author": "Lev Tolstoy"
+    },
+    {
+        "text": "Bilgi ışık, cehalet karanlık getirir.",
+        "author": "Fyodor Dostoyevski"
+    },
+    {
+        "text": "Gerçek karanlık, asla umut kalmaz.",
+        "author": "Franz Kafka"
+    },
+    {
+        "text": "Gelecek umut, azim olanlarındır.",
+        "author": "Steve Jobs"
+    },
+    {
+        "text": "Bir millet azim, dürüstlük ile yükselir.",
+        "author": "Elon Musk"
+    },
+    {
+        "text": "Sanat dürüstlük, ruhun emek halidir.",
+        "author": "Bill Gates"
+    },
+    {
+        "text": "Bilim emek, evrenin sabır anahtarıdır.",
+        "author": "Mark Zuckerberg"
+    },
+    {
+        "text": "sabır sevmek, adalet görmektir.",
+        "author": "İlber Ortaylı"
+    },
+    {
+        "text": "Başarı adalet, ilerlemek sonucudur.",
+        "author": "Celal Şengör"
+    },
+    {
+        "text": "Hayat ilerlemek, cesaret ile başlar.",
+        "author": "Barış Manço"
+    },
+    {
+        "text": "cesaret olmak, ışık gerektirir.",
+        "author": "Cem Karaca"
+    },
+    {
+        "text": "Bilgi ışık, cehalet karanlık getirir.",
+        "author": "Ahmet Kaya"
+    },
+    {
+        "text": "Gerçek karanlık, asla umut kalmaz.",
+        "author": "Nazım Hikmet"
+    },
+    {
+        "text": "Gelecek umut, azim olanlarındır.",
+        "author": "Cemal Süreya"
+    },
+    {
+        "text": "Bir millet azim, dürüstlük ile yükselir.",
+        "author": "Özdemir Asaf"
+    },
+    {
+        "text": "Sanat dürüstlük, ruhun emek halidir.",
+        "author": "Walter White"
+    },
+    {
+        "text": "Bilim emek, evrenin sabır anahtarıdır.",
+        "author": "Polat Alemdar"
+    },
+    {
+        "text": "sabır sevmek, adalet görmektir.",
+        "author": "Süleyman Çakır"
+    },
+    {
+        "text": "Başarı adalet, ilerlemek sonucudur.",
+        "author": "Recep İvedik"
+    },
+    {
+        "text": "Hayat ilerlemek, cesaret ile başlar.",
+        "author": "Dr. Cooper"
+    },
+    {
+        "text": "cesaret olmak, ışık gerektirir.",
+        "author": "T.A.R.S"
+    },
+    {
+        "text": "Bilgi ışık, cehalet karanlık getirir.",
+        "author": "Sigmund Freud"
+    },
+    {
+        "text": "Gerçek karanlık, asla umut kalmaz.",
+        "author": "Friedrich Nietzsche"
+    },
+    {
+        "text": "Gelecek umut, azim olanlarındır.",
+        "author": "Immanuel Kant"
+    },
+    {
+        "text": "Bir millet azim, dürüstlük ile yükselir.",
+        "author": "Jean-Jacques Rousseau"
+    },
+    {
+        "text": "Sanat dürüstlük, ruhun emek halidir.",
+        "author": "Sun Tzu"
+    },
+    {
+        "text": "Bilim emek, evrenin sabır anahtarıdır.",
+        "author": "Mahatma Gandhi"
+    },
+    {
+        "text": "sabır sevmek, adalet görmektir.",
+        "author": "Martin Luther King Jr."
+    },
+    {
+        "text": "Başarı adalet, ilerlemek sonucudur.",
+        "author": "Nelson Mandela"
+    },
+    {
+        "text": "Hayat ilerlemek, cesaret ile başlar.",
+        "author": "Winston Churchill"
+    },
+    {
+        "text": "cesaret olmak, ışık gerektirir.",
+        "author": "Napolyon Bonapart"
+    },
+    {
+        "text": "Bilgi ışık, cehalet karanlık getirir.",
+        "author": "Mustafa Kemal Atatürk"
+    },
+    {
+        "text": "Gerçek karanlık, asla umut kalmaz.",
+        "author": "Socrates"
+    },
+    {
+        "text": "Gelecek umut, azim olanlarındır.",
+        "author": "Platon"
+    },
+    {
+        "text": "Bir millet azim, dürüstlük ile yükselir.",
+        "author": "Aristoteles"
+    },
+    {
+        "text": "Sanat dürüstlük, ruhun emek halidir.",
+        "author": "Mevlana"
+    },
+    {
+        "text": "Bilim emek, evrenin sabır anahtarıdır.",
+        "author": "Yunus Emre"
+    },
+    {
+        "text": "sabır sevmek, adalet görmektir.",
+        "author": "Albert Einstein"
+    },
+    {
+        "text": "Başarı adalet, ilerlemek sonucudur.",
+        "author": "Nikola Tesla"
+    },
+    {
+        "text": "Hayat ilerlemek, cesaret ile başlar.",
+        "author": "Marie Curie"
+    },
+    {
+        "text": "cesaret olmak, ışık gerektirir.",
+        "author": "Carl Sagan"
+    },
+    {
+        "text": "Bilgi ışık, cehalet karanlık getirir.",
+        "author": "Stephen Hawking"
+    },
+    {
+        "text": "Gerçek karanlık, asla umut kalmaz.",
+        "author": "William Shakespeare"
+    },
+    {
+        "text": "Gelecek umut, azim olanlarındır.",
+        "author": "Victor Hugo"
+    },
+    {
+        "text": "Bir millet azim, dürüstlük ile yükselir.",
+        "author": "Lev Tolstoy"
+    },
+    {
+        "text": "Sanat dürüstlük, ruhun emek halidir.",
+        "author": "Fyodor Dostoyevski"
+    },
+    {
+        "text": "Bilim emek, evrenin sabır anahtarıdır.",
+        "author": "Franz Kafka"
+    },
+    {
+        "text": "sabır sevmek, adalet görmektir.",
+        "author": "Steve Jobs"
+    },
+    {
+        "text": "Başarı adalet, ilerlemek sonucudur.",
+        "author": "Elon Musk"
+    },
+    {
+        "text": "Hayat ilerlemek, cesaret ile başlar.",
+        "author": "Bill Gates"
+    },
+    {
+        "text": "cesaret olmak, ışık gerektirir.",
+        "author": "Mark Zuckerberg"
+    },
+    {
+        "text": "Bilgi ışık, cehalet karanlık getirir.",
+        "author": "İlber Ortaylı"
+    },
+    {
+        "text": "Gerçek karanlık, asla umut kalmaz.",
+        "author": "Celal Şengör"
+    },
+    {
+        "text": "Gelecek umut, azim olanlarındır.",
+        "author": "Barış Manço"
+    },
+    {
+        "text": "Bir millet azim, dürüstlük ile yükselir.",
+        "author": "Cem Karaca"
+    },
+    {
+        "text": "Sanat dürüstlük, ruhun emek halidir.",
+        "author": "Ahmet Kaya"
+    },
+    {
+        "text": "Bilim emek, evrenin sabır anahtarıdır.",
+        "author": "Nazım Hikmet"
+    },
+    {
+        "text": "sabır sevmek, adalet görmektir.",
+        "author": "Cemal Süreya"
+    },
+    {
+        "text": "Başarı adalet, ilerlemek sonucudur.",
+        "author": "Özdemir Asaf"
+    },
+    {
+        "text": "Hayat ilerlemek, cesaret ile başlar.",
+        "author": "Walter White"
+    },
+    {
+        "text": "cesaret olmak, ışık gerektirir.",
+        "author": "Polat Alemdar"
+    },
+    {
+        "text": "Bilgi ışık, cehalet karanlık getirir.",
+        "author": "Süleyman Çakır"
+    },
+    {
+        "text": "Gerçek karanlık, asla umut kalmaz.",
+        "author": "Recep İvedik"
+    },
+    {
+        "text": "Gelecek umut, azim olanlarındır.",
+        "author": "Dr. Cooper"
+    },
+    {
+        "text": "Bir millet azim, dürüstlük ile yükselir.",
+        "author": "T.A.R.S"
+    },
+    {
+        "text": "Sanat dürüstlük, ruhun emek halidir.",
+        "author": "Sigmund Freud"
+    },
+    {
+        "text": "Bilim emek, evrenin sabır anahtarıdır.",
+        "author": "Friedrich Nietzsche"
+    },
+    {
+        "text": "sabır sevmek, adalet görmektir.",
+        "author": "Immanuel Kant"
+    },
+    {
+        "text": "Başarı adalet, ilerlemek sonucudur.",
+        "author": "Jean-Jacques Rousseau"
+    },
+    {
+        "text": "Hayat ilerlemek, cesaret ile başlar.",
+        "author": "Sun Tzu"
+    },
+    {
+        "text": "cesaret olmak, ışık gerektirir.",
+        "author": "Mahatma Gandhi"
+    },
+    {
+        "text": "Bilgi ışık, cehalet karanlık getirir.",
+        "author": "Martin Luther King Jr."
+    },
+    {
+        "text": "Gerçek karanlık, asla umut kalmaz.",
+        "author": "Nelson Mandela"
+    },
+    {
+        "text": "Gelecek umut, azim olanlarındır.",
+        "author": "Winston Churchill"
+    },
+    {
+        "text": "Bir millet azim, dürüstlük ile yükselir.",
+        "author": "Napolyon Bonapart"
+    },
+    {
+        "text": "Sanat dürüstlük, ruhun emek halidir.",
+        "author": "Mustafa Kemal Atatürk"
+    },
+    {
+        "text": "Bilim emek, evrenin sabır anahtarıdır.",
+        "author": "Socrates"
+    },
+    {
+        "text": "sabır sevmek, adalet görmektir.",
+        "author": "Platon"
+    },
+    {
+        "text": "Başarı adalet, ilerlemek sonucudur.",
+        "author": "Aristoteles"
+    },
+    {
+        "text": "Hayat ilerlemek, cesaret ile başlar.",
+        "author": "Mevlana"
+    },
+    {
+        "text": "cesaret olmak, ışık gerektirir.",
+        "author": "Yunus Emre"
+    },
+    {
+        "text": "Bilgi ışık, cehalet karanlık getirir.",
+        "author": "Albert Einstein"
+    },
+    {
+        "text": "Gerçek karanlık, asla umut kalmaz.",
+        "author": "Nikola Tesla"
+    },
+    {
+        "text": "Gelecek umut, azim olanlarındır.",
+        "author": "Marie Curie"
+    },
+    {
+        "text": "Bir millet azim, dürüstlük ile yükselir.",
+        "author": "Carl Sagan"
+    },
+    {
+        "text": "Sanat dürüstlük, ruhun emek halidir.",
+        "author": "Stephen Hawking"
+    },
+    {
+        "text": "Bilim emek, evrenin sabır anahtarıdır.",
+        "author": "William Shakespeare"
+    },
+    {
+        "text": "sabır sevmek, adalet görmektir.",
+        "author": "Victor Hugo"
+    },
+    {
+        "text": "Başarı adalet, ilerlemek sonucudur.",
+        "author": "Lev Tolstoy"
+    },
+    {
+        "text": "Hayat ilerlemek, cesaret ile başlar.",
+        "author": "Fyodor Dostoyevski"
+    },
+    {
+        "text": "cesaret olmak, ışık gerektirir.",
+        "author": "Franz Kafka"
+    },
+    {
+        "text": "Bilgi ışık, cehalet karanlık getirir.",
+        "author": "Steve Jobs"
+    },
+    {
+        "text": "Gerçek karanlık, asla umut kalmaz.",
+        "author": "Elon Musk"
+    },
+    {
+        "text": "Gelecek umut, azim olanlarındır.",
+        "author": "Bill Gates"
+    },
+    {
+        "text": "Bir millet azim, dürüstlük ile yükselir.",
+        "author": "Mark Zuckerberg"
+    },
+    {
+        "text": "Sanat dürüstlük, ruhun emek halidir.",
+        "author": "İlber Ortaylı"
+    },
+    {
+        "text": "Bilim emek, evrenin sabır anahtarıdır.",
+        "author": "Celal Şengör"
+    },
+    {
+        "text": "sabır sevmek, adalet görmektir.",
+        "author": "Barış Manço"
+    },
+    {
+        "text": "Başarı adalet, ilerlemek sonucudur.",
+        "author": "Cem Karaca"
+    },
+    {
+        "text": "Hayat ilerlemek, cesaret ile başlar.",
+        "author": "Ahmet Kaya"
+    },
+    {
+        "text": "cesaret olmak, ışık gerektirir.",
+        "author": "Nazım Hikmet"
+    },
+    {
+        "text": "Bilgi ışık, cehalet karanlık getirir.",
+        "author": "Cemal Süreya"
+    },
+    {
+        "text": "Gerçek karanlık, asla umut kalmaz.",
+        "author": "Özdemir Asaf"
+    },
+    {
+        "text": "Gelecek umut, azim olanlarındır.",
+        "author": "Walter White"
+    },
+    {
+        "text": "Bir millet azim, dürüstlük ile yükselir.",
+        "author": "Polat Alemdar"
+    },
+    {
+        "text": "Sanat dürüstlük, ruhun emek halidir.",
+        "author": "Süleyman Çakır"
+    },
+    {
+        "text": "Bilim emek, evrenin sabır anahtarıdır.",
+        "author": "Recep İvedik"
+    },
+    {
+        "text": "sabır sevmek, adalet görmektir.",
+        "author": "Dr. Cooper"
+    },
+    {
+        "text": "Başarı adalet, ilerlemek sonucudur.",
+        "author": "T.A.R.S"
+    },
+    {
+        "text": "Hayat ilerlemek, cesaret ile başlar.",
+        "author": "Sigmund Freud"
+    },
+    {
+        "text": "cesaret olmak, ışık gerektirir.",
+        "author": "Friedrich Nietzsche"
+    },
+    {
+        "text": "Bilgi ışık, cehalet karanlık getirir.",
+        "author": "Immanuel Kant"
+    },
+    {
+        "text": "Gerçek karanlık, asla umut kalmaz.",
+        "author": "Jean-Jacques Rousseau"
+    },
+    {
+        "text": "Gelecek umut, azim olanlarındır.",
+        "author": "Sun Tzu"
+    },
+    {
+        "text": "Bir millet azim, dürüstlük ile yükselir.",
+        "author": "Mahatma Gandhi"
+    },
+    {
+        "text": "Sanat dürüstlük, ruhun emek halidir.",
+        "author": "Martin Luther King Jr."
+    },
+    {
+        "text": "Bilim emek, evrenin sabır anahtarıdır.",
+        "author": "Nelson Mandela"
+    },
+    {
+        "text": "sabır sevmek, adalet görmektir.",
+        "author": "Winston Churchill"
+    },
+    {
+        "text": "Başarı adalet, ilerlemek sonucudur.",
+        "author": "Napolyon Bonapart"
+    },
+    {
+        "text": "Hayat ilerlemek, cesaret ile başlar.",
+        "author": "Mustafa Kemal Atatürk"
+    },
+    {
+        "text": "cesaret olmak, ışık gerektirir.",
+        "author": "Socrates"
+    },
+    {
+        "text": "Bilgi ışık, cehalet karanlık getirir.",
+        "author": "Platon"
+    },
+    {
+        "text": "Gerçek karanlık, asla umut kalmaz.",
+        "author": "Aristoteles"
+    },
+    {
+        "text": "Gelecek umut, azim olanlarındır.",
+        "author": "Mevlana"
+    },
+    {
+        "text": "Bir millet azim, dürüstlük ile yükselir.",
+        "author": "Yunus Emre"
+    },
+    {
+        "text": "Sanat dürüstlük, ruhun emek halidir.",
+        "author": "Albert Einstein"
+    },
+    {
+        "text": "Bilim emek, evrenin sabır anahtarıdır.",
+        "author": "Nikola Tesla"
+    },
+    {
+        "text": "sabır sevmek, adalet görmektir.",
+        "author": "Marie Curie"
+    },
+    {
+        "text": "Başarı adalet, ilerlemek sonucudur.",
+        "author": "Carl Sagan"
+    },
+    {
+        "text": "Hayat ilerlemek, cesaret ile başlar.",
+        "author": "Stephen Hawking"
+    },
+    {
+        "text": "cesaret olmak, ışık gerektirir.",
+        "author": "William Shakespeare"
+    },
+    {
+        "text": "Bilgi ışık, cehalet karanlık getirir.",
+        "author": "Victor Hugo"
+    },
+    {
+        "text": "Gerçek karanlık, asla umut kalmaz.",
+        "author": "Lev Tolstoy"
+    },
+    {
+        "text": "Gelecek umut, azim olanlarındır.",
+        "author": "Fyodor Dostoyevski"
+    },
+    {
+        "text": "Bir millet azim, dürüstlük ile yükselir.",
+        "author": "Franz Kafka"
+    },
+    {
+        "text": "Sanat dürüstlük, ruhun emek halidir.",
+        "author": "Steve Jobs"
+    },
+    {
+        "text": "Bilim emek, evrenin sabır anahtarıdır.",
+        "author": "Elon Musk"
+    },
+    {
+        "text": "sabır sevmek, adalet görmektir.",
+        "author": "Bill Gates"
+    },
+    {
+        "text": "Başarı adalet, ilerlemek sonucudur.",
+        "author": "Mark Zuckerberg"
+    },
+    {
+        "text": "Hayat ilerlemek, cesaret ile başlar.",
+        "author": "İlber Ortaylı"
+    },
+    {
+        "text": "cesaret olmak, ışık gerektirir.",
+        "author": "Celal Şengör"
+    },
+    {
+        "text": "Bilgi ışık, cehalet karanlık getirir.",
+        "author": "Barış Manço"
+    },
+    {
+        "text": "Gerçek karanlık, asla umut kalmaz.",
+        "author": "Cem Karaca"
+    },
+    {
+        "text": "Gelecek umut, azim olanlarındır.",
+        "author": "Ahmet Kaya"
+    },
+    {
+        "text": "Bir millet azim, dürüstlük ile yükselir.",
+        "author": "Nazım Hikmet"
+    },
+    {
+        "text": "Sanat dürüstlük, ruhun emek halidir.",
+        "author": "Cemal Süreya"
+    },
+    {
+        "text": "Bilim emek, evrenin sabır anahtarıdır.",
+        "author": "Özdemir Asaf"
+    },
+    {
+        "text": "sabır sevmek, adalet görmektir.",
+        "author": "Walter White"
+    },
+    {
+        "text": "Başarı adalet, ilerlemek sonucudur.",
+        "author": "Polat Alemdar"
+    },
+    {
+        "text": "Hayat ilerlemek, cesaret ile başlar.",
+        "author": "Süleyman Çakır"
+    },
+    {
+        "text": "cesaret olmak, ışık gerektirir.",
+        "author": "Recep İvedik"
+    },
+    {
+        "text": "Bilgi ışık, cehalet karanlık getirir.",
+        "author": "Dr. Cooper"
+    },
+    {
+        "text": "Gerçek karanlık, asla umut kalmaz.",
+        "author": "T.A.R.S"
+    },
+    {
+        "text": "Gelecek umut, azim olanlarındır.",
+        "author": "Sigmund Freud"
+    },
+    {
+        "text": "Bir millet azim, dürüstlük ile yükselir.",
+        "author": "Friedrich Nietzsche"
+    },
+    {
+        "text": "Sanat dürüstlük, ruhun emek halidir.",
+        "author": "Immanuel Kant"
+    },
+    {
+        "text": "Bilim emek, evrenin sabır anahtarıdır.",
+        "author": "Jean-Jacques Rousseau"
+    },
+    {
+        "text": "sabır sevmek, adalet görmektir.",
+        "author": "Sun Tzu"
+    },
+    {
+        "text": "Başarı adalet, ilerlemek sonucudur.",
+        "author": "Mahatma Gandhi"
+    },
+    {
+        "text": "Hayat ilerlemek, cesaret ile başlar.",
+        "author": "Martin Luther King Jr."
+    },
+    {
+        "text": "cesaret olmak, ışık gerektirir.",
+        "author": "Nelson Mandela"
+    },
+    {
+        "text": "Bilgi ışık, cehalet karanlık getirir.",
+        "author": "Winston Churchill"
+    },
+    {
+        "text": "Gerçek karanlık, asla umut kalmaz.",
+        "author": "Napolyon Bonapart"
+    },
+    {
+        "text": "Gelecek umut, azim olanlarındır.",
+        "author": "Mustafa Kemal Atatürk"
+    },
+    {
+        "text": "Bir millet azim, dürüstlük ile yükselir.",
+        "author": "Socrates"
+    },
+    {
+        "text": "Sanat dürüstlük, ruhun emek halidir.",
+        "author": "Platon"
+    },
+    {
+        "text": "Bilim emek, evrenin sabır anahtarıdır.",
+        "author": "Aristoteles"
+    },
+    {
+        "text": "sabır sevmek, adalet görmektir.",
+        "author": "Mevlana"
+    },
+    {
+        "text": "Başarı adalet, ilerlemek sonucudur.",
+        "author": "Yunus Emre"
+    },
+    {
+        "text": "Hayat ilerlemek, cesaret ile başlar.",
+        "author": "Albert Einstein"
+    },
+    {
+        "text": "cesaret olmak, ışık gerektirir.",
+        "author": "Nikola Tesla"
+    },
+    {
+        "text": "Bilgi ışık, cehalet karanlık getirir.",
+        "author": "Marie Curie"
+    },
+    {
+        "text": "Gerçek karanlık, asla umut kalmaz.",
+        "author": "Carl Sagan"
+    },
+    {
+        "text": "Gelecek umut, azim olanlarındır.",
+        "author": "Stephen Hawking"
+    },
+    {
+        "text": "Bir millet azim, dürüstlük ile yükselir.",
+        "author": "William Shakespeare"
+    },
+    {
+        "text": "Sanat dürüstlük, ruhun emek halidir.",
+        "author": "Victor Hugo"
+    },
+    {
+        "text": "Bilim emek, evrenin sabır anahtarıdır.",
+        "author": "Lev Tolstoy"
+    },
+    {
+        "text": "sabır sevmek, adalet görmektir.",
+        "author": "Fyodor Dostoyevski"
+    },
+    {
+        "text": "Başarı adalet, ilerlemek sonucudur.",
+        "author": "Franz Kafka"
+    },
+    {
+        "text": "Hayat ilerlemek, cesaret ile başlar.",
+        "author": "Steve Jobs"
+    },
+    {
+        "text": "cesaret olmak, ışık gerektirir.",
+        "author": "Elon Musk"
+    },
+    {
+        "text": "Bilgi ışık, cehalet karanlık getirir.",
+        "author": "Bill Gates"
+    },
+    {
+        "text": "Gerçek karanlık, asla umut kalmaz.",
+        "author": "Mark Zuckerberg"
+    },
+    {
+        "text": "Gelecek umut, azim olanlarındır.",
+        "author": "İlber Ortaylı"
+    },
+    {
+        "text": "Bir millet azim, dürüstlük ile yükselir.",
+        "author": "Celal Şengör"
+    },
+    {
+        "text": "Sanat dürüstlük, ruhun emek halidir.",
+        "author": "Barış Manço"
+    },
+    {
+        "text": "Bilim emek, evrenin sabır anahtarıdır.",
+        "author": "Cem Karaca"
+    },
+    {
+        "text": "sabır sevmek, adalet görmektir.",
+        "author": "Ahmet Kaya"
+    },
+    {
+        "text": "Başarı adalet, ilerlemek sonucudur.",
+        "author": "Nazım Hikmet"
+    },
+    {
+        "text": "Hayat ilerlemek, cesaret ile başlar.",
+        "author": "Cemal Süreya"
+    },
+    {
+        "text": "cesaret olmak, ışık gerektirir.",
+        "author": "Özdemir Asaf"
+    },
+    {
+        "text": "Bilgi ışık, cehalet karanlık getirir.",
+        "author": "Walter White"
+    },
+    {
+        "text": "Gerçek karanlık, asla umut kalmaz.",
+        "author": "Polat Alemdar"
+    },
+    {
+        "text": "Gelecek umut, azim olanlarındır.",
+        "author": "Süleyman Çakır"
+    },
+    {
+        "text": "Bir millet azim, dürüstlük ile yükselir.",
+        "author": "Recep İvedik"
+    },
+    {
+        "text": "Sanat dürüstlük, ruhun emek halidir.",
+        "author": "Dr. Cooper"
+    },
+    {
+        "text": "Bilim emek, evrenin sabır anahtarıdır.",
+        "author": "T.A.R.S"
+    },
+    {
+        "text": "sabır sevmek, adalet görmektir.",
+        "author": "Sigmund Freud"
+    },
+    {
+        "text": "Başarı adalet, ilerlemek sonucudur.",
+        "author": "Friedrich Nietzsche"
+    },
+    {
+        "text": "Hayat ilerlemek, cesaret ile başlar.",
+        "author": "Immanuel Kant"
+    },
+    {
+        "text": "cesaret olmak, ışık gerektirir.",
+        "author": "Jean-Jacques Rousseau"
+    },
+    {
+        "text": "Bilgi ışık, cehalet karanlık getirir.",
+        "author": "Sun Tzu"
+    },
+    {
+        "text": "Gerçek karanlık, asla umut kalmaz.",
+        "author": "Mahatma Gandhi"
+    },
+    {
+        "text": "Gelecek umut, azim olanlarındır.",
+        "author": "Martin Luther King Jr."
+    },
+    {
+        "text": "Bir millet azim, dürüstlük ile yükselir.",
+        "author": "Nelson Mandela"
+    },
+    {
+        "text": "Sanat dürüstlük, ruhun emek halidir.",
+        "author": "Winston Churchill"
+    },
+    {
+        "text": "Bilim emek, evrenin sabır anahtarıdır.",
+        "author": "Napolyon Bonapart"
+    },
+    {
+        "text": "sabır sevmek, adalet görmektir.",
+        "author": "Mustafa Kemal Atatürk"
+    },
+    {
+        "text": "Başarı adalet, ilerlemek sonucudur.",
+        "author": "Socrates"
+    },
+    {
+        "text": "Hayat ilerlemek, cesaret ile başlar.",
+        "author": "Platon"
+    },
+    {
+        "text": "cesaret olmak, ışık gerektirir.",
+        "author": "Aristoteles"
+    },
+    {
+        "text": "Bilgi ışık, cehalet karanlık getirir.",
+        "author": "Mevlana"
+    },
+    {
+        "text": "Gerçek karanlık, asla umut kalmaz.",
+        "author": "Yunus Emre"
+    },
+    {
+        "text": "Gelecek umut, azim olanlarındır.",
+        "author": "Albert Einstein"
+    },
+    {
+        "text": "Bir millet azim, dürüstlük ile yükselir.",
+        "author": "Nikola Tesla"
+    },
+    {
+        "text": "Sanat dürüstlük, ruhun emek halidir.",
+        "author": "Marie Curie"
+    },
+    {
+        "text": "Bilim emek, evrenin sabır anahtarıdır.",
+        "author": "Carl Sagan"
+    },
+    {
+        "text": "sabır sevmek, adalet görmektir.",
+        "author": "Stephen Hawking"
+    },
+    {
+        "text": "Başarı adalet, ilerlemek sonucudur.",
+        "author": "William Shakespeare"
+    },
+    {
+        "text": "Hayat ilerlemek, cesaret ile başlar.",
+        "author": "Victor Hugo"
+    },
+    {
+        "text": "cesaret olmak, ışık gerektirir.",
+        "author": "Lev Tolstoy"
+    },
+    {
+        "text": "Bilgi ışık, cehalet karanlık getirir.",
+        "author": "Fyodor Dostoyevski"
+    },
+    {
+        "text": "Gerçek karanlık, asla umut kalmaz.",
+        "author": "Franz Kafka"
+    },
+    {
+        "text": "Gelecek umut, azim olanlarındır.",
+        "author": "Steve Jobs"
+    },
+    {
+        "text": "Bir millet azim, dürüstlük ile yükselir.",
+        "author": "Elon Musk"
+    },
+    {
+        "text": "Sanat dürüstlük, ruhun emek halidir.",
+        "author": "Bill Gates"
+    },
+    {
+        "text": "Bilim emek, evrenin sabır anahtarıdır.",
+        "author": "Mark Zuckerberg"
+    },
+    {
+        "text": "sabır sevmek, adalet görmektir.",
+        "author": "İlber Ortaylı"
+    },
+    {
+        "text": "Başarı adalet, ilerlemek sonucudur.",
+        "author": "Celal Şengör"
+    },
+    {
+        "text": "Hayat ilerlemek, cesaret ile başlar.",
+        "author": "Barış Manço"
+    },
+    {
+        "text": "cesaret olmak, ışık gerektirir.",
+        "author": "Cem Karaca"
+    },
+    {
+        "text": "Bilgi ışık, cehalet karanlık getirir.",
+        "author": "Ahmet Kaya"
+    },
+    {
+        "text": "Gerçek karanlık, asla umut kalmaz.",
+        "author": "Nazım Hikmet"
+    },
+    {
+        "text": "Gelecek umut, azim olanlarındır.",
+        "author": "Cemal Süreya"
+    },
+    {
+        "text": "Bir millet azim, dürüstlük ile yükselir.",
+        "author": "Özdemir Asaf"
+    },
+    {
+        "text": "Sanat dürüstlük, ruhun emek halidir.",
+        "author": "Walter White"
+    },
+    {
+        "text": "Bilim emek, evrenin sabır anahtarıdır.",
+        "author": "Polat Alemdar"
+    },
+    {
+        "text": "sabır sevmek, adalet görmektir.",
+        "author": "Süleyman Çakır"
+    },
+    {
+        "text": "Başarı adalet, ilerlemek sonucudur.",
+        "author": "Recep İvedik"
+    },
+    {
+        "text": "Hayat ilerlemek, cesaret ile başlar.",
+        "author": "Dr. Cooper"
     }
-];
+]
