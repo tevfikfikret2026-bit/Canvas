@@ -67,6 +67,7 @@
             margin-bottom: 50px;
             max-width: 800px;
             padding: 0 40px;
+            min-height: 150px; /* Değişim sırasında zıplamayı önler */
         }
 
         #text {
@@ -148,7 +149,7 @@
     </div>
 
     <div id="quote-display">
-        <div id="text">Lütfen quotes.js dosyasını kontrol edin...</div>
+        <div id="text">Yükleniyor...</div>
         <div id="author"></div>
     </div>
 
@@ -156,58 +157,78 @@
 
     <div id="list-modal">
         <div class="modal-header">
-            <h1>TÜM SÖZLER (DOĞRULUK)</h1>
+            <h1>TÜM SÖZLER</h1>
             <button class="close-btn" onclick="$('#list-modal').fadeOut()">KAPAT</button>
         </div>
         <div id="full-list"></div>
     </div>
 
-    <script src="quotes.js"></script> <script>
+    <script src="quotes.js"></script> 
+
+    <script>
         $(document).ready(function() {
             // 1. Saati Başlat
             var clock = $('.clock').FlipClock({
                 clockFace: 'TwentyFourHourClock'
             });
 
-            // 2. Söz Seçme Fonksiyonu (Tekrarsız)
+            // 2. Söz Seçme Fonksiyonu
             function sozGetir() {
-                if (typeof quotes === 'undefined') {
-                    $('#text').text("Hata: quotes.js yüklenemedi. Dosyanın başına 'const quotes = ' eklediğinizden emin olun.");
+                if (typeof quotes === 'undefined' || quotes.length === 0) {
+                    $('#text').text("Hata: quotes.js yüklenemedi veya boş.");
                     return;
                 }
 
                 let gosterilenler = JSON.parse(localStorage.getItem('gosterilenler')) || [];
+                
+                // Gösterilmemiş indexleri bul
                 let kalanlar = [];
+                for (let i = 0; i < quotes.length; i++) {
+                    if (!gosterilenler.includes(i)) kalanlar.push(i);
+                }
 
-                quotes.forEach((s, index) => {
-                    if (!gosterilenler.includes(index)) kalanlar.push(index);
-                });
-
+                // Eğer hepsi gösterildiyse listeyi sıfırla
                 if (kalanlar.length === 0) {
                     gosterilenler = [];
                     kalanlar = quotes.map((_, i) => i);
                 }
 
-                let rastgeleIndex = kalanlar[Math.floor(Math.random() * kalanlar.length)];
-                gosterilenler.push(rastgeleIndex);
-                localStorage.setItem('gosterilenler', JSON.stringify(gosterilenler));
+                // Kalanlar arasından rastgele birini seç
+                let randomDiziIndex = Math.floor(Math.random() * kalanlar.length);
+                let secilenGercekIndex = kalanlar[randomDiziIndex];
 
-                let secilen = quotes[rastgeleIndex];
-                $('#text').text("“" + secilen.text + "”");
-                $('#author').text(secilen.author);
+                let secilen = quotes[secilenGercekIndex];
+
+                // Veri yapısı kontrolü (text veya quote anahtarını destekler)
+                let metin = secilen.text || secilen.quote || "Metin bulunamadı.";
+                let yazar = secilen.author || "Bilinmiyor";
+
+                // Görsel Güncelleme (Efektli)
+                $('#text').fadeOut(200, function() {
+                    $(this).text("“" + metin + "”").fadeIn(200);
+                });
+                $('#author').fadeOut(200, function() {
+                    $(this).text(yazar).fadeIn(200);
+                });
+
+                // Durumu Kaydet
+                gosterilenler.push(secilenGercekIndex);
+                localStorage.setItem('gosterilenler', JSON.stringify(gosterilenler));
             }
 
-            // 3. Tam Liste Oluşturma (Doğruluk butonu için)
+            // 3. Tam Liste Hazırlama
             function listeyiHazirla() {
                 if (typeof quotes === 'undefined') return;
                 let html = "";
                 quotes.forEach((s, i) => {
-                    html += `<div class="list-item"><strong>${i+1}.</strong> ${s.text} <br> <small>— ${s.author}</small></div>`;
+                    let m = s.text || s.quote || "Metin yok";
+                    let y = s.author || "Bilinmiyor";
+                    html += `<div class="list-item"><strong>${i+1}.</strong> ${m} <br> <small>— ${y}</small></div>`;
                 });
                 $('#full-list').html(html);
             }
 
-            // 4. Buton Olayları
+            // 4. Olay Dinleyicileri
             $('#btn-next').click(function() {
                 sozGetir();
             });
